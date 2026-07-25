@@ -3,6 +3,7 @@ using Content.Trauma.Common.VendingMachines;
 // </Trauma>
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
+using Content.Client._Funkystation.VendingMachines; // Funky change
 using Content.Client.VendingMachines.Components;
 using Content.Shared.Power;
 using Content.Shared.Power.EntitySystems;
@@ -26,7 +27,9 @@ public sealed partial class VendingMachineSystem : SharedVendingMachineSystem
         if (!Resolve(entity, ref entity.Comp))
             return;
 
-        if (TryGetOpenUi(entity.Owner, out var bui))
+        if (UISystem.TryGetOpenUi<BoundUserInterface>(entity.Owner,
+                            VendingMachineUiKey.Key,
+                            out var baseBui) && baseBui is IVendingMachineBoundUi bui) // Funky change
         {
             bui.UpdateAmounts();
         }
