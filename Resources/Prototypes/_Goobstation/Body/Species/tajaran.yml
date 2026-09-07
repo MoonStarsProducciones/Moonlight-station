@@ -94,6 +94,7 @@
   parent:
   - AppearanceTajaran
   - BaseSpeciesMobOrganic
+  - MobNightVision
   id: MobTajaran
   name: Urist McTajaran
   components:
@@ -107,7 +108,7 @@
   - type: MessyDrinker
     spillChance: 0.33
   - type: Speech
-    speechSounds: Vulpkanin
+    speechSounds: Alto
     speechVerb: Vulpkanin
     allowedEmotes: [ 'Bark', 'Snarl', 'Whine', 'Howl', 'Growl' ]
   - type: TypingIndicator
@@ -116,15 +117,21 @@
     emoteSounds: MaleVulpkanin
   - type: Damageable
     damageModifierSet: Tajaran
+  - type: TemperatureProtection # fur is a good insulator, actually
+    heatingCoefficient: 0.1
+    coolingCoefficient: 0.1
+  - type: Flammable
+    firestackFade: -0.08 # until you light it up, cuz it's oily too. 20% lower than default
   - type: MeleeWeapon
     soundHit:
       path: /Audio/Weapons/pierce.ogg
     animation: WeaponArcClaw
     damage:
       types:
-        Piercing: 2
-        Slash: 3
-    #currentTemperature: 311.76  # Body temperature of cat
+        Slash: 4
+        Piercing: 1
+  - type: Temperature
+    currentTemperature: 311.76  # Body temperature of cat
   - type: TemperatureDamage
     coldDamageThreshold: 248.15 # -25 degrees centigrade, like 12 degrees below normal "takes cold damage"
     coldDamage:
@@ -133,8 +140,8 @@
     heatDamage:
       types:
         Heat: 1.80 # in line with heat dmg received up
-  #- type: Wagging # Trauma - moved to tail
-  #  action: ActionToggleWaggingVulpkanin
+  - type: ThermalRegulator
+    normalBodyTemperature: 311.76
   - type: Bloodstream
     bloodReferenceSolution:
       reagents:
@@ -195,7 +202,7 @@
   id: OrganTajaranTorso
 
 - type: entity
-  parent: [ OrganBaseHeadSexed, OrganBaseHead,OrganTajaranExternal ] # Trauma - bald
+  parent: [ OrganBaseHeadSexed, OrganBaseHead,OrganTajaranExternal ] # Trauma
   id: OrganTajaranHead
   components:
   - type: VisualOrganMarkings
