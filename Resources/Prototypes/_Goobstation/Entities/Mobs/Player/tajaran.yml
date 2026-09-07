@@ -6,9 +6,8 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-- type: entity
-  save: false
-  name: Urist McTajaran
-  parent: BaseMobTajaran
-  id: MobTajaran
-  
+# - type: entity
+#   save: false
+#   name: Urist McTajaran
+#   parent: BaseMobTajaran
+#   id: MobTajaran
