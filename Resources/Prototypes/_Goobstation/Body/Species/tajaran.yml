@@ -109,12 +109,12 @@
     spillChance: 0.33
   - type: Speech
     speechSounds: Alto
-    speechVerb: Vulpkanin
-    allowedEmotes: [ 'Bark', 'Snarl', 'Whine', 'Howl', 'Growl' ]
+    speechVerb: Felinid
+    allowedEmotes: [ 'Hiss', 'Meow', 'Mew', 'Purr' ]
   - type: TypingIndicator
-    proto: vulpkanin
+    proto: felinid
   - type: Vocal
-    emoteSounds: MaleVulpkanin
+    emoteSounds: MaleFelinid
   - type: Damageable
     damageModifierSet: Tajaran
   - type: TemperatureProtection # fur is a good insulator, actually
