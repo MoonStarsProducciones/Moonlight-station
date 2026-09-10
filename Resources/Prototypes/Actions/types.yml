@@ -534,6 +534,7 @@
   - type: Action
     itemIconStyle: NoItem
     useDelay: 1 # Prevents Emote Spam
+    checkCanInteract: false
   - type: Sprite
     sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
     layers:
