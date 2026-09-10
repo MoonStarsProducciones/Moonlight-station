@@ -60,7 +60,7 @@
 
 - type: emoteSounds
   id: FemaleFelinid
-  voiceSelectorName: humanoid-profile-editor-voice-femamine
+  voiceSelectorName: humanoid-profile-editor-voice-feminine
   params:
     variation: 0.125
   sounds:
