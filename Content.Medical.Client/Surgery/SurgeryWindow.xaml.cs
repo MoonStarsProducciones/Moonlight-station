@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
+using System.Linq;
 using Content.Client.Administration.UI.CustomControls;
 using Content.Client.UserInterface.Controls;
 using Content.Medical.Client.Choice.UI;
@@ -35,6 +36,7 @@ public sealed partial class SurgeryWindow : FancyWindow
 
     private List<EntityUid> _parts = new();
     private List<EntProtoId> _surgeries = new();
+    private readonly Dictionary<(BodyPartType, BodyPartSymmetry), TextureButton> _bodyPartControls;
 
     public SurgeryWindow()
     {
@@ -46,6 +48,41 @@ public sealed partial class SurgeryWindow : FancyWindow
 
         _partQuery = _ent.GetEntityQuery<BodyPartComponent>();
         _surgeryQuery = _ent.GetEntityQuery<SurgeryComponent>();
+
+        _bodyPartControls = new Dictionary<(BodyPartType, BodyPartSymmetry), TextureButton>
+        {
+            { (BodyPartType.Head, BodyPartSymmetry.None), HeadButton },
+            { (BodyPartType.Torso, BodyPartSymmetry.None), ChestButton },
+            { (BodyPartType.Arm, BodyPartSymmetry.Left), LeftArmButton },
+            { (BodyPartType.Arm, BodyPartSymmetry.Right), RightArmButton },
+            { (BodyPartType.Hand, BodyPartSymmetry.Left), LeftHandButton },
+            { (BodyPartType.Hand, BodyPartSymmetry.Right), RightHandButton },
+            { (BodyPartType.Leg, BodyPartSymmetry.Left), LeftLegButton },
+            { (BodyPartType.Leg, BodyPartSymmetry.Right), RightLegButton },
+            { (BodyPartType.Foot, BodyPartSymmetry.Left), LeftFootButton },
+            { (BodyPartType.Foot, BodyPartSymmetry.Right), RightFootButton },
+            { (BodyPartType.Tail, BodyPartSymmetry.None), TailButton },
+            { (BodyPartType.Wings, BodyPartSymmetry.None), WingsButton },
+        };
+
+        foreach (var bodyPartControl in _bodyPartControls)
+        {
+            bodyPartControl.Value.OnPressed += _ =>
+            {
+                bodyPartControl.Value.MouseFilter = MouseFilterMode.Stop;
+                _part = _parts?.Find(ent =>
+                {
+                    _partQuery.TryComp(ent, out var comp);
+                    return comp?.PartType == bodyPartControl.Key.Item1 && comp?.Symmetry == bodyPartControl.Key.Item2;
+                });
+
+                if (_part is { } part)
+                {
+                    SetBodyPartVisible(part);
+                    ViewPart(part);
+                }
+            };
+        }
 
         PartsButton.OnPressed += _ => ViewParts();
 
@@ -85,6 +122,17 @@ public sealed partial class SurgeryWindow : FancyWindow
         _owner = owner;
         _isBody = _ent.HasComponent<BodyComponent>(owner);
         Update();
+    }
+
+    private void SetBodyPartVisible(EntityUid part)
+    {
+        _partQuery.TryComp(part, out var comp);
+
+        if(comp == null)
+            return;
+
+        foreach (var bodyPartControl in _bodyPartControls)
+            bodyPartControl.Value.Children.First().Visible = bodyPartControl.Key == (comp.PartType, comp.Symmetry);
     }
 
     private new string Name(EntityUid uid)
@@ -244,6 +292,7 @@ public sealed partial class SurgeryWindow : FancyWindow
         Parts.RemoveAllChildren();
         foreach (var part in _parts)
         {
+            _partQuery.TryComp(part, out var comps);
             var partButton = new ChoiceControl();
             partButton.Set(Name(part), null);
             partButton.Button.OnPressed += _ => ViewPart(part);

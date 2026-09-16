@@ -18,8 +18,8 @@ SPDX-License-Identifier: AGPL-3.0-or-later
                     HorizontalExpand="True" StyleClasses="OpenBoth" />
         </BoxContainer>
         <cc:HSeparator />
-        <BoxContainer>
-            <Control HorizontalAlignment="Right">
+        <BoxContainer Orientation="Horizontal" HorizontalExpand="True" VerticalExpand="True">
+            <Control VerticalAlignment="Top" HorizontalAlignment="Right" Name="PartsControl">
             <TextureRect
                 TexturePath="/Textures/_Trauma/Interface/target_doll.png"
                 Name="TargetDoll"
@@ -41,6 +41,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
                             VerticalAlignment="Top">
                             <TextureRect
                                 TexturePath="/Textures/_Shitmed/Interface/Targeting/Doll/rightarm.png"
+                                Visible="False"
                                 Stretch="KeepAspectCentered"
                                 SetSize="12 24"
                                 VerticalAlignment="Center"
@@ -53,6 +54,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
                             StyleClasses="TargetDollButtonRightHand">
                             <TextureRect
                                 TexturePath="/Textures/_Shitmed/Interface/Targeting/Doll/righthand.png"
+                                Visible="False"
                                 Stretch="KeepAspectCentered"
                                 SetSize="12 12"
                                 VerticalAlignment="Center"
@@ -72,6 +74,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
                             StyleClasses="TargetDollButtonHead">
                             <TextureRect
                                 TexturePath="/Textures/_Shitmed/Interface/Targeting/Doll/head.png"
+                                Visible="False"
                                 Stretch="KeepAspectCentered"
                                 SetSize="27 21"
                                 VerticalAlignment="Center"
@@ -112,6 +115,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
                             <TextureRect
                                 TexturePath="/Textures/_Shitmed/Interface/Targeting/Doll/torso.png"
                                 Stretch="KeepAspectCentered"
+                                Visible="False"
                                 SetSize="27 30"
                                 VerticalAlignment="Center"
                                 HorizontalAlignment="Center"/>
@@ -129,6 +133,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
                                 StyleClasses="TargetDollButtonGroin">
                                 <TextureRect
                                     TexturePath="/Textures/_MoonsLight/Interface/Targeting/Doll/tail.png"
+                                    Visible="False"
                                     Stretch="KeepAspectCentered"
                                     SetSize="36 21"
                                     VerticalAlignment="Center"
@@ -146,6 +151,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
                                 StyleClasses="TargetDollButtonGroin">
                                 <TextureRect
                                     TexturePath="/Textures/_Shitmed/Interface/Targeting/Doll/groin.png"
+                                    Visible="False"
                                     Stretch="KeepAspectCentered"
                                     SetSize="27 12"
                                     VerticalAlignment="Center"
@@ -163,6 +169,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
                                     StyleClasses="TargetDollButtonLeftLeg">
                                     <TextureRect
                                         TexturePath="/Textures/_Shitmed/Interface/Targeting/Doll/leftleg.png"
+                                        Visible="False"
                                         Stretch="KeepAspectCentered"
                                         SetSize="12 27"
                                         VerticalAlignment="Center"
@@ -175,6 +182,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
                                     StyleClasses="TargetDollButtonLeftFoot">
                                         <TextureRect
                                             TexturePath="/Textures/_Shitmed/Interface/Targeting/Doll/leftfoot.png"
+                                            Visible="False"
                                             Stretch="KeepAspectCentered"
                                             SetSize="18 9"
                                             VerticalAlignment="Center"
@@ -193,6 +201,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
                                     StyleClasses="TargetDollButtonRightLeg">
                                     <TextureRect
                                         TexturePath="/Textures/_Shitmed/Interface/Targeting/Doll/rightleg.png"
+                                        Visible="False"
                                         Stretch="KeepAspectCentered"
                                         SetSize="12 27"
                                         VerticalAlignment="Center"
@@ -206,6 +215,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
                                     StyleClasses="TargetDollButtonRightFoot">
                                     <TextureRect
                                         TexturePath="/Textures/_Shitmed/Interface/Targeting/Doll/rightfoot.png"
+                                        Visible="False"
                                         Stretch="KeepAspectCentered"
                                         SetSize="18 9"
                                         VerticalAlignment="Center"
@@ -221,6 +231,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
                                 HorizontalAlignment="Right">
                                 <TextureRect
                                     TexturePath="/Textures/_MoonsLight/Interface/Targeting/Doll/wings.png"
+                                    Visible="False"
                                     Stretch="KeepAspectCentered"
                                     SetSize="33 30"
                                     VerticalAlignment="Center"
@@ -239,6 +250,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
                             VerticalAlignment="Top">
                             <TextureRect
                                 TexturePath="/Textures/_Shitmed/Interface/Targeting/Doll/leftarm.png"
+                                Visible="False"
                                 Stretch="KeepAspectCentered"
                                 SetSize="12 24"
                                 VerticalAlignment="Center"
@@ -251,6 +263,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
                             StyleClasses="TargetDollButtonLeftHand">
                             <TextureRect
                                 TexturePath="/Textures/_Shitmed/Interface/Targeting/Doll/lefthand.png"
+                                Visible="False"
                                 Stretch="KeepAspectCentered"
                                 SetSize="12 12"
                                 VerticalAlignment="Center"
@@ -260,12 +273,11 @@ SPDX-License-Identifier: AGPL-3.0-or-later
                 </PanelContainer>
             </TextureRect>
         </Control>
+            <ScrollContainer VScrollEnabled="True" HorizontalExpand="True" VerticalExpand="True">
+                <BoxContainer Name="Parts" Orientation="Vertical" Visible="False" />
+                <BoxContainer Name="Surgeries" Orientation="Vertical" Visible="False" />
+                <BoxContainer Name="Steps" Orientation="Vertical" Visible="False" />
+            </ScrollContainer>
         </BoxContainer>
-        <ScrollContainer VScrollEnabled="True" HorizontalExpand="True" VerticalExpand="True">
-
-            <BoxContainer Name="Parts" Orientation="Vertical" Visible="False" />
-            <BoxContainer Name="Surgeries" Orientation="Vertical" Visible="False" />
-            <BoxContainer Name="Steps" Orientation="Vertical" Visible="False" />
-        </ScrollContainer>
     </BoxContainer>
 </controls:SurgeryWindow>
