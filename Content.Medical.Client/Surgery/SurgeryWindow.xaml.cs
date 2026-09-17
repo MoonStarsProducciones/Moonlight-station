@@ -15,6 +15,8 @@ using Robust.Shared.Timing;
 
 namespace Content.Medical.Client.Surgery;
 
+using BodyPart = (BodyPartType bodyPartType, BodyPartSymmetry bodyPartSymmetry);
+
 [GenerateTypedNameReferences]
 public sealed partial class SurgeryWindow : FancyWindow
 {
@@ -30,13 +32,14 @@ public sealed partial class SurgeryWindow : FancyWindow
 
     private EntityUid _owner;
     private bool _isBody;
+    private BodyPart? _selectedPart;
     private EntityUid? _part;
     private (EntityUid Ent, EntProtoId Proto)? _surgery;
     private readonly List<EntProtoId> _previousSurgeries = new();
 
-    private List<EntityUid> _parts = new();
+    private Dictionary<BodyPart,EntityUid> _parts = new();
     private List<EntProtoId> _surgeries = new();
-    private readonly Dictionary<(BodyPartType, BodyPartSymmetry), TextureButton> _bodyPartControls;
+    private readonly Dictionary<BodyPart, TextureButton> _bodyPartControls;
 
     public SurgeryWindow()
     {
@@ -49,7 +52,7 @@ public sealed partial class SurgeryWindow : FancyWindow
         _partQuery = _ent.GetEntityQuery<BodyPartComponent>();
         _surgeryQuery = _ent.GetEntityQuery<SurgeryComponent>();
 
-        _bodyPartControls = new Dictionary<(BodyPartType, BodyPartSymmetry), TextureButton>
+        _bodyPartControls = new Dictionary<BodyPart, TextureButton>
         {
             { (BodyPartType.Head, BodyPartSymmetry.None), HeadButton },
             { (BodyPartType.Torso, BodyPartSymmetry.None), ChestButton },
@@ -70,11 +73,15 @@ public sealed partial class SurgeryWindow : FancyWindow
             bodyPartControl.Value.OnPressed += _ =>
             {
                 bodyPartControl.Value.MouseFilter = MouseFilterMode.Stop;
-                _part = _parts?.Find(ent =>
-                {
-                    _partQuery.TryComp(ent, out var comp);
-                    return comp?.PartType == bodyPartControl.Key.Item1 && comp?.Symmetry == bodyPartControl.Key.Item2;
-                });
+
+                if(_selectedPart == bodyPartControl.Key)
+                    return;
+
+                if (!_parts.ContainsKey(bodyPartControl.Key))
+                    return;
+
+                _selectedPart = bodyPartControl.Key;
+                _part = _parts[bodyPartControl.Key];
 
                 if (_part is { } part)
                 {
@@ -84,7 +91,7 @@ public sealed partial class SurgeryWindow : FancyWindow
             };
         }
 
-        PartsButton.OnPressed += _ => ViewParts();
+        //PartsButton.OnPressed += _ => ViewParts();
 
         SurgeriesButton.OnPressed += _ =>
         {
@@ -133,6 +140,12 @@ public sealed partial class SurgeryWindow : FancyWindow
 
         foreach (var bodyPartControl in _bodyPartControls)
             bodyPartControl.Value.Children.First().Visible = bodyPartControl.Key == (comp.PartType, comp.Symmetry);
+    }
+
+    private void SetBodyAllPartsInvisible()
+    {
+        foreach (var bodyPartControl in _bodyPartControls)
+            bodyPartControl.Value.Children.First().Visible = false;
     }
 
     private new string Name(EntityUid uid)
@@ -223,18 +236,17 @@ public sealed partial class SurgeryWindow : FancyWindow
     {
         var changed = false;
         // get rid of any parts that were removed
-        _parts.RemoveAll(part =>
+        foreach (var part in _parts)
         {
-            if (Deleted(part) || _isBody && _body.GetBody(part) != _owner)
+            if (Deleted(part.Value) || _isBody && _body.GetBody(part.Value) != _owner)
             {
-                if (_part == part)
+                if (_part == part.Value)
                     ViewParts();
-                changed = true;
-                return true;
-            }
 
-            return false;
-        });
+                _parts.Remove(part.Key);
+                changed = true;
+            }
+        }
 
         // check for new parts
         if (_isBody)
@@ -242,20 +254,28 @@ public sealed partial class SurgeryWindow : FancyWindow
             var parts = _body.GetExternalOrgans(_owner);
             foreach (var part in parts)
             {
-                if (_parts.Contains(part))
+                if (_parts.ContainsValue(part))
                     continue;
 
-                _parts.Add(part);
-                changed = true;
+                _partQuery.TryComp(part, out var comp);
+                if (comp != null)
+                {
+                    _parts.Add((comp.PartType, comp.Symmetry), part);
+                    changed = true;
+                }
             }
         }
         else // cant directly operate on parts yet sadly but its here just incase
         {
-            if (_parts.Contains(_owner))
+            if (_parts.ContainsValue(_owner))
                 return;
 
-            _parts.Add(_owner);
-            changed = true;
+            _partQuery.TryComp(_owner, out var comp);
+            if (comp != null)
+            {
+                _parts.Add((comp.PartType, comp.Symmetry), _owner);
+                changed = true;
+            }
         }
 
         if (changed)
@@ -264,40 +284,11 @@ public sealed partial class SurgeryWindow : FancyWindow
 
     private void PartsChanged()
     {
-        _parts.Sort((a, b) =>
-        {
-            int GetScore(EntityUid uid)
-            {
-                if (!_partQuery.TryComp(uid, out var part))
-                    return 9;
+        if(_selectedPart == null)
+            return;
 
-                return part.PartType switch
-                {
-                    BodyPartType.Head => 1,
-                    BodyPartType.Torso => 2,
-                    BodyPartType.Arm => 2,
-                    BodyPartType.Hand => 3,
-                    BodyPartType.Leg => 4,
-                    BodyPartType.Foot => 5,
-                    BodyPartType.Tail => 6,
-                    BodyPartType.Wings => 7,
-                    BodyPartType.Other => 8,
-                    _ => 9
-                };
-            }
-
-            return GetScore(a) - GetScore(b);
-        });
-
-        Parts.RemoveAllChildren();
-        foreach (var part in _parts)
-        {
-            _partQuery.TryComp(part, out var comps);
-            var partButton = new ChoiceControl();
-            partButton.Set(Name(part), null);
-            partButton.Button.OnPressed += _ => ViewPart(part);
-            Parts.AddChild(partButton);
-        }
+        if(!_parts.TryGetValue((BodyPart)_selectedPart,  out var _))
+            SetBodyAllPartsInvisible();
     }
 
     private void UpdateSurgeries(EntityUid part)
@@ -427,8 +418,9 @@ public sealed partial class SurgeryWindow : FancyWindow
 
     private void View(ViewType type)
     {
-        Parts.Visible = type == ViewType.Parts;
-        PartsButton.Disabled = type == ViewType.Parts;
+        //Parts.Visible = type == ViewType.Parts;
+        //PartsButton.Disabled = type == ViewType.Parts;
+        PartsControl.Visible = type != ViewType.Steps;
 
         Surgeries.Visible = type == ViewType.Surgeries;
         SurgeriesButton.Disabled = type != ViewType.Steps;
