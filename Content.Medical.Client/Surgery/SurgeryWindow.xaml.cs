@@ -73,25 +73,9 @@ public sealed partial class SurgeryWindow : FancyWindow
             bodyPartControl.Value.OnPressed += _ =>
             {
                 bodyPartControl.Value.MouseFilter = MouseFilterMode.Stop;
-
-                if(_selectedPart == bodyPartControl.Key)
-                    return;
-
-                if (!_parts.ContainsKey(bodyPartControl.Key))
-                    return;
-
-                _selectedPart = bodyPartControl.Key;
-                _part = _parts[bodyPartControl.Key];
-
-                if (_part is { } part)
-                {
-                    SetBodyPartVisible(part);
-                    ViewPart(part);
-                }
+                SelectPart(bodyPartControl.Key);
             };
         }
-
-        //PartsButton.OnPressed += _ => ViewParts();
 
         SurgeriesButton.OnPressed += _ =>
         {
@@ -146,6 +130,33 @@ public sealed partial class SurgeryWindow : FancyWindow
     {
         foreach (var bodyPartControl in _bodyPartControls)
             bodyPartControl.Value.Children.First().Visible = false;
+    }
+
+    private void SelectPart(BodyPart bodyPart)
+    {
+        if(_selectedPart == bodyPart)
+            return;
+
+        if (!_parts.TryGetValue(bodyPart, out var ent))
+            return;
+
+        _selectedPart = bodyPart;
+        _part = ent;
+
+        if (_part is { } part)
+        {
+            SetBodyPartVisible(part);
+            ViewPart(part);
+        }
+    }
+
+    private void DeselectCurrentPart()
+    {
+        if(_selectedPart == null)
+            return;
+
+        _selectedPart = null;
+        SetBodyAllPartsInvisible();
     }
 
     private new string Name(EntityUid uid)
@@ -288,7 +299,7 @@ public sealed partial class SurgeryWindow : FancyWindow
             return;
 
         if(!_parts.TryGetValue((BodyPart)_selectedPart,  out var _))
-            SetBodyAllPartsInvisible();
+            DeselectCurrentPart();
     }
 
     private void UpdateSurgeries(EntityUid part)
@@ -418,8 +429,6 @@ public sealed partial class SurgeryWindow : FancyWindow
 
     private void View(ViewType type)
     {
-        //Parts.Visible = type == ViewType.Parts;
-        //PartsButton.Disabled = type == ViewType.Parts;
         PartsControl.Visible = type != ViewType.Steps;
 
         Surgeries.Visible = type == ViewType.Surgeries;
