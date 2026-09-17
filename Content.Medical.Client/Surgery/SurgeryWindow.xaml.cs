@@ -15,8 +15,6 @@ using Robust.Shared.Timing;
 
 namespace Content.Medical.Client.Surgery;
 
-using BodyPart = (BodyPartType bodyPartType, BodyPartSymmetry bodyPartSymmetry);
-
 [GenerateTypedNameReferences]
 public sealed partial class SurgeryWindow : FancyWindow
 {
@@ -54,18 +52,18 @@ public sealed partial class SurgeryWindow : FancyWindow
 
         _bodyPartControls = new Dictionary<BodyPart, TextureButton>
         {
-            { (BodyPartType.Head, BodyPartSymmetry.None), HeadButton },
-            { (BodyPartType.Torso, BodyPartSymmetry.None), ChestButton },
-            { (BodyPartType.Arm, BodyPartSymmetry.Left), LeftArmButton },
-            { (BodyPartType.Arm, BodyPartSymmetry.Right), RightArmButton },
-            { (BodyPartType.Hand, BodyPartSymmetry.Left), LeftHandButton },
-            { (BodyPartType.Hand, BodyPartSymmetry.Right), RightHandButton },
-            { (BodyPartType.Leg, BodyPartSymmetry.Left), LeftLegButton },
-            { (BodyPartType.Leg, BodyPartSymmetry.Right), RightLegButton },
-            { (BodyPartType.Foot, BodyPartSymmetry.Left), LeftFootButton },
-            { (BodyPartType.Foot, BodyPartSymmetry.Right), RightFootButton },
-            { (BodyPartType.Tail, BodyPartSymmetry.None), TailButton },
-            { (BodyPartType.Wings, BodyPartSymmetry.None), WingsButton },
+            { new BodyPart(BodyPartType.Head, BodyPartSymmetry.None), HeadButton },
+            { new BodyPart(BodyPartType.Torso, BodyPartSymmetry.None), ChestButton },
+            { new BodyPart(BodyPartType.Arm, BodyPartSymmetry.Left), LeftArmButton },
+            { new BodyPart(BodyPartType.Arm, BodyPartSymmetry.Right), RightArmButton },
+            { new BodyPart(BodyPartType.Hand, BodyPartSymmetry.Left), LeftHandButton },
+            { new BodyPart(BodyPartType.Hand, BodyPartSymmetry.Right), RightHandButton },
+            { new BodyPart(BodyPartType.Leg, BodyPartSymmetry.Left), LeftLegButton },
+            { new BodyPart(BodyPartType.Leg, BodyPartSymmetry.Right), RightLegButton },
+            { new BodyPart(BodyPartType.Foot, BodyPartSymmetry.Left), LeftFootButton },
+            { new BodyPart(BodyPartType.Foot, BodyPartSymmetry.Right), RightFootButton },
+            { new BodyPart(BodyPartType.Tail, BodyPartSymmetry.None), TailButton },
+            { new BodyPart(BodyPartType.Wings, BodyPartSymmetry.None), WingsButton },
         };
 
         foreach (var bodyPartControl in _bodyPartControls)
@@ -123,7 +121,7 @@ public sealed partial class SurgeryWindow : FancyWindow
             return;
 
         foreach (var bodyPartControl in _bodyPartControls)
-            bodyPartControl.Value.Children.First().Visible = bodyPartControl.Key == (comp.PartType, comp.Symmetry);
+            bodyPartControl.Value.Children.First().Visible = bodyPartControl.Key == new BodyPart(comp.PartType, comp.Symmetry);
     }
 
     private void SetBodyAllPartsInvisible()
@@ -148,15 +146,6 @@ public sealed partial class SurgeryWindow : FancyWindow
             SetBodyPartVisible(part);
             ViewPart(part);
         }
-    }
-
-    private void DeselectCurrentPart()
-    {
-        if(_selectedPart == null)
-            return;
-
-        _selectedPart = null;
-        SetBodyAllPartsInvisible();
     }
 
     private new string Name(EntityUid uid)
@@ -271,7 +260,7 @@ public sealed partial class SurgeryWindow : FancyWindow
                 _partQuery.TryComp(part, out var comp);
                 if (comp != null)
                 {
-                    _parts.Add((comp.PartType, comp.Symmetry), part);
+                    _parts.Add(new BodyPart(comp.PartType, comp.Symmetry), part);
                     changed = true;
                 }
             }
@@ -284,7 +273,7 @@ public sealed partial class SurgeryWindow : FancyWindow
             _partQuery.TryComp(_owner, out var comp);
             if (comp != null)
             {
-                _parts.Add((comp.PartType, comp.Symmetry), _owner);
+                _parts.Add(new BodyPart(comp.PartType, comp.Symmetry), _owner);
                 changed = true;
             }
         }
@@ -298,8 +287,11 @@ public sealed partial class SurgeryWindow : FancyWindow
         if(_selectedPart == null)
             return;
 
-        if(!_parts.TryGetValue((BodyPart)_selectedPart,  out var _))
-            DeselectCurrentPart();
+        if(_parts.TryGetValue((BodyPart)_selectedPart,  out var _))
+            return;
+
+        _selectedPart = null;
+        SetBodyAllPartsInvisible();
     }
 
     private void UpdateSurgeries(EntityUid part)
@@ -463,4 +455,6 @@ public sealed partial class SurgeryWindow : FancyWindow
         Complete,
         Incomplete
     }
+
+    private record struct BodyPart(BodyPartType Type, BodyPartSymmetry Symmetry);
 }
