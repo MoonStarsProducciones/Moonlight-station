@@ -18,7 +18,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
                     HorizontalExpand="True" StyleClasses="OpenBoth" />
         </BoxContainer>
         <cc:HSeparator />
-        <BoxContainer Orientation="Horizontal" HorizontalExpand="True" VerticalExpand="True">
+        <BoxContainer Orientation="Horizontal" SeparationOverride="10" HorizontalExpand="True" VerticalExpand="True">
             <Control VerticalAlignment="Top" HorizontalAlignment="Right" Name="PartsControl">
             <TextureRect
                 TexturePath="/Textures/_Trauma/Interface/target_doll.png"
