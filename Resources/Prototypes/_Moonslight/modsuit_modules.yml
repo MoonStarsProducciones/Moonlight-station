@@ -1,0 +1,44 @@
+- type: entity
+  id: BaseModsuitModule
+  parent: BaseItem
+  name: Modsuit module
+  description: A piece of tech that gives a Modsuit new abilities.
+  abstract: true
+  components:
+  - type: Item
+    storedRotation: -90
+    inhandVisuals:
+      left:
+      - state: base-icon-inhand-left
+        color: "#8FCBCB"
+      - state: base-module-inhand-left
+        color: "#A1A1A1"
+      - state: base-part-inhand-left
+      - state: base-stripes-inhand-left
+        color: "#7D7D7D"
+      right:
+      - state: base-icon-inhand-right
+        color: "#8FCBCB"
+      - state: base-module-inhand-right
+        color: "#A1A1A1"
+      - state: base-part-inhand-right
+      - state: base-stripes-inhand-right
+        color: "#7D7D7D"
+  - type: Sprite
+    sprite: Objects/Specific/Robotics/borgmodule.rsi
+  - type: BorgModuleIcon
+    icon: { sprite: Interface/Actions/actions_borg.rsi, state: no-action }
+  - type: StaticPrice
+    price: 100
+
+- type: entity
+  id: ModsuitModulePrying
+  parent: [ BaseModsuitModule ]
+  name: modsuit prying module
+  description: A universal cyborg module which allows the unit to pry open doors.
+  components:
+  - type: Sprite
+    layers:
+    - state: generic
+    - state: icon-tools
+  - type: ModsuitModule
