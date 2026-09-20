@@ -6,9 +6,9 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Fire and Gas Control
-  Unfortunately, [textlink="fires" link="Fires"], [textlink="spacing" link="Spacing"], and other [textlink="atmospheric upsets" link="AtmosphericUpsets"] are a common occurrence on the station.
-  These upsets can quickly spread throughout the station and make the atmosphere uninhabitable for the crew.
+  # Controle de Incêndio e Gás
+  Infelizmente, [textlink="fires" link="Fires"], [textlink="spacing" link="Spacing"], and other [textlink="atmospheric upsets" link="AtmosphericUpsets"] são uma ocorrência comum na estação
+  Essas perturbações podem se espalhar rapidamente por toda a estação e tornar a atmosfera inabitável para a tripulação.
 
   <Box>
     <GuideEntityEmbed Entity="Firelock"/>
@@ -17,31 +17,31 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="FireAlarm"/>
   </Box>
 
-  To combat this, stations have a variety of devices to help prevent these upsets from spreading.
+  Para combater isso, as estações dispõem de diversos dispositivos que ajudam a impedir a propagação dessas perturbações.
 
-  ## Firelocks
-  Firelocks are a simple and effective way to prevent fires from spreading throughout the station.
+  ## Armas de fogo de fecho
+  Dispositivos corta-fogo são uma maneira simples e eficaz de impedir que incêndios se propaguem pela estação.
 
-  Based on conditions sensed by the firelock, or through instruction from a connected [textlink="air" link="AirAlarms"] or fire alarm, they can close off sections of the station to prevent the spread of dangerous conditions.
+  Com base nas condições detectadas pela fechadura ou por meio de instruções de um dispositivo conectado. [textlink="air" link="AirAlarms"] ou alarme de incêndio, eles podem isolar seções da estação para impedir a propagação de condições perigosas.
 
-  ## Station Sectioning
-  Firelocks are intentionally placed in key areas to divide the station into sections. Open spaces like hallways or promenades are divided into smaller sections. This prevents the spread of dangerous conditions to the entire station through connected rooms, hallways, and other open spaces.
+  ## Seccionamento de Estação
+  Dispositivos de isolamento contra incêndio são instalados estrategicamente em áreas-chave para dividir a estação em seções. Espaços abertos, como corredores ou áreas de circulação, são subdivididos em seções menores. Isso impede que condições perigosas se propaguem por toda a estação através de salas, corredores e outros espaços abertos interligados.
 
-  ## Basic Operation
-  When not connected to an [textlink="air alarm" link="AirAlarms"] or fire alarm, firelocks will function based on the conditions they sense. Firelocks will drop (close) if:
-  - The temperature between the two sides of the firelock is different by [color=orange][protodata="Firelock" comp="Firelock" member="TemperatureThreshold"/] K[/color] or more.
-  - The pressure between the two sides of the firelock is different by [color=orange][protodata="Firelock" comp="Firelock" member="PressureThreshold"/] kPa[/color] or more.
+  ## Operação básica
+  Quando não conectado a um [textlink="air alarm" link="AirAlarms"] ou alarme de incêndio, os dispositivos Firelock funcionarão com base nas condições que detectarem. Os dispositivos Firelock serão liberados (fechando-se) se:
+  - A temperatura entre os dois lados da fechadura de fogo difere por [color=orange][protodata="Firelock" comp="Firelock" member="TemperatureThreshold"/] K[/color] ou mais.
+  - A pressão entre os dois lados da fechadura é diferente por [color=orange][protodata="Firelock" comp="Firelock" member="PressureThreshold"/] kPa[/color] ou mais.
 
-  If these conditions continue, the firelock will enter lockout mode. Firelocks in lockout mode will have [color=red]red[/color] lights and cannot be pried open by hand. They can only be opened by people with Engineering access or by using a crowbar.
+  Se essas condições persistirem, a fechadura entrará em modo de bloqueio. Fechaduras em modo de bloqueio terão [color=red]vermelho[/color] luzes e não podem ser abertos à força com as mãos. Eles só podem ser abertos por pessoas com acesso de Engenharia ou com o uso de um pé de cabra.
 
-  Firelocks in lockout mode cannot be opened by using Engineering access if they are unpowered. Only a crowbar can open an unpowered firelock in lockout mode.
+  Portas corta-fogo em modo de bloqueio não podem ser abertas via acesso de Engenharia se estiverem sem energia. Apenas um pé-de-cabra consegue abrir uma porta corta-fogo sem energia que esteja em modo de bloqueio.
 
-  If the conditions between the two sides of the firelock return to within acceptable differences, the firelock will disable lockout mode, and can be opened by anyone.
-  Note that this only means that the conditions are the same on both sides of the firelock, not that they are safe.
+  Se as condições entre os dois lados da trava de segurança retornarem a uma faixa de diferença aceitável, a trava desativará o modo de bloqueio e poderá ser aberta por qualquer pessoa.
+  Observe que isso significa apenas que as condições são as mesmas em ambos os lados do mecanismo de disparo, e não que sejam seguras.
 
-  A common example of this is a firelock that has released due to both sides being exposed to space.
+  Um exemplo comum disso é um mecanismo de disparo que foi acionado devido à exposição de ambos os lados ao espaço
 
-  ## Connecting to Air and Fire Alarms
+  ## Conexão a alarmes de ar e incêndio
   Firelocks can be connected to [textlink="air alarms" link="AirAlarms"] and fire alarms to receive instructions on when to drop.
   Firelocks use the [textlink="List system" link="Networking"], and you can connect these devices using a multitool or network configurator.
 

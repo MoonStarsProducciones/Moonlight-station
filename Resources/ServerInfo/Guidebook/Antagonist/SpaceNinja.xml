@@ -10,20 +10,20 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Space Ninja
+  # Ninja Espacial
 
   <Box>
-    [color=#999999][italic]"Spider of the night, silent is my bite."[/italic][/color]
+    [color=#999999][italic]"Aranha da noite, silenciosa é a minha picada."[/italic][/color]
   </Box>
 
-  You are an elite mercenary that [color=#66FF00]The Spider Clan[/color] has sent to wreak all kinds of havoc on the station. You are equipped to keep it silent-but-deadly.
+  Você é um mercenário de elite que [color=#66FF00]O Clã da Aranha[/color] enviou para causar todo tipo de destruição na estação. Você está equipado para agir de forma silenciosa, porém letal.
 
-  Whether you get bloody or stay out of trouble, your discipline has taught you that [italic]your objectives must be at least attempted[/italic]. For honor!
+  Quer você se envolva em confusões ou se mantenha longe de problemas, sua disciplina lhe ensinou isso. [italic]Você deve, no mínimo, tentar alcançar seus objetivos.[/italic]. Pela honra!
 
   ## Standard Equipment
-  You begin implanted with a [color=cyan]death acidifier[/color], so if you are captured or KIA all your precious equipment is kept out of enemy hands.
+  Você começa com um bomba implantado em você. [color=cyan]acidificante da morte[/color], Assim, se você for capturado ou morto em combate, todo o seu equipamento valioso não cairá nas mãos do inimigo.
 
-  Your bag is full of [bold]tools[/bold] and a [bold]survival box[/bold]. You also carry a [color=cyan]jetpack[/color] and a [color=cyan]pinpointer[/color] that will lead you to the station.
+  Sua bolsa está cheia de [bold]ferramentas[/bold] e um [bold]kit de sobrevivência[/bold]. Você também carrega um [color=cyan]jetpack[/color] e um [color=cyan]pinpointer[/color] que levará você à estação.
 
   <Box>
     <GuideEntityEmbed Entity="JetpackBlack"/>
@@ -38,39 +38,40 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="ClothingShoesSpaceNinja" Caption="your boots"/>
   </Box>
 
-  Your single most important item is [color=cyan]your suit[/color], without it none of your abilities would work.
-  Your suit requires power to function, which is supplied by its [bold]internal battery[/bold]. It can be replaced, and [italic]high capacity batteries[/italic] mean a [italic]highly effective ninja[/italic].
+  O item mais importante que você possui é [color=cyan]seu terno[/color], Sem isso, nenhuma das suas habilidades funcionaria.
+  Seu traje precisa de energia para funcionar, que é fornecida por sua [bold]bateria interna[/bold]. Pode ser substituído, e [italic]baterias de alta capacidade[/italic] significa um [italic]ninja altamente eficaz[/italic].
 
-  [bold]You can recharge your internal battery directly[/bold] by using [color=cyan]your gloves[/color]. You can see the current charge by examining the suit or checking the nifty battery alert on your screen.
+  [bold]Você pode recarregar sua bateria interna diretamente[/bold] usando [color=cyan]suas luvas[/color]. Você pode verificar a carga atual examinando o traje ou conferindo o prático alerta de bateria na tela.
 
-  Your outfit also includes [color=cyan]special boots[/color] that keep you agile, upright and grounded without using energy. You've also got flash protection thanks to your [color=cyan]visor[/color].
+  Seu traje também inclui [color=cyan]botas especiais[/color] que te mantêm ágil, em pé e firme sem gastar energia. Você também tem proteção contra raios graças ao seu [color=cyan]visor[/color].
 
-  ## Ninja Gloves
+  ## Luvas de Ninja
 
   <Box>
     <GuideEntityEmbed Entity="ClothingHandsGlovesSpaceNinja" Caption="your gloves"/>
   </Box>
 
-  [color=#66FF00]These bad boys are your bread and butter.[/color] They are made from [bold]insulated nanomachines[/bold] to allow you to gracefully break into restricted areas without leaving behind fingerprints.
+  [color=#66FF00]Esses caras são o seu ganha-pão.[/color] Eles são feitos de [bold]nanomáquinas isoladas[/bold] para permitir que você entre discretamente em áreas restritas sem deixar impressões digitais.
 
-  You have an action to toggle gloves. When the gloves are turned on, they allow you to use [bold]special abilities[/bold], which are triggered by interacting with things with an empty hand and with combat mode disabled.
+  
+Você tem uma ação para alternar as luvas. Quando as luvas estão ativadas, elas permitem que você use [bold]habilidades especiais[/bold], que são acionados ao interagir com objetos com a mão vazia e o modo de combate desativado.
 
-  Your glove abilities include:
-  - Emagging doors and airlocks.
-  - Draining power from [bold]transformers[/bold] such as APCs, substations, or SMESes (higher voltage transformers drain more efficiently).
-  - Tampering with [bold]station equipment[/bold] to complete [color=#66FF00]objectives[/color].
+  Suas habilidades de luva incluem:
+  - Portas e eclusas de ar com vedação magnética.
+  - Drenando energia de [bold]transformadores[/bold] como APCs, subestações ou SMES (transformadores de tensão mais elevada drenam a energia de forma mais eficiente).
+  - Mexer indevidamente [bold]equipamento da estação[/bold] para completar [color=#66FF00]objetivos[/color].
 
-  ## Energy Katana
+  ## Katana de Energia
 
   <Box>
     <GuideEntityEmbed Entity="EnergyKatana"/>
   </Box>
 
-  [bold]You have sworn yourself to the sword and refuse to use firearms.[/bold] Luckily, you've got a pretty cool sword.
+  [bold]Você jurou lealdade à espada e se recusa a usar armas de fogo.[/bold] Por sorte, você tem uma espada bem legal.
 
-  Your [color=cyan]energy katana[/color] hurts plenty and can be [bold]recalled at will[/bold] at the cost of suit power. The farther away it is from you, the more energy required to recall it.
+  Sua [color=cyan]katana de energia[/color] dói bastante e pode ser [bold]recuperado à vontade[/bold] ao custo da energia do traje. Quanto mais longe ele estiver de você, mais energia será necessária para trazê-lo de volta.
 
-  While in hand you may also [color=cyan]teleport[/color] to anywhere that you can see, [bold]including through windows[/bold]. The charges required to do this regenerate slowly, so keep a charge or two spare in case you need a quick getaway.
+  Enquanto estiver com ele em mãos, você também pode [color=cyan]teletransportar[/color] para qualquer lugar que você possa ver, [bold]inclusive através de janelas[/bold]. As cargas necessárias para fazer isso se regeneram lentamente; portanto, mantenha uma ou duas de reserva para o caso de precisar escapar rapidamente.
 
   ## Spider Clan Charge
 
@@ -78,9 +79,10 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="SpiderCharge"/>
   </Box>
 
-  This is a [color=cyan]modified C-4 explosive[/color] which can be found in your pocket. Creates a large explosion but [bold]must be armed in your target area[/bold] as it is one of your objectives.
+  Isto é um [color=cyan]explosivo C-4 modificado[/color] que pode ser encontrado no seu bolso. Cria uma grande explosão, mas [bold]deve estar armado na sua área de atuação[/bold] já que é um dos seus objetivos.
 
-  It can't be activated manually, so simply plant it on a wall near your assigned target. Choose wisely, it can't be unstuck once planted.
+  
+Não pode ser ativado manualmente, então basta fixá-lo em uma parede próxima ao seu alvo designado. Escolha com sabedoria: não é possível removê-lo depois de instalado.
 
   ## Ninjutsu
 

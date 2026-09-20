@@ -6,22 +6,22 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Airlocks
-  Airlocks are used to control access to different areas of the station.
+  # Comportas de ar
+  Comportas de pressurização são usadas para controlar o acesso a diferentes áreas da estação.
 
   <Box>
     <GuideEntityEmbed Entity="Airlock" Caption=""/>
     <GuideEntityEmbed Entity="AirlockGlass" Caption=""/>
   </Box>
 
-  Airlocks can be opened using either [color=yellow][bold][keybind="Use"][/bold][/color] with an empty hand, [color=yellow][bold][keybind="ActivateItemInWorld"][/bold][/color] if hands are full, or by colliding with the airlock.
+  As câmaras de descompressão podem ser abertas usando qualquer um dos seguintes métodos: [color=yellow][bold][keybind="Use"][/bold][/color] de mãos vazias, [color=yellow][bold][keybind="ActivateItemInWorld"][/bold][/color] se as mãos estiverem ocupadas, ou ao colidir com a eclusa.
 
-  Airlocks will only open if you have an ID card with the correct access level.
-  The ID card must be in your hand or in your ID slot.
-  In the case of having multiple IDs, the airlock will check them all when you try to open it.
-  This behavior is also the same for IDs in a PDA.
+  As eclusas só abrirão se você tiver um cartão de identificação com o nível de acesso correto.
+  O cartão de identificação deve estar em sua mão ou no compartimento para cartão.
+  Caso você possua múltiplos IDs, a eclusa verificará todos eles quando você tentar abri-la.
+  Esse comportamento também é o mesmo para IDs em um PDA.
 
-  The access level required to open the door can be modified using an Access Configurator, or by using a Multitool on the door electronics for the airlock (which requires deconstruction).
+  O nível de acesso necessário para abrir a porta pode ser modificado usando um Configurador de Acesso ou uma Multiferramenta no sistema eletrônico da porta da eclusa (o que exige a desconstrução da porta).
 
   <Box>
     <GuideEntityEmbed Entity="AccessConfigurator" Caption=""/>
@@ -29,21 +29,21 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="DoorElectronics" Caption=""/>
   </Box>
 
-  Airlocks block gas flow, so they can be used to seal off areas in case of a [textlink="hull breach" link="Spacing"] or a [textlink="fire." link="Fires"]
-  They also store gas on their tile, even when closed, so be careful when opening them during or after a gas leak.
+  As câmaras de descompressão bloqueiam o fluxo de gás, podendo ser usadas para isolar áreas em caso de emergência. [textlink="hull breach" link="Spacing"] ou um [textlink="fire." link="Fires"]
+  Eles também armazenam gás em seu espaço, mesmo quando fechados; portanto, tenha cuidado ao abri-los durante ou após um vazamento de gás.
 
-  ## Bolting and Emergency Access
-  Airlocks can be bolted to prevent them from being opened or pried open by hand. When this occurs, the airlock will display red lights on the top of the door.
+  ## Fixação e Acesso de Emergência
+  As comportas de ar podem ser travadas com parafusos para impedir que sejam abertas ou forçadas manualmente. Quando isso ocorre, a comporta exibe luzes vermelhas na parte superior da porta.
 
-  Airlocks can also be set to emergency access. In this mode, anyone can open the airlock, regardless of access level. When this occurs, the airlock will display flashing yellow lights on the top of the door.
+  As eclusas também podem ser configuradas para acesso de emergência. Nesse modo, qualquer pessoa pode abrir a eclusa, independentemente do nível de acesso. Quando isso ocorre, a eclusa exibe luzes amarelas intermitentes na parte superior da porta.
 
-  ## Remote Control
-  Airlocks can be controlled remotely, either by the station AI or by using a Door Remote.
+  ## Controle remoto
+  As eclusas podem ser controladas remotamente, seja pela IA da estação ou utilizando um Controle Remoto de Porta.
   <Box>
     <GuideEntityEmbed Entity="PlayerStationAiEmpty" Caption=""/>
   </Box>
   <Box>
-    [color=#999999][italic]The Station AI, which has remote control over all airlocks[italic][/color]
+    [color=#999999][italic]A IA da Estação, que tem controle remoto sobre todas as eclusas[italic][/color]
   </Box>
 
   <Box>
@@ -55,7 +55,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="DoorRemoteResearch" Caption=""/>
   </Box>
   <Box>
-    [color=#999999][italic]Precious door remotes. With unlimited power...[italic][/color]
+    [color=#999999][italic]Controles remotos de porta preciosos. Com poder ilimitado....[italic][/color]
   </Box>
 
 

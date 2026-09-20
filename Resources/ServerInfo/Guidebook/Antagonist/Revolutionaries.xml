@@ -10,45 +10,45 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Revolutionaries
+  # Revolucionários
 
   <Box>
-    [color=#999999][italic]"Viva la revolución!!"[/italic][/color]
+    [color=#999999][italic]"Viva a revolução!!"[/italic][/color]
   </Box>
   <Box>
     <GuideEntityEmbed Entity="PosterContrabandRevolt" Caption=""/>
   </Box>
 
-  Revolutionaries are conversion antagonists sponsored by the [color=#ff0000]Syndicate[/color] who are tasked with taking control of the station. They have no fancy gimmicks or cheap tricks, they only have a cause and strength in numbers.
+  Os revolucionários são antagonistas da conversão patrocinados por [color=#ff0000]Sindicato[/color] que têm a missão de assumir o controle da estação. Eles não dispõem de artifícios sofisticados nem de truques baratos; contam apenas com uma causa e com a força do número.
 
 <Box>
   <GuideEntityEmbed Entity="RevolutionaryManifesto" Caption="Revolutionary Manifesto"/>
 </Box>
 
-  [color=#5e9cff]Head Revolutionaries[/color] are chosen at the start of the shift and are tasked with taking over the station by killing, exiling or cuffing all of the Command staff. Head Revolutionaries will be given a [color=#a4885c]Revolutionary Manifesto[/color] to aid them.
-  Your objective is [bold]not to destroy the station[/bold], but [italic]to take it over[/italic], so try to minimize damage where possible.
+  [color=#5e9cff]Líderes Revolucionários[/color] São escolhidos no início do turno e têm a missão de assumir o controle da estação, matando, exilando ou algemando todos os membros da equipe de comando. Os Líderes Revolucionários receberão um [color=#a4885c]Manifesto Revolucionário[/color] para ajudá-los.
+  Seu objetivo é [bold]para não destruir a estação[/bold], mas [italic]assumir o controle[/italic], Portanto, tente minimizar os danos sempre que possível.
 
-  [bold]The revolution will fail[/bold] if all of the [bold][color=#5e9cff]Head Revolutionaries[/color][/bold] die, and all [color=red]Revolutionaries[/color] will de-convert if this happens.
+  [bold]A revolução fracassará.[/bold] se todos os [bold][color=#5e9cff]Líderes Revolucionários[/color][/bold] morrer, e tudo mais [color=red]Revolucionários[/color] Vai deixar de ser adepto se isso acontecer.
 
-  ## Headrevs & Conversion
-  [bold][color=#5e9cff]Head Revolutionaries[/color][/bold] are chosen at the start of the shift and begin with a [color=cyan]flash[/color] and a pair of [color=cyan]sunglasses[/color].
+  ## Headrevs & Conversão
+  [bold][color=#5e9cff]Líderes Revolucionários[/color][/bold] são escolhidos no início do turno e começam com um [color=cyan]flash[/color] e um par de [color=cyan]óculos de sol[/color].
 
   <Box>
   <GuideEntityEmbed Entity="RevolutionaryManifesto" Caption="Revolutionary Manifesto"/>
 </Box>
 
-  You can convert crew members by using a [color=#a4885c]Revolutionary Manifesto[/color] on them.
+  Você pode converter membros da tripulação usando um [color=#a4885c]Manifesto Revolucionário[/color] sobre eles.
 
-  Beware! A [color=#a4885c]MindShield Implant[/color] will prevent the implanted person from being converted into a revolutionary. Assume all of [color=#a4885c]Security[/color] and [color=#a4885c]Command[/color] are implanted already.
+  Cuidado! Um [color=#a4885c]Inplante de MindShield[/color] impedirá que a pessoa implantada se transforme em um revolucionário. Suponha que todos os [color=#a4885c]Segurança[/color] e [color=#a4885c]Comando[/color] já estão implantados.
 <Box>
   <GuideEntityEmbed Entity="MindShieldImplanter" Caption="MindShield Implanter"/>
 </Box>
-  Another obstacle in your way are those pesky [color=cyan]mindshield implanters[/color]. These will:
-  - Prevent the implanted person from being converted into a [color=red]Revolutionary[/color]
-  - De-convert Revolutionaries, and will make them no longer loyal to your cause
-  - [bold]Visibly be destroyed upon being implanted into a [color=#5e9cff]Head Revolutionary[/color][/bold], giving you away
+  Outro obstáculo em seu caminho são aqueles incômodos [color=cyan]Inplantes de mindshield[/color]. Estes vão:
+  - Impedir que a pessoa implantada seja transformada em um [color=red]Revolucionário[/color]
+  - Faça com que revolucionários abandonem a sua causa, deixando de ser leais a ela.
+  - [bold]Destruído visivelmente ao ser implantado em um [color=#5e9cff]Líder Revolucionário[/color][/bold], entregando você
 
-  Assume all of [color=#cb0000]Security[/color] and [color=#1b67a5]Command[/color] are implanted with mindshields already, [bold]however they can be removed using an implant extractor, obtainable from the Medical department's MedFab.[/bold]
+  Assuma tudo isso [color=#cb0000]Segurança[/color] and [color=#1b67a5]Command[/color] are implanted with mindshields already, [bold]however they can be removed using an implant extractor, obtainable from the Medical department's MedFab.[/bold]
 
 
 
