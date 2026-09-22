@@ -57,6 +57,12 @@
   <Project Path="Content.Medical.Client/Content.Medical.Client.csproj" />
   <Project Path="Content.Medical.Common/Content.Medical.Common.csproj" />
   <!-- </Trauma> -->
+  <!-- <Moonlight> -->
+  <Project Path="Content.Moonlight.Server/Content.Moonlight.Server.csproj" />
+  <Project Path="Content.Moonlight.Shared/Content.Moonlight.Shared.csproj" />
+  <Project Path="Content.Moonlight.Client/Content.Moonlight.Client.csproj" />
+  <Project Path="Content.Moonlight.Common/Content.Moonlight.Common.csproj" />
+  <!-- </Moonlight> -->
   <Project Path="Content.Tests/Content.Tests.csproj" />
   <Project Path="Content.Tools/Content.Tools.csproj" />
   <Project Path="Content.YAMLLinter/Content.YAMLLinter.csproj" />
