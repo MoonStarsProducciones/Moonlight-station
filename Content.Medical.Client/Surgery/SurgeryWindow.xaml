@@ -132,7 +132,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
                                 HorizontalAlignment="Left"
                                 StyleClasses="TargetDollButtonGroin">
                                 <TextureRect
-                                    TexturePath="/Textures/_MoonsLight/Interface/Targeting/Doll/tail.png"
+                                    TexturePath="/Textures/_Moonlight/Interface/Targeting/Doll/tail.png"
                                     Visible="False"
                                     Stretch="KeepAspectCentered"
                                     SetSize="36 21"
@@ -230,7 +230,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
                                 VerticalAlignment="Bottom"
                                 HorizontalAlignment="Right">
                                 <TextureRect
-                                    TexturePath="/Textures/_MoonsLight/Interface/Targeting/Doll/wings.png"
+                                    TexturePath="/Textures/_Moonlight/Interface/Targeting/Doll/wings.png"
                                     Visible="False"
                                     Stretch="KeepAspectCentered"
                                     SetSize="33 30"
