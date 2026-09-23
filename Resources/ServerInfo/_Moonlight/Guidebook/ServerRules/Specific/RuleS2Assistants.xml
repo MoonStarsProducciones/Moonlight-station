@@ -1,9 +1,9 @@
 <Document>
-  # Specific Role Rule 2: Assistants/D-Class
+  # REGRAS ESPECÍFICAS DA FUNÇÃO 2: Assistentes/Classe D
 
-  - Assistant is a role intended for new players to learn how to play the game.
-  - Hijacking either of these roles to self antag will result in a server ban.
-  - If you want to freely self antag, enable insurgent in your character settings. It is Assistant/D-Class with self-antag rights.
-  - D-Class only refers to crew-aligned D-Class, which are those who spawn from the lobby. D-Class who spawn from the ghostrole are free agents.
+  - O Assistente é uma função destinada a jogadores novatos para que aprendam a jogar.
+  - Assumir qualquer uma dessas funções para se tornar antagonista por conta própria resultará em banimento do servidor.
+  - Se você quiser se tornar antagonista por conta própria livremente, ative a opção “insurgente” nas configurações do seu personagem. Trata-se de um Assistente/Classe D com direitos de se tornar antagonista por conta própria.
+  - “Classe D” refere-se apenas aos membros da Classe D alinhados à tripulação, ou seja, aqueles que aparecem no lobby. Os membros da Classe D que aparecem a partir do “ghostrole” são agentes livres.
 
 </Document>
