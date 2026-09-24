@@ -5,9 +5,9 @@ job-name-hos = segurança chefe
 job-name-detective = detetive
 job-name-brigmedic = médico do brig
 job-name-borg = ciborgue
-job-name-scientist = epistemologista
-job-name-research-assistant = assistente de epistemologia
-job-name-rd = Mistagogo
+job-name-scientist = cientista
+job-name-research-assistant = assistente de pesquisa
+job-name-rd = Diretor de Pesquisa
 job-name-roboticist = roboticista
 job-name-psychologist = psicólogo
 job-name-intern = médico estagiário
@@ -51,14 +51,14 @@ job-name-visitor = visitante
 # unused jobs
 # these are required for the agent ID job icon tooltips
 # I am keeping them for roleplaying opportunities
-job-name-geneticist = Geneticist
-job-name-boxer = Boxer
-job-name-no-id = No ID
-job-name-prisoner = Prisoner
-job-name-roboticist = Roboticist
-job-name-unknown = Unknown
+job-name-geneticist = Geneticista
+job-name-boxer = Boxiador
+job-name-no-id = Sem ID
+job-name-prisoner = prisioneiro
+job-name-roboticist = Roboticista
+job-name-unknown = Desconhecido
 job-name-sus = Sus
-job-name-virologist = Virologist
+job-name-virologist = Virologista
 job-name-zookeeper = Zookeeper
 
 # Nyano
@@ -113,9 +113,9 @@ JobPsychologist = psicólogo
 JobQuartermaster = contramestre
 JobReporter = repórter
 JobResearchAssistant = assistente de pesquisa
-JobResearchDirector = mistagogo
+JobResearchDirector = Diretor de Pesquisa
 JobSalvageSpecialist = especialista em salvatagem
-JobScientist = epistemologista
+JobScientist = cientista
 JobSecurityCadet = cadete da segurança
 JobSecurityOfficer = segurança
 JobServiceWorker = faz-tudo
