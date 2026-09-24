@@ -66,13 +66,17 @@ public sealed partial class VendingMachineSystem : SharedVendingMachineSystem
         if (brokenChanged)
             TryUpdateVisualState((uid, component));
 
-        if (!TryGetOpenUi(uid, out var bui))
-            return;
+        if (UISystem.TryGetOpenUi<BoundUserInterface>(entity.Owner,
+                VendingMachineUiKey.Key,
+                out var baseBui) && baseBui is IVendingMachineBoundUi bui) // Funky change
+        {
+            if (fullUiUpdate)
+                bui.Refresh();
+            else
+                bui.UpdateAmounts();
+        }
 
-        if (fullUiUpdate)
-            bui.Refresh();
-        else
-            bui.UpdateAmounts();
+
     }
 
     [SubscribeLocalEvent]
