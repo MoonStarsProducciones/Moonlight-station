@@ -68,7 +68,7 @@
     organs:
       Torso: OrganTajaranTorso
       Head: OrganTajaranHead
-      Tail: OrganTajaranTail # Trauma
+      Tail: OrganTajaranTail # Moonlight
       ArmLeft: OrganTajaranArmLeft
       ArmRight: OrganTajaranArmRight
       HandRight: OrganTajaranHandRight
@@ -227,7 +227,7 @@
   id: OrganTajaranTail
   components:
   - type: Sprite
-    sprite: _Goobstation/Mobs/Species/Tajaran/parts.rsi
+    sprite: _Moonlight/Mobs/Species/Tajaran/parts.rsi
   - type: VisualOrgan
     data:
       sprite: _Trauma/empty.rsi
