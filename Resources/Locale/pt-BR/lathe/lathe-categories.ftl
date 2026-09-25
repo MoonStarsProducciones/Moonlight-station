@@ -40,12 +40,9 @@ lathe-category-precious-tile = Precious
 lathe-category-industrial-tile = Industrial
 
 # Science
-lathe-category-mechs = Mechs
 lathe-category-modules = Modules
-lathe-category-robotics = Robotics
 
 # Security TechFab
-lathe-category-ammo = Ammo
 lathe-category-boxes = Boxes
 lathe-category-magazines = Magazines
 

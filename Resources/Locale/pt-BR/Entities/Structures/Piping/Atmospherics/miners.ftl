@@ -10,8 +10,8 @@ ent-GasMinerNitrogen = minerador de N2
 ent-GasMinerCarbonDioxide = minerador de CO2
     .desc = gases extraídos do gigante gasoso abaixo (ou a cima?) são expelidos por essa máquina enorme.
 
-ent-GasMinerPlasma = minerador de plasma
-    .desc = gases extraídos do gigante gasoso abaixo (ou a cima?) são expelidos por essa máquina enorme.
+# ent-GasMinerPlasma = minerador de plasma
+#    .desc = gases extraídos do gigante gasoso abaixo (ou a cima?) são expelidos por essa máquina enorme.
 
 ent-GasMinerTritium = minerador de trítio
     .desc = gases extraídos do gigante gasoso abaixo (ou a cima?) são expelidos por essa máquina enorme.

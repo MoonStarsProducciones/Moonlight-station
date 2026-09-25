@@ -14,13 +14,13 @@ ent-SteelOre1 = minério de aço
     .desc = Um pedaço de minério não refinado.
     .suffix = Único
 
-ent-PlasmaOre = minério de plasma
-    .desc = Um pedaço de minério não refinado.
-    .suffix = Cheio
+# ent-PlasmaOre = minério de plasma
+#    .desc = Um pedaço de minério não refinado.
+#    .suffix = Cheio
 
-ent-PlasmaOre1 = minério de plasma
-    .desc = Um pedaço de minério não refinado.
-    .suffix = Único
+# ent-PlasmaOre1 = minério de plasma
+#    .desc = Um pedaço de minério não refinado.
+#    .suffix = Único
 
 ent-SilverOre = minério de prata
     .desc = Um pedaço de minério não refinado.

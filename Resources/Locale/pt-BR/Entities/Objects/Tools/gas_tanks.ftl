@@ -22,6 +22,6 @@ ent-AirTank = tanque de ar
 ent-NitrousOxideTank = tanque de óxido nitroso
      .desc = Contém uma mistura de ar e óxido nitroso. Certifique-se de não reabastecê-lo com N2O puro.
 
-ent-PlasmaTank = tanque de plasma
-     .desc = Contém plasma perigoso. Não inspire. Extremamente inflamável.
+# ent-PlasmaTank = tanque de plasma
+#     .desc = Contém plasma perigoso. Não inspire. Extremamente inflamável.
 

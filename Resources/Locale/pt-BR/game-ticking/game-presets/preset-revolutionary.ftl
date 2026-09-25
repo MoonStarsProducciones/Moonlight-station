@@ -56,10 +56,6 @@ rev-not-enough-ready-players = Nem todos os jogadores deram "pronto" para inicia
 rev-no-one-ready = Nenhum jogador deu pronto! Não foi possivel iniciar uma Revolução.
 rev-no-heads = Não houve Líderes Revolucionários para serem selecionados. Não é possível iniciar uma revolução.
 
-rev-not-enough-ready-players = Not enough players readied up for the game. There were {$readyPlayersCount} players readied up out of {$minimumPlayers} needed. Can't start Revolutionaries.
-rev-no-one-ready = No players readied up! Can't start Revolutionaries.
-rev-no-heads = There were no Head Revolutionaries to be selected. Can't start Revolutionaries.
-
 rev-won = Os Líderes da Revolução sobreviveram e eliminaram todo o Comando.
 
 rev-lost = O Comando sobreviveu e eliminou todos os Líderes da Revolução.

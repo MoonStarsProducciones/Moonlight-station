@@ -1,6 +1,3 @@
-ent-Hypospray = hipospray
-     .desc = Um injetor estéril para administração rápida de medicamentos aos pacientes.
-
 ent-SyndiHypo = hipospray gorlax
      .desc = Usando designs de engenharia reversa do NT, a Cybersun os produziu em quantidades limitadas para Gorlax Marauderes.
 

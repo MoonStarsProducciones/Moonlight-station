@@ -10,8 +10,8 @@ ent-WoodDoor = porta de madeira
 ent-PaperDoor = porta de papel
     .desc = Uma porta, o que terá atrás?
 
-ent-PlasmaDoor = porta de plasma
-    .desc = Uma porta, o que terá atrás?
+# ent-PlasmaDoor = porta de plasma
+#    .desc = Uma porta, o que terá atrás?
 
 ent-GoldDoor = porta de ouro
     .desc = Uma porta, o que terá atrás?

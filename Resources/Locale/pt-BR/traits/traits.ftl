@@ -105,9 +105,6 @@ trait-description-Snoring = Você roncará quando dormir.
 trait-archaic-accent-name = Sotaque Arcaico (em inglês)
 trait-archaic-accent-desc = Você fala de uma maneira que os outros consideram antiquada
 
-trait-wheelchair-bound-name = Presa à cadeira de rodas
-trait-wheelchair-bound-desc = Você não pode se mover sem sua cadeira de rodas. Cadeira de rodas incluída.
-
 trait-name-CPRTraining = Treinamento em CPR
 trait-description-CPRTraining = Em algum momento da sua vida, você recebeu treinamento sobre como realizar a CPR.
                                 Este traço é automaticamente concedido gratuitamente aos médicos e é destinado a personagens não médicos

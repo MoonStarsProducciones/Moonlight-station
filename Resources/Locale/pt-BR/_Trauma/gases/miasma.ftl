@@ -1,7 +1,7 @@
 gas-miasma = Miasma
 
-ent-AmmoniaCanister = miasma canister
-    .desc = A canister that can contain any type of gas. This one is supposed to contain miasma. It can be attached to connector ports using a wrench.
+ent-AmmoniaCanister = cilindro de amônia
+    .desc = Um recipiente que pode conter qualquer tipo de gás. Este deve conter amônia. Pode ser conectado às portas do conector usando uma chave inglesa.
 
 ent-GasMinerAmmonia = miasma gas miner
     .desc = Gases mined from the gas giant below (above?) flow out through this massive vent.

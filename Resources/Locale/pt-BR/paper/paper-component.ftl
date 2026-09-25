@@ -27,13 +27,10 @@ paper-component-examine-detail-stamped-by = {CAPITALIZE(THE($paper))} {CONJUGATE
 paper-component-illiterate = You are unable to write.
 paper-component-illiterate-mime = Your vow forbids you from writing.
 
-paper-component-action-stamp-paper-other = {CAPITALIZE(THE($user))} stamps {THE($target)} with {THE($stamp)}.
-paper-component-action-stamp-paper-self = You stamp {THE($target)} with {THE($stamp)}.
+paper-component-action-stamp-paper-other = {CAPITALIZE(THE($user))} carimbou o {THE($target)} com {THE($stamp)}.
+paper-component-action-stamp-paper-self = Você carimbou o {THE($target)} com {THE($stamp)}.
 
 # Indicator to show how full a paper is
 paper-ui-fill-level = {$currentLength}/{$maxLength}
-
-paper-component-action-stamp-paper-other = {CAPITALIZE(THE($user))} carimbou o {THE($target)} com {THE($stamp)}.
-paper-component-action-stamp-paper-self = Você carimbou o {THE($target)} com {THE($stamp)}.
 
 paper-ui-save-button = Salvar ({$keybind})

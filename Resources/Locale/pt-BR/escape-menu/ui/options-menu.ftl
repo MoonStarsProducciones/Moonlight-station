@@ -107,7 +107,6 @@ ui-options-header-camera = Camera
 ui-options-header-interaction-basic = Interação Básica
 ui-options-header-interaction-adv = Interação Avançada
 ui-options-header-ui = Interface do Usuário
-ui-options-header-targeting = Mirar
 ui-options-header-misc = Miscelânea
 ui-options-header-hotbar = Barra de atalho
 ui-options-header-shuttle = Shuttle
@@ -117,7 +116,6 @@ ui-options-header-general = Geral
 
 ui-options-hotkey-keymap = Usar teclas QWERTY
 ui-options-hotkey-toggle-walk = Alternar caminhar
-ui-options-hotkey-default-walk = Andar por default
 
 ui-options-function-move-up = Mover pra Cima
 ui-options-function-move-left = Mover pra Esquerda
@@ -163,13 +161,6 @@ ui-options-function-point = Apontar para local
 ui-options-function-rotate-object-clockwise = Rotacionar no sentido horário
 ui-options-function-rotate-object-counterclockwise = Rotacionar no sentido anti-horário
 ui-options-function-flip-object = Inverter
-
-ui-options-function-target-head = Mirar na cabeça
-ui-options-function-target-torso = Mirar no torso
-ui-options-function-target-left-arm = Mirar no braço esquerdo
-ui-options-function-target-right-arm = Mirar no braço direito
-ui-options-function-target-left-leg = Mirar na perna esquerda
-ui-options-function-target-right-leg = Mirar na perna direita
 
 ui-options-function-focus-chat-input-window = Foco no Chat
 ui-options-function-focus-local-chat-window = Foco no Chat (IC)
@@ -285,5 +276,4 @@ cmd-options-help = Uso: options [aba]
 
 ## Combat Options
 ui-options-function-look-up = Mirar
-ui-options-function-auto-get-up = Se levantar automaticamente depois de cair.
 ui-options-function-hold-look-up = Segurar para mirar

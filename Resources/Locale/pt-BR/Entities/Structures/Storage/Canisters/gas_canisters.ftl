@@ -25,17 +25,14 @@ ent-CarbonDioxideCanister = cilindro de dióxido de carbono
 ent-LiquidCarbonDioxideCanister = cilindro de dióxido de carbono líquido
     .desc = Um recipiente que pode conter qualquer tipo de gás. Este deve conter dióxido de carbono líquido. Pode ser conectado às portas do conector usando uma chave inglesa.
 
-ent-PlasmaCanister = cilindro de plasma
-    .desc = Um recipiente que pode conter qualquer tipo de gás. Este deve conter plasma. Pode ser conectado às portas do conector usando uma chave inglesa.
+# ent-PlasmaCanister = cilindro de plasma
+#    .desc = Um recipiente que pode conter qualquer tipo de gás. Este deve conter plasma. Pode ser conectado às portas do conector usando uma chave inglesa.
 
 ent-TritiumCanister = cilindro de trítio
     .desc = Um recipiente que pode conter qualquer tipo de gás. Este deve conter trítio. Pode ser conectado às portas do conector usando uma chave inglesa.
 
 ent-WaterVaporCanister = cilindro de vapor de água
     .desc = Um recipiente que pode conter qualquer tipo de gás. Este deve conter vapor de água. Pode ser conectado às portas do conector usando uma chave inglesa.
-
-ent-AmmoniaCanister = cilindro de amônia
-    .desc = Um recipiente que pode conter qualquer tipo de gás. Este deve conter amônia. Pode ser conectado às portas do conector usando uma chave inglesa.
 
 ent-NitrousOxideCanister = cilindro de óxido nitroso
     .desc = Um recipiente que pode conter qualquer tipo de gás. Este deve conter óxido nitroso. Pode ser conectado às portas do conector usando uma chave inglesa.

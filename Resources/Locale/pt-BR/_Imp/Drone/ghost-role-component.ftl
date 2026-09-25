@@ -5,8 +5,9 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-ghost-role-information-onestar-mecha-name = OneStar Mecha
-ghost-role-information-onestar-mecha-description = You are this station's end.
+ghost-role-information-onestar-mecha-name = Onestar Mecha
+ghost-role-information-onestar-mecha-description = Você é um mecha experimental criado por sabe-se lá o quê, tudo o que você sabe é que tem armas e detecta alvos carnudos em movimento por perto...
+ghost-role-information-onestar-mecha-rules = Use suas armas para causar estragos. Você é um antagonista.
 
 ghost-role-information-drone-name = Maintenance Drone
 # Goobstation

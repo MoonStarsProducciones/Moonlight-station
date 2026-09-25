@@ -27,9 +27,6 @@ alerts-weightless-desc =
     A gravidade deixou de afetá-lo e você está flutuando sem rumo. Encontre algo resistente para segurar, ou jogue ou atire em algo na direção oposta a você.
     Botas magnéticas ou mochilas a jato ajudariam você a se mover com mais controle.
 
-alerts-stunned-name = [color=yellow]Atordoado[/color]
-alerts-stunned-desc = Você está [color=yellow]atordoado[/color]! Algo está prejudicando sua capacidade de se mover ou interagir com objetos.
-
 alerts-handcuffed-name = [color=yellow]Algemado[/color]
 alerts-handcuffed-desc = Você está [color=yellow]algemado[/color] e não pode usar as mãos. Se alguém te arrastar, você não conseguirá resistir.
 
@@ -74,12 +71,6 @@ alerts-thirsty-desc = Algo para beber seria bom agora.
 
 alerts-parched-name = [color=red]Ressecado[/color]
 alerts-parched-desc = Você está com muita sede. A sede torna o movimento uma tarefa árdua.
-
-alerts-muted-name = Silenciado
-alerts-muted-desc = Você perdeu a capacidade de falar.
-
-alerts-vow-silence-name = Voto de silêncio
-alerts-vow-silence-desc = Você fez um voto de silêncio como parte da iniciação na Mystiko Tagma Mimon. Clique para quebrar seu voto.
 
 alerts-vow-broken-name = Voto quebrado
 alerts-vow-broken-desc = Você quebrou seus votos para Mimes em todos os lugares. Você pode falar, mas perdeu seus poderes por pelo menos 5 minutos inteiros!!! Clique para tentar retomar seu voto.

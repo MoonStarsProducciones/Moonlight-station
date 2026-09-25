@@ -198,10 +198,6 @@ ghost-role-information-skeleton-biker-description = Passeie por aí em seu doce 
 ghost-role-information-closet-skeleton-name = Esqueleto do armário
 ghost-role-information-closet-skeleton-description = [color=red]VOCÊ NÃO É ANTAGONISTA[/color]. Viva a vida que você não viveu! Ajude a tripulação e curta sua nova vida.
 
-ghost-role-information-onestar-mecha-name = Onestar Mecha
-ghost-role-information-onestar-mecha-description = Você é um mecha experimental criado por sabe-se lá o quê, tudo o que você sabe é que tem armas e detecta alvos carnudos em movimento por perto...
-ghost-role-information-onestar-mecha-rules = Use suas armas para causar estragos. Você é um antagonista.
-
 ghost-role-information-remilia-name = Remilia, familiar do padre
 ghost-role-information-remilia-description = Obedeça seu mestre. Coma fruta.
 ghost-role-information-remilia-rules = Você é um morcego frugívoro inteligente. Siga o padre ao redor. Não cause nenhum problema, a menos que o padre lhe diga.

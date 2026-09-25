@@ -3,4 +3,6 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
+lung-behavior-gasp = está sufocando
+
 silicon-behavior-buzz = Bzzzzt...

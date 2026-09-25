@@ -15,9 +15,7 @@
 
 ## Window
 
-air-alarm-ui-access-denied = Acesso insuficiente!
-
-air-alarm-ui-access-denied = Insufficient access!
+air-alarm-ui-access-denied = Acesso Negado!
 
 air-alarm-ui-window-pressure-label = Pressão
 air-alarm-ui-window-temperature-label = Temperatura

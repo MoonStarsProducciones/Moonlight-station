@@ -1,19 +1,19 @@
 -create-3rd-person =
     { $chance ->
-        [1] Creates
-        *[other] create
+        [1] Cria
+        *[other] criam
     }
 
 -cause-3rd-person =
     { $chance ->
-        [1] Causes
-        *[other] cause
+        [1] Causa
+        *[other] causam
     }
 
 -satiate-3rd-person =
     { $chance ->
-        [1] Satiates
-        *[other] satiate
+        [1] Satisfaz
+        *[other] satisfazem
     }
 
 entity-effect-guidebook-spawn-entity =

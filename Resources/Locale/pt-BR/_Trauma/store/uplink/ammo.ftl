@@ -15,6 +15,3 @@ uplink-magazine-bulldog-pellet-name-trauma = Drum Magazine (12 gauge shot)
 uplink-magazine-bulldog-slug-name-trauma = Drum Magazine (12 gauge slug)
 
 uplink-pistol-magazine-c20r-name-trauma = SMG Magazine (9mm)
-
-uplink-speedloader-magnum-name = Speedloader (.45 magnum AP)
-uplink-speedloader-magnum-desc = Revolver speedloader with 6 armor-piercing cartridges, capable of ignoring armor entirely. Compatible with the Python.

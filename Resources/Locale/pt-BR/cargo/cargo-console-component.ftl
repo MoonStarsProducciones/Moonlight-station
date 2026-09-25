@@ -1,8 +1,5 @@
 ## UI
-cargo-console-menu-title = Console de Pedidos da Cargo
-bounty-manifest-header = [font size=14][bold]Official cargo bounty manifest[/bold] (ID#{$id})[/font]
 cargo-console-menu-flavor-right = v2.1
-bounty-manifest-list-start = Item manifest:
 cargo-console-menu-account-name-label = Nome da conta:{" "}
 cargo-console-menu-account-name-none-text = Nenhum
 cargo-console-menu-account-name-format = [bold][color={$color}]{$name}[/color][/bold] [font="Monospace"]\[{$code}\][/font]

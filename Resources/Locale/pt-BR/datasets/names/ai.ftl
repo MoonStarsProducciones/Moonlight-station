@@ -1,6 +1,5 @@
 names-ai-dataset-1 = 14-BIT
 names-ai-dataset-2 = 16-20
-names-ai-dataset-3 = 512k
 
 # Ought to be enough for anybody
 names-ai-dataset-3 = 640kk

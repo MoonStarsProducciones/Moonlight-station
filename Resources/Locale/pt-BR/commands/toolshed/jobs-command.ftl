@@ -1,12 +1,12 @@
 command-description-jobs-jobs =
-    Returns all jobs on a station.
+    Retorna todos os trabalhos em uma estação.
 command-description-jobs-job =
-    Returns a given job on a station.
+    Retorna um trabalho específico em uma estação.
 command-description-jobs-isinfinite =
-    Returns true if the input job is infinite, otherwise false.
+    Retorna verdadeiro se o trabalho de entrada for infinito, caso contrário, falso.
 command-description-jobs-adjust =
-    Adjusts the number of slots for the given job.
+    Ajusta o número de vagas para o trabalho fornecido.
 command-description-jobs-set =
-    Sets the number of slots for the given job.
+    Define o número de vagas para o trabalho fornecido.
 command-description-jobs-amount =
-    Returns the number of slots for the given job.
+    Retorna o número de vagas para o trabalho fornecido.

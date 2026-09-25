@@ -19,8 +19,8 @@ ent-TableGlass = mesa de vidro
 ent-TableReinforcedGlass = mesa de vidro reforçada
     .desc = Uma chapa de vidro extra robusta sobre quatro pernas.
 
-ent-TablePlasmaGlass = mesa de vidro de plasma
-    .desc = Uma chapa de vidro de plasma sobre quatro pernas. Bonita a cor.
+# ent-TablePlasmaGlass = mesa de vidro de plasma
+#    .desc = Uma chapa de vidro de plasma sobre quatro pernas. Bonita a cor.
 
 ent-TableWood = mesa de madeira
     .desc = Não taque fogo, dizem que essa queima mesmo.

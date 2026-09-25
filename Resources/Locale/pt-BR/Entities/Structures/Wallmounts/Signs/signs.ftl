@@ -347,8 +347,8 @@ ent-WarningN2O = placa de aviso de N2O
 ent-WarningO2 = placa de aviso de O2
     .desc = AVISO! Tubo de fluxo de O2. Certifique-se de que o fluxo esteja desligado antes de trabalhar.
 
-ent-WarningPlasma = placa de aviso de plasma
-    .desc = AVISO! Tubo de fluxo de plasma. Certifique-se de que o fluxo esteja desligado antes de trabalhar.
+# ent-WarningPlasma = placa de aviso de plasma
+#    .desc = AVISO! Tubo de fluxo de plasma. Certifique-se de que o fluxo esteja desligado antes de trabalhar.
 
 ent-WarningTritium = placa de aviso de trítio
     .desc = AVISO! Tubo de fluxo de trítio. Certifique-se de que o fluxo esteja desligado antes de trabalhar.

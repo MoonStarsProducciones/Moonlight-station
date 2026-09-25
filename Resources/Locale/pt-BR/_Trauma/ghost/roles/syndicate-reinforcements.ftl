@@ -10,8 +10,11 @@ ghost-role-information-syndicate-behonker-desc = A disciple of the Honkmother ne
 ghost-role-information-nukie-carp-name = Nuclear Operative Carp
 ghost-role-information-nukie-carp-description = A Nuclear Operative Carp reinforcement for the Syndicate.
 
-ghost-role-information-nukie-mouse-name = Nuclear Operative Mouse
-ghost-role-information-nukie-mouse-description = A Nuclear Operative Mouse reinforcement for the Syndicate.
+ghost-role-information-nukie-mouse-name = Rato Operativo Nuclear
+ghost-role-information-nukie-mouse-description = Um reforço Operativo Nuclear para o Sindicato.
+ghost-role-information-nukie-mouse-rules = Aplicam-se as regras normais dos antagonistas do sindicato. Trabalhe com quem ligou para você e não os prejudique.
+                                           A tripulação tem permissão para matá-lo sem aviso prévio.
+                                           Você tem permissão para atacar a tripulação e destruir a estação sem aviso prévio. 					 
 
 ghost-role-information-nukie-spider-name = Nuclear Operative Spider
 ghost-role-information-nukie-spider-description = A Nuclear Operative Spider reinforcement for the Syndicate.

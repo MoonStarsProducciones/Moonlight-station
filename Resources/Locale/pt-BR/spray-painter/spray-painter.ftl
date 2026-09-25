@@ -21,7 +21,8 @@ spray-painter-item-status-off = [color=gray]Off[/color]
 # UI
 spray-painter-window-title = Spray Painter
 
-spray-painter-selected-style = Selected style:
+spray-painter-not-available = Não é possível aplicar o estilo neste tipo de porta
+spray-painter-selected-style = Estilo selecionado:
 
 spray-painter-selected-decals = Selected decal:
 spray-painter-use-custom-color = Use custom color
@@ -32,15 +33,15 @@ spray-painter-angle-rotation-90-sub = -90°
 spray-painter-angle-rotation-reset = 0°
 spray-painter-angle-rotation-90-add = +90°
 
-spray-painter-selected-color = Selected color:
-spray-painter-color-red = red
-spray-painter-color-yellow = yellow
-spray-painter-color-brown = brown
-spray-painter-color-green = green
-spray-painter-color-cyan = cyan
-spray-painter-color-blue = blue
-spray-painter-color-white = white
-spray-painter-color-black = black
+spray-painter-selected-color = Cor selecionada:
+spray-painter-selected-red = vermelho
+spray-painter-selected-yellow = amarelo
+spray-painter-selected-brown = marrom
+spray-painter-selected-green = verde
+spray-painter-selected-cyan = ciano
+spray-painter-selected-blue = azul
+spray-painter-selected-white = branco
+spray-painter-selected-black = preto
 
 # Categories (tabs)
 spray-painter-tab-category-airlocks = Airlocks
