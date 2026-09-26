@@ -12,8 +12,6 @@ station-event-ion-storm-start-announcement = Tempestade de íons detectada próx
 # Characters are randomly selected from the total list, meaning duplicates increase the odds that specific character is seen.
 ion-storm-law-scrambled-number = [font="Monospace"][scramble rate=250 length={$length} chars="!!@@###$$%^&*-_=+0011"/][/font]
 
-ion-storm-law-scrambled-number = [font="Monospace"][scramble rate=250 length={$length} chars="@@###$$&%!01"/][/font]
-
 ion-storm-you = VOCÊ
 ion-storm-the-station = A ESTAÇÃO
 ion-storm-the-crew = A TRIPULAÇÃO

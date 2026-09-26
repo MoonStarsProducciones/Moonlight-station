@@ -368,8 +368,6 @@ accent-dwarf-words-replace-122 = mais ainda
 
 accent-dwarf-words-123 = sobre
 accent-dwarf-words-replace-123 = sôbre
-accent-dwarf-words-123 = over
-accent-dwarf-words-replace-123 = o'er
 
 accent-dwarf-words-125 = human
 accent-dwarf-words-replace-125 = humi

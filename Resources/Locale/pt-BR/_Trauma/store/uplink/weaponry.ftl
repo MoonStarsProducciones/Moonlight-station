@@ -12,11 +12,11 @@ uplink-foam-cutlass-desc = A blade disguised as a toy foam cutlass. Perfect for 
 
 uplink-bulk-mosin-name-trauma = Syndicate Bulk Rifle Crate
 
-uplink-fire-axe-flaming-name = Fire Axe
-uplink-fire-axe-flaming-desc = A classic-style weapon infused with advanced atmos technology to allow it to set targets on fire. Now with rugged rubberized handle!
+uplink-fire-axe-flaming-name = Machado de Fogo
+uplink-fire-axe-flaming-desc = Uma arma de estilo clássico infundida com avançada tecnologia de atmos para permitir que ela incendeie alvos.
 
 uplink-revolver-python-name = Python
-uplink-revolver-python-desc = A brutally simple, effective, and loud Syndicate revolver. Comes loaded with armor-piercing rounds. Uses .45 magnum.
+uplink-revolver-python-desc = Um revólver brutalmente simples, eficaz e alto do Syndicate. Vem carregado com balas perfurantes. Usa cartuchos .45 magnum.
 
 uplink-double-esword-name = Double-Bladed Energy Sword
 uplink-double-esword-desc = An extremely dangerous double energy sword. Forces you to flip when hitting your target via light attack, dealing extra damage, speeding you up and making you dodge projectiles briefly.

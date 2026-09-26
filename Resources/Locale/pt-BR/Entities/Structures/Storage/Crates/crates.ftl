@@ -46,8 +46,8 @@ ent-CratePrivateSecure = caixa de privada
 ent-CrateScienceSecure = caixa de ciência segura
     .desc = { "" }
 
-ent-CratePlasma = caixa de plasma
-    .desc = { "" }
+# ent-CratePlasma = caixa de plasma
+#    .desc = { "" }
 
 ent-CrateSecure = caixa segura
     .desc = { "" }

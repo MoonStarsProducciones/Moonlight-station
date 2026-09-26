@@ -38,5 +38,4 @@ stamp-component-stamped-name-ce = Engenheiro Chefe
 stamp-component-stamped-name-chiefjustice = Juiz Chefe
 stamp-component-stamped-name-notary = Escriturário.
 stamp-component-stamped-name-psychologist = Psicólogo
-stamp-component-stamped-name-nanorep = Contato Corporativo
 stamp-component-stamped-name-magistrate = Magistrado

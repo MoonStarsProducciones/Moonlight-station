@@ -55,7 +55,6 @@ job-description-station-ai = Remotely interface with the station's cameras, airl
 
 # Misc.
 job-description-centcommoff = Atue como embaixador da mais nova estação espacial de última geração da frota da Nanotrasen.
-job-description-engineer = Mantenha o motor principal e os painéis solares da estação ativos, otimize a rede de energia e faça reparos de emergência usando seu traje rígido em áreas espaçadas.
 job-description-ertengineer = Certifique-se de que a estação tenha energia e ar limpo.
 job-description-ertjanitor = Certifique-se de que a estação esteja devidamente limpa - para manter o moral.
 job-description-ertleader = Lidere a Equipe de Resposta a Emergências no tratamento de ameaças aos ativos da Nanotrasen.

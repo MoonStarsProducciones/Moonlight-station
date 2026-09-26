@@ -52,14 +52,10 @@ job-name-visitor = visitante
 # these are required for the agent ID job icon tooltips
 # I am keeping them for roleplaying opportunities
 job-name-geneticist = Geneticista
-job-name-boxer = Boxiador
 job-name-no-id = Sem ID
-job-name-prisoner = prisioneiro
-job-name-roboticist = Roboticista
 job-name-unknown = Desconhecido
 job-name-sus = Sus
 job-name-virologist = Virologista
-job-name-zookeeper = Zookeeper
 
 # Nyano
 job-name-mystagogue = Mistagogo

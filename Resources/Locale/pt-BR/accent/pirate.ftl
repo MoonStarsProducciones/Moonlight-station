@@ -30,4 +30,3 @@ accent-pirate-replacement-5 = ser
 
 accent-pirate-replaced-8 = lá
 accent-pirate-replacement-6 = ali
-accent-pirate-replaced-6 = there

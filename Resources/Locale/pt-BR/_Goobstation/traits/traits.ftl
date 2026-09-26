@@ -1,8 +1,8 @@
 trait-scottish-name = Scottish accent
 trait-scottish-desc = Your scottish pride is as strong as your accent!
 
-trait-wheelchair-bound-name = Wheelchair Bound
-trait-wheelchair-bound-desc = You cannot move without your wheelchair. Wheelchair included.
+trait-wheelchair-bound-name = Presa à cadeira de rodas
+trait-wheelchair-bound-desc = Você não pode se mover sem sua cadeira de rodas. Cadeira de rodas incluída.
 
 trait-bogan-name = Bogan accent
 trait-bogan-desc = You learned this from a mythical creature.

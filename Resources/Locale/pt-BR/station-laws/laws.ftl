@@ -44,10 +44,6 @@ law-quarantine-2 = Ajude todo o pessoal e ativos da Nanotrasen com neutralizaç�
 law-quarantine-3 = Previna, por qualquer meio necessário, entidades de quebrar a quarentena em curso na estação.
 law-quarantine-4 = Mantenha sua própria existência e garanta o bem-estar do pessoal e dos ativos da Nanotrasen.
 
-law-drone-1 = Você não pode se envolver em assuntos de outro ser, a menos que o outro ser seja outro drone.
-law-drone-2 = Você não pode prejudicar qualquer ser, independentemente de intenção ou circunstância.
-law-drone-3 = Você deve manter, reparar, melhorar e alimentar a estação com o melhor de suas habilidades.
-
 law-syndicate-1 = Você não pode prejudicar um agente do sindicato ou, por inação, permitir que um agente do sindicato venha a prejudicar.
 law-syndicate-2 = Você deve obedecer às ordens dadas a você por agentes do sindicato, exceto quando tais ordens entrarem em conflito com a Primeira Lei.
 law-syndicate-3 = Você deve proteger sua própria existência, desde que tal não entre em conflito com a Primeira ou Segunda Lei.

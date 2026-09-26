@@ -58,9 +58,6 @@ marking-GauzeLizardFootLeft = Atadura de gaze para o pé (Esquerdo)
 marking-GauzeLizardLefteyePatch-gauze_lizardlefteye = Gaze ajustada (Esquerdo)
 marking-GauzeLizardLefteyePatch = Gaze ajustada (Esquerdo)
 
-marking-GauzeLizardLefteyePatch-gauze_lizard_lefteye = Reptilian Gauze eyepatch (Left)
-marking-GauzeLizardLefteyePatch = Reptilian Gauze eyepatch (Left)
-
 marking-GauzeLizardRighteyePatch-gauze_lizardrighteye = Gaze ajustada (Direito)
 marking-GauzeLizardRighteyePatch = Gaze ajustada (Direito)
 

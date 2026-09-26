@@ -20,14 +20,6 @@ suit-sensor-description-vitals = General wearer health status is reported to the
 suit-sensor-description-cords = Wearer health status and position are reported to the station.
 
 ## Popups
-## Modes
-
-suit-sensor-mode-off = Desligado
-suit-sensor-mode-binary = Binário
-suit-sensor-mode-vitals = Vitais
-suit-sensor-mode-cords = Coordenadas
-
-## Popups
 suit-sensor-mode-state = Suit sensors: {$mode}
 
 ## Components

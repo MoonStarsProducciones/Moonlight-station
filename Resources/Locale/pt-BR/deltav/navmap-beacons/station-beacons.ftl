@@ -22,7 +22,6 @@ station-beacon-engi-outpost = Posto de Eng.
 
 station-beacon-janitor-office = Escr. Zeladoria
 station-beacon-janitor-closet = Armár. Zeladoria
-station-beacon-reporter = Repórter
 
 station-beacon-camera-servers = Câmeras
 

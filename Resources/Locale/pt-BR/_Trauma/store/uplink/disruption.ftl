@@ -15,8 +15,8 @@ uplink-shuttle-iff-desc = Allows you to control the IFF and stealth characterist
 
 uplink-cameraBug-name-trauma = Camera Bug
 
-uplink-super-surplus-bundle-name = Super Surplus Crate
-uplink-super-surplus-bundle-desc = Contains 625 telecrystals worth of completely random Syndicate items.
+uplink-super-surplus-bundle-name = Super Caixa Excedente
+uplink-super-surplus-bundle-desc = Contém itens completamente aleatórios do Sindicato valendo 625 telecriscristais somados.
 
-uplink-syndicate-segway-crate-name = Syndicate Segway
-uplink-syndicate-segway-crate-desc = Be an enemy of the corporation, in style!
+uplink-syndicate-segway-crate-name = Segway do Sindicato
+uplink-syndicate-segway-crate-desc = Seja um inimigo da corporação, com estilo!

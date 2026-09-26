@@ -1,8 +1,5 @@
 ### Interaction Messages
 
-# Shown when player tries to replace light, but there are no lights left
-comp-light-replacer-missing-light = No {MAKEPLURAL($light-name)} left in {THE($light-replacer)}.
-
 # Shown when player tries to replace light, but there is no lighs left
 comp-light-replacer-missing-light = Não há lâmpadas sobrando {THE($light-replacer)}.
 

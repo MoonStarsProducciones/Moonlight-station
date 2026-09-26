@@ -1,2 +1,2 @@
 command-description-unpolymorph =
-    Reverts a polymorph.
+    Reverte uma polimorfia.

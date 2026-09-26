@@ -1,4 +1,4 @@
 command-description-admins-active =
-    Returns a list of active admins.
+    Retorna uma lista de administradores ativos.
 command-description-admins-all =
-    Returns a list of ALL admins, including deadmined ones.
+    Retorna uma lista de TODOS os administradores, incluindo aqueles que não estão administrando.

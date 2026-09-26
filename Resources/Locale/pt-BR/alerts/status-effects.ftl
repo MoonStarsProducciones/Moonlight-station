@@ -4,11 +4,11 @@ alerts-adrenaline-desc = You're full of adrenaline: pain won't slow you down.
 alerts-drunk-name = [color=yellow]Drunk[/color]
 alerts-drunk-desc = Recreational poison has made things more difficult for you.
 
-alerts-muted-name = Muted
-alerts-muted-desc = You have lost the ability to speak.
+alerts-muted-name = Silenciado
+alerts-muted-desc = Você perdeu a capacidade de falar.
 
-alerts-stunned-name = [color=yellow]Stunned[/color]
-alerts-stunned-desc = You're [color=yellow]stunned[/color]! Something is impairing your ability to move or interact with objects.
+alerts-stunned-name = [color=yellow]Atordoado[/color]
+alerts-stunned-desc = Você está [color=yellow]atordoado[/color]! Algo está prejudicando sua capacidade de se mover ou interagir com objetos.
 
-alerts-vow-silence-name = Vow of Silence
-alerts-vow-silence-desc = You have taken a vow forbidding verbal or written communication as part of initiation into the Mystiko Tagma Mimon. Click to break your vow.
+alerts-vow-silence-name = Voto de silêncio
+alerts-vow-silence-desc = Você fez um voto de silêncio como parte da iniciação na Mystiko Tagma Mimon. Clique para quebrar seu voto.

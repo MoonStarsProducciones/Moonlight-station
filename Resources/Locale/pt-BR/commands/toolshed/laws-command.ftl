@@ -1,4 +1,4 @@
 command-description-laws-list =
-    Returns a list of all law bound entities.
+    Retorna uma lista de todas as entidades vinculadas por lei.
 command-description-laws-get =
-    Returns all of the laws for a given entity.
+    Retorna todas as leis de uma entidade fornecida.

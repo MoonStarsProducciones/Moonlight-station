@@ -121,7 +121,8 @@ ghost-role-information-dark-priest-name = Dark Priest
 ghost-role-information-dark-priest-description = An agent of the dark gods, sent to kill someone, protect someone and hire someone who has roused their interest as their apprentice, Carries the "blessing of the reaper".
 dark-priest-role-greeting = You are a [color=#880808]Dark Priest[/color], you have been sent to this station to pick someone to become your apprentice, kill someone and protect someone, check your character sheet for your objectives.
 objective-condition-other-alive-title = Ensure crew member {$targetName}, {CAPITALIZE($job)} stays alive.
-objective-issuer-self = [color=#7851A9]For your own interests[/color]
+paradox-anomaly-round-end-agent-name = Anomalia de paradoxo
+objective-issuer-self = [color=#7851A9]Self[/color]
 
 ghost-role-information-vox-raider-name = Vox Raider
 ghost-role-information-vox-raider-description = Vox that swear their loyalty to the Shoal. It is unclear what their intentions or whether they plan on trading or thieving from the station. It is always best to use caution when they show up.

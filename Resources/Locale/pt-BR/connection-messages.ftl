@@ -1,29 +1,16 @@
-cmd-whitelistadd-desc = Adds the player with the given username to the server whitelist.
-cmd-whitelistadd-help = Usage: whitelistadd <username or User ID>
-cmd-whitelistadd-existing = {$username} is already on the whitelist!
-cmd-whitelistadd-added = {$username} added to the whitelist
-cmd-whitelistadd-not-found = Unable to find '{$username}'
-
-
-
-
-
-
-
-
 cmd-whitelistadd-desc = Adiciona o jogador na Lista de Permissão.
 cmd-whitelistadd-help = whitelistadd <username>
 cmd-whitelistadd-existing = {$username} já está na Lista de Permissão!
 cmd-whitelistadd-added = {$username} adicionado à Lista de Permissão
 cmd-whitelistadd-not-found = Usuário '{$username}' não encontrado
-cmd-whitelistadd-arg-player = [player]
+cmd-whitelistadd-arg-player = [Jogador]
 
 cmd-whitelistremove-desc = Remove o jogador da Lista de Permissão.
 cmd-whitelistremove-help = whitelistremove <username>
 cmd-whitelistremove-existing = {$username} não está na Lista de Permissão!
 cmd-whitelistremove-removed = {$username} removido da Lista de Permissão
 cmd-whitelistremove-not-found = Incapaz de achar '{$username}'
-cmd-whitelistremove-arg-player = [player]
+cmd-whitelistremove-arg-player = [Jogador]
 
 cmd-kicknonwhitelisted-desc = Expulsar todos os jogadores que não estão na Lista de Permissão.
 cmd-kicknonwhitelisted-help = kicknonwhitelisted

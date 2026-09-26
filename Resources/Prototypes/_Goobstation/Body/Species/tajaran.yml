@@ -68,7 +68,7 @@
     organs:
       Torso: OrganTajaranTorso
       Head: OrganTajaranHead
-      Tail: OrganTajaranTail # Trauma
+      Tail: OrganTajaranTail # Moonlight
       ArmLeft: OrganTajaranArmLeft
       ArmRight: OrganTajaranArmRight
       HandRight: OrganTajaranHandRight
@@ -117,9 +117,9 @@
     emoteSounds: MaleFelinid
   - type: Damageable
     damageModifierSet: Tajaran
-  - type: TemperatureProtection # fur is a good insulator, actually
-    heatingCoefficient: 0.1
-    coolingCoefficient: 0.1
+#  - type: TemperatureProtection # fur is a good insulator, actually
+#   heatingCoefficient: 0.1
+#   coolingCoefficient: 0.1
   - type: Flammable
     firestackFade: -0.08 # until you light it up, cuz it's oily too. 20% lower than default
   - type: MeleeWeapon
@@ -130,8 +130,8 @@
       types:
         Slash: 4
         Piercing: 1
-  - type: Temperature
-    currentTemperature: 311.76  # Body temperature of cat
+  # - type: Temperature
+  #   Temperature: 311.76  # Body temperature of cat
   - type: TemperatureDamage
     coldDamageThreshold: 248.15 # -25 degrees centigrade, like 12 degrees below normal "takes cold damage"
     coldDamage:
@@ -227,7 +227,7 @@
   id: OrganTajaranTail
   components:
   - type: Sprite
-    sprite: _Goobstation/Mobs/Species/Tajaran/parts.rsi
+    sprite: _Moonlight/Mobs/Species/Tajaran/parts.rsi
   - type: VisualOrgan
     data:
       sprite: _Trauma/empty.rsi

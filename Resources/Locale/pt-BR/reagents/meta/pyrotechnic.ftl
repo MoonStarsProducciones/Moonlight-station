@@ -14,9 +14,6 @@ reagent-desc-thermite = Uma mistura que fica extremamente quente quando ateiada,
 reagent-name-napalm = napalm
 reagent-desc-napalm = É só um pouco inflamável.
 
-reagent-name-phlogiston = phlogiston
-reagent-desc-phlogiston = Catches you on fire and makes you ignite.
-
 reagent-name-phlogiston = flogisto
 reagent-desc-phlogiston = Te ateia em fogo e te queima.
 

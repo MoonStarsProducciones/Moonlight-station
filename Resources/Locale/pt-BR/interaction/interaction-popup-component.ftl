@@ -104,8 +104,6 @@ petting-success-medical-cyborg = You pet {THE($target)} on {POSS-ADJ($target)} s
 petting-success-service-cyborg = You pet {THE($target)} on {POSS-ADJ($target)} dapper looking metal head.
 petting-success-syndicate-cyborg = You pet {THE($target)} on {POSS-ADJ($target)} menacing metal head.
 petting-success-derelict-cyborg = You pet {THE($target)} on {POSS-ADJ($target)} rusty metal head.
-petting-success-recycler = You pet {THE($target)} on {POSS-ADJ($target)} mildly threatening steel exterior.
-petting-success-station-ai = You pet {THE($target)} on {POSS-ADJ($target)} cold, square screen.
 
 petting-failure-honkbot = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} buzina em recusa!
 petting-failure-cleanbot = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} {CONJUGATE-BE($target)} ocupado esfregando!

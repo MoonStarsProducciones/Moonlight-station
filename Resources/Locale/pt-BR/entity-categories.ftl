@@ -6,7 +6,7 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-entity-category-name-actions = Actions
+entity-category-name-actions = Ações
 entity-category-name-game-rules = Game Rules
 entity-category-name-objectives = Objectives
 entity-category-name-roles = Mind Roles

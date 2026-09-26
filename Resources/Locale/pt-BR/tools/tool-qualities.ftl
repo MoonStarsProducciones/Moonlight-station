@@ -18,15 +18,6 @@ tool-quality-anchoring-tool-name = Chave Inglesa
 tool-quality-prying-name = Forçar
 tool-quality-prying-tool-name = Pé de cabra
 
-tool-quality-screwing-name = Screwing
-tool-quality-screwing-tool-name = Screwdriver
-
-tool-quality-cutting-name = Cutting
-tool-quality-cutting-tool-name = Wirecutter
-
-tool-quality-shearing-name = Shearing
-tool-quality-shearing-tool-name = Wirecutter
-
 tool-quality-screwing-name = Aparafusar
 tool-quality-screwing-tool-name = Chave de fenda
 
@@ -41,9 +32,6 @@ tool-quality-pulsing-tool-name = Multitool
 
 tool-quality-slicing-name = Cortar
 tool-quality-slicing-tool-name = Faca
-
-tool-quality-sawing-name = Serrar
-tool-quality-sawing-tool-name = Serra
 
 tool-quality-sawing-name = Serrar
 tool-quality-sawing-tool-name = Serra

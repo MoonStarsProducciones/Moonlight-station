@@ -19,7 +19,6 @@ chat-manager-no-headset-on-message = Você não tem um headset ligado!
 chat-manager-no-radio-key = Nenhuma chave de canal selecionada!
 chat-manager-no-such-channel = Não existe canal com a chave '{$key}'!
 chat-manager-whisper-headset-on-message = Você não pode sussurrar no rádio!
-chat-manager-whisper-headset-on-message = You can't whisper on the radio!
 
 # Unicode U+201C and U+201D Double quotes.
 chat-manager-speech-double-quote-begin = “
@@ -103,64 +102,28 @@ chat-speech-verb-reptilian-1 = chia
 chat-speech-verb-reptilian-2 = bufa
 chat-speech-verb-reptilian-3 = magoa
 
-chat-speech-verb-skeleton-1 = chocalha
-chat-speech-verb-skeleton-2 = estala
-chat-speech-verb-skeleton-3 = range
-
-chat-speech-verb-vox-1 = guincha
-chat-speech-verb-vox-2 = pia
-chat-speech-verb-vox-3 = cui
-
-chat-speech-verb-canine-1 = late
-chat-speech-verb-canine-2 = ladre
-chat-speech-verb-canine-3 = uiva
-
-chat-speech-verb-small-mob-1 = guincha
-chat-speech-verb-small-mob-2 = pia
-
-chat-speech-verb-large-mob-1 = ruge
-chat-speech-verb-large-mob-2 = rosna
-
-chat-speech-verb-monkey-1 = macaqueia
-chat-speech-verb-monkey-2 = guincha
-
-chat-speech-verb-cluwne-1 = ri
-chat-speech-verb-cluwne-2 = gargalha
-chat-speech-verb-cluwne-3 = dá risada
-
-chat-speech-verb-ghost-1 = reclama
-chat-speech-verb-ghost-2 = suspira
-chat-speech-verb-ghost-3 = zumbe
-chat-speech-verb-ghost-4 = murmura
-
-chat-speech-verb-electricity-1 = estala
-chat-speech-verb-electricity-2 = zumbe
-chat-speech-verb-electricity-3 = grita
-
 chat-speech-verb-name-oni=Oni
 chat-speech-verb-oni-1=grunhe
 chat-speech-verb-oni-2=berra
 chat-speech-verb-oni-3=ressoa
 chat-speech-verb-oni-4=troveja
 
-chat-speech-verb-marish = Mars
-
 chat-speech-verb-name-skeleton = Skeleton / Plasmaman
-chat-speech-verb-skeleton-1 = rattles
-chat-speech-verb-skeleton-2 = ribs
-chat-speech-verb-skeleton-3 = bones
+chat-speech-verb-skeleton-1 = chocalha
+chat-speech-verb-skeleton-2 = estala
+chat-speech-verb-skeleton-3 = range
 chat-speech-verb-skeleton-4 = clacks
 chat-speech-verb-skeleton-5 = cracks
 
 chat-speech-verb-name-vox = Vox
-chat-speech-verb-vox-1 = screeches
-chat-speech-verb-vox-2 = shrieks
-chat-speech-verb-vox-3 = croaks
+chat-speech-verb-vox-1 = guincha
+chat-speech-verb-vox-2 = pia
+chat-speech-verb-vox-3 = cui
 
 chat-speech-verb-name-canine = Canine
-chat-speech-verb-canine-1 = barks
-chat-speech-verb-canine-2 = woofs
-chat-speech-verb-canine-3 = howls
+chat-speech-verb-canine-1 = late
+chat-speech-verb-canine-2 = ladre
+chat-speech-verb-canine-3 = uiva
 
 chat-speech-verb-name-goat = Goat
 chat-speech-verb-goat-1 = bleats
@@ -172,16 +135,16 @@ chat-speech-verb-sheep-1 = bleats
 chat-speech-verb-sheep-2 = baas
 
 chat-speech-verb-name-small-mob = Mouse
-chat-speech-verb-small-mob-1 = squeaks
-chat-speech-verb-small-mob-2 = pieps
+chat-speech-verb-small-mob-1 = guincha
+chat-speech-verb-small-mob-2 = pia
 
 chat-speech-verb-name-large-mob = Carp
-chat-speech-verb-large-mob-1 = roars
-chat-speech-verb-large-mob-2 = growls
+chat-speech-verb-large-mob-1 = ruge
+chat-speech-verb-large-mob-2 = rosna
 
 chat-speech-verb-name-monkey = Monkey
-chat-speech-verb-monkey-1 = chimpers
-chat-speech-verb-monkey-2 = screeches
+chat-speech-verb-monkey-1 = macaqueia
+chat-speech-verb-monkey-2 = guincha
 
 chat-speech-verb-name-cluwne = Cluwne
 
@@ -190,26 +153,20 @@ chat-speech-verb-parrot-1 = squawks
 chat-speech-verb-parrot-2 = tweets
 chat-speech-verb-parrot-3 = chirps
 
-chat-speech-verb-cluwne-1 = giggles
-chat-speech-verb-cluwne-2 = guffaws
-chat-speech-verb-cluwne-3 = laughs
+chat-speech-verb-cluwne-1 = ri
+chat-speech-verb-cluwne-2 = gargalha
+chat-speech-verb-cluwne-3 = dá risada
 
 chat-speech-verb-name-ghost = Ghost
-chat-speech-verb-ghost-1 = complains
-chat-speech-verb-ghost-2 = breathes
-chat-speech-verb-ghost-3 = hums
-chat-speech-verb-ghost-4 = mutters
+chat-speech-verb-ghost-1 = reclama
+chat-speech-verb-ghost-2 = suspira
+chat-speech-verb-ghost-3 = zumbe
+chat-speech-verb-ghost-4 = murmura
 
 chat-speech-verb-name-electricity = Electricity
-chat-speech-verb-electricity-1 = crackles
-chat-speech-verb-electricity-2 = buzzes
-chat-speech-verb-electricity-3 = screeches
-
-chat-speech-verb-vulpkanin-1 = rawrs
-chat-speech-verb-vulpkanin-2 = barks
-chat-speech-verb-vulpkanin-3 = rurs
-chat-speech-verb-vulpkanin-4 = yaps
-chat-speech-verb-vulpkanin = Vulpkanin
+chat-speech-verb-electricity-1 = estala
+chat-speech-verb-electricity-2 = zumbe
+chat-speech-verb-electricity-3 = grita
 
 chat-speech-verb-name-wawa = Wawa
 chat-speech-verb-wawa-1 = intones

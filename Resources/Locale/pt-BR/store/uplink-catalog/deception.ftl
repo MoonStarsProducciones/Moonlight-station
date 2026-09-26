@@ -3,33 +3,30 @@
 uplink-syndicate-id-card-name = Syndicate ID Card
 uplink-syndicate-id-card-desc = A Syndicate ID card, with Syndicate access. Unlikely to be useful on its own, but goes great with reconfigured doors. Does not come with access-copying functionality.
 
-uplink-agent-id-card-name = Agent ID Card
-uplink-agent-id-card-desc = A modified ID card that can copy accesses from other cards and change its name and job title at-will.
+uplink-agent-id-card-name = Cartão de ID do Agente
+uplink-agent-id-card-desc = Um cartão de ID modificado que pode copiar acessos de outros cartões e alterar o nome e o título da tarefa à vontade.
 
-uplink-stealth-box-name = Stealth Box
-uplink-stealth-box-desc = A box outfitted with stealth technology. Sneak around unnoticed, but don't move too fast or you'll be revealed!
+uplink-stealth-box-name = Caixa de Stealth
+uplink-stealth-box-desc = Uma caixa equipada com tecnologia de camuflagem, esgueire-se com isso mas não se mova muito rápido agora!
 
 uplink-chameleon-projector-name = Chameleon Projector
 uplink-chameleon-projector-desc = Disappear in plain sight by creating a hologram of an item around you, disguising you as that object! Do not use this to play the game "Object Search".
 
 # Trauma - just 1 key
-uplink-encryption-key-name = Syndicate Encryption Key
-uplink-encryption-key-desc = An encryption key for access to the secret frequency of our special agents. Just make sure it doesn't fall into enemy hands.
+uplink-encryption-key-name = Chaves Criptográficas do Sindicato
+uplink-encryption-key-desc = Duas chaves de criptografia para acesso à frequência secreta de nossos agentes especiais. Dê o sobressalente a um amigo, mas certifique-se de que não caia nas mãos do inimigo.
 
-uplink-binary-translator-key-name = Binary Translator Key
-uplink-binary-translator-key-desc = Lets you tap into the silicons' binary channel. Don't talk on it though, at least not without a voice mask.
+uplink-binary-translator-key-name = Chave do Tradutor Binário
+uplink-binary-translator-key-desc = Permite acessar o canal binário dos silícios. Porém, não fale nele, pelo menos não sem uma máscara de voz.
 
-uplink-cyberpen-name = Cybersun Pen
-uplink-cyberpen-desc = A diamond-tipped pen used by Cybersun Legal. Can be used to modify stamped documents, viciously stab prosecutors and as a screwdriver in a pinch. A staple tool for war-profiteering, this pen is mightier than many swords.
+uplink-cyberpen-name = Caneta Cybersun
+uplink-cyberpen-desc = Caneta do departamento jurídico da Cybersun, inestimável para falsificar documentos e escapar de prisões. Cheira vagamente a luz forte e lucro de guerra.
 
-uplink-decoy-disk-name = Decoy Nuclear Disk
-uplink-decoy-disk-desc = A piece of plastic with a lenticular printing, made to look like a nuclear authentication disk.
+uplink-decoy-disk-name = Nuclear Disk Falso
+uplink-decoy-disk-desc = Um pedaço de plástico com uma impressão lenticular, feita para parecer um disco de autenticação nuclear.
 
-uplink-bribe-name = Lobbying Bundle
-uplink-bribe-desc = Thirty thousand unmarked spesos for dubiously-legal investments. Comes with a syndicate encryption key, insulated combat gloves and flashproof sunglasses. Real or counterfeit? Yes.
-
-uplink-exploding-syndicate-bomb-fake-name = Decoy Syndicate Bomb
-uplink-exploding-syndicate-bomb-fake-desc = A training bomb carefully made to look just like the real thing. In all ways similar to a syndicate bomb, but only creates a tiny explosion.
+uplink-bribe-name = Pacote de Lobbying
+uplink-bribe-desc = Um presente sincero que pode ajudá-lo a influenciar a opinião de alguém. Legítimo ou falso? Sim.
 
 uplink-travel-camera-name = Travel Camera
 uplink-travel-camera-desc = Stun people with your photography skills and the conveniently legal camera flash. Makes you look like a tourist.

@@ -195,6 +195,9 @@
   id: FrozenIgnoreMindAction
 
 - type: Tag
+  id: FelinidEmotes
+
+- type: Tag
   id: GasMask
 
 - type: Tag
@@ -250,6 +253,9 @@
 
 - type: Tag
   id: HardHat
+
+- type: Tag
+  id: HarpyEmotes
 
 - type: Tag
   id: HandheldCrewMonitor

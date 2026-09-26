@@ -50,26 +50,6 @@ salvage-expedition-type-Mining = Mineração
 salvage-expedition-type-Destruction = Destruição
 salvage-expedition-type-Elimination = Eliminação
 
-offering-window-claimed = Claimed
-offering-window-claim = Claim
-
-salvage-expedition-window-next = Next offer
-
-salvage-expedition-difficulty-Moderate = Moderate
-salvage-expedition-difficulty-Hazardous = Hazardous
-salvage-expedition-difficulty-Extreme = Extreme
-
-salvage-expedition-difficulty-players = Recommended salvagers:
-
-# Runner
-salvage-expedition-not-all-present = Not all salvagers are aboard the shuttle!
-
-salvage-expedition-announcement-countdown-minutes = {$duration} minutes remaining to complete the expedition.
-salvage-expedition-announcement-countdown-seconds = {$duration} seconds remaining to complete the expedition.
-salvage-expedition-announcement-dungeon = Dungeon is located {$direction}.
-salvage-expedition-completed = Expedition is completed.
-salvage-expedition-reward-description = Mission completion reward
-
 # Salvage biome mod
 salvage-biome-mod-caves = Caves
 salvage-biome-mod-grasslands = Grasslands

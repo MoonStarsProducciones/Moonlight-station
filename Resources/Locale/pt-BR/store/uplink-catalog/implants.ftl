@@ -1,40 +1,40 @@
 # Implants
 
-uplink-storage-implanter-name = Storage Implanter
-uplink-storage-implanter-desc = A bluespace marvel capable of hiding two pistols-worth of goodies. Immediately useful for stashing the empty implanter.
+uplink-storage-implanter-name = Implanter de Armazenamento
+uplink-storage-implanter-desc = Esconda as paradas dentro de si com a nova tecnologia de espaço azul!
 
-uplink-freedom-implanter-name = Freedom Implanter
+uplink-freedom-implanter-name = Implanter de Liberdade
 # Trauma - reworked it
 uplink-freedom-implanter-desc = Get away from those nasty sec officers with this implant! It allows you to break free of handcuffs and bolas with ease, as well as to paralyze anyone who is brave enough to pull you.
 
-uplink-scram-implanter-name = Scram Implanter
-# Trauma - unlimited uses
-uplink-scram-implanter-desc = An implant which teleports you within a medium radius. Attempts to teleport you onto an unobstructed tile, but may sometimes fail to do so. Life insurance not included.
+uplink-scram-implanter-name = Implantador de Fuga
 
-uplink-dna-scrambler-implanter-name = DNA Scrambler Implanter
-uplink-dna-scrambler-implanter-desc = A single use implant that can be activated to modify your DNA and give you a completely new look.
+uplink-scram-implanter-desc = Um implante que teletransporta você para um grande raio. Tenta teletransportar você para um ladrilho desobstruído. Às vezes pode não conseguir fazer isso. Seguro de vida não incluído.
+
+uplink-dna-scrambler-implanter-name = Implantador de DNA Misturador
+uplink-dna-scrambler-implanter-desc = Um implante de uso único que pode ser ativado para modificar seu DNA e lhe dar uma aparência completamente nova.
 
 uplink-emp-implanter-name = EMP Implanter
-# Trauma - unlimited uses
-uplink-emp-implanter-desc = Detonates a small EMP pulse on activation that drains nearby electronics of their power, runs off a slowly recharging internal cell. Very short range, use wisely!
+
+uplink-emp-implanter-desc = Detona um pequeno pulso EMP na ativação que drena a eletrônica próxima de sua potência.
 
 uplink-radio-implanter-name = Radio Implanter
 uplink-radio-implanter-desc = Implants a Syndicate radio, allowing covert communication without a headset.
 
-uplink-micro-bomb-implanter-name = Micro Bomb Implanter
-uplink-micro-bomb-implanter-desc = Explode on death or manual activation with this implant. Destroys the body with all equipment.
+uplink-micro-bomb-implanter-name = Implantador de Microbomba
+uplink-micro-bomb-implanter-desc = Explodir em caso de morte ou ativação manual com este implante. Destrói o corpo com todos os equipamentos.
 
-uplink-macro-bomb-implanter-name = Macro Bomb Implanter
-uplink-macro-bomb-implanter-desc = Inject this and on death you'll create a large explosion. Huge team casualty cost, use at own risk. Replaces internal micro bomb.
+uplink-macro-bomb-implanter-name = Implanter de Macro Bomba
+uplink-macro-bomb-implanter-desc = Injete isso e, na morte, você criará uma grande explosão. Enorme custo de mores da equipe, uso a seu própria conta e risco. Substitui a micro bomba interna.
 
-uplink-death-acidifier-implant-name = Death Acidifier Implant
-uplink-death-acidifier-implant-desc = Completely melts the user and their equipment on use or death.
+uplink-death-acidifier-implant-name = Implante de Acidificador Morte
+uplink-death-acidifier-implant-desc = Derrete completamente o usuário e seu equipamento após uso ou morte.
 
-uplink-uplink-implanter-name = Uplink Implanter
-uplink-uplink-implanter-desc = Stealthily order equipment without the need for a PDA. Apply telecrystals directly to the forehead to transfer them to your BitCrystal Wallet!
+uplink-uplink-implanter-name = Implante de Uplink
+uplink-uplink-implanter-desc = Encomende equipamentos furtivamente sem a necessidade de um PDA. Engula telecristais para completar o uplink.
 
-uplink-deathrattle-implant-name = Box Of Deathrattle Implants
-uplink-deathrattle-implant-desc = A box containing enough deathrattle implants for the whole squad. Relays a message containing your position to the syndicate channel when you go into a critical state or die.
+uplink-deathrattle-implant-name = Caixa de Implantes Deathrattle
+uplink-deathrattle-implant-desc = Uma caixa contendo implantes deathrattle suficientes para todo o esquadrão. Retransmite uma mensagem contendo sua posição para o canal do sindicato quando você entra em um estado crítico ou morre.
 
 uplink-fake-mindshield-name = Fake Mindshield
 uplink-fake-mindshield-desc = An implant which can be toggled to trick Heads-up displays into thinking you are mindshielded (Nanotrasen brand implanter not provided.) The cornerstone of a successful Command or Security disguise.

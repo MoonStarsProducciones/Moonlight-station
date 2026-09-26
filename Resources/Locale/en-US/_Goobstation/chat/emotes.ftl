@@ -1,5 +1,9 @@
+# Names
+chat-emote-name-mars = Mars
+
 # Message
 chat-emote-msg-bagawk = bagawks!
+chat-emote-msg-mars = mars.
 
 
 # Misc

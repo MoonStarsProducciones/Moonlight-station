@@ -1,42 +1,42 @@
 # Explosives
 
-uplink-explosive-grenade-name = Explosive Grenade
-uplink-explosive-grenade-desc = A simplistic grenade with a 3.5 second long fuse that is geared towards injuring personnel. Causes minimal hull damage.
+uplink-explosive-grenade-name = Granada Explosiva
+uplink-explosive-grenade-desc = Uma granada simplista com um fusível de três segundos e meio de comprimento, destinada a ferir pessoas. Causa danos mínimos do casco.
 
-uplink-smoke-grenade-name = Smoke Grenade
-uplink-smoke-grenade-desc = A grenade that releases a huge cloud of smoke, perfect for killing someone in the shadows or making a sneaky getaway.
+uplink-smoke-grenade-name = Granada de Fumaça
+uplink-smoke-grenade-desc = Uma granada que libera uma enorme nuvem de fumaça, perfeita para matar alguém nas sombras ou fazer uma fuga furtiva.
 
-uplink-mini-bomb-name = Minibomb
-uplink-mini-bomb-desc = A low-yield, high-impact precision sabotage explosive with a 5 second long fuse. Perfect for quickly destroying a machine, dead body, or whatever else needs to go.
+uplink-mini-bomb-name = Minibomba
+uplink-mini-bomb-desc = Um explosivo de sabotagem de precisão de baixa potência mas alto impacto com um detonador de cinco segundos de comprimento. Perfeito para destruir rapidamente uma máquina, corpo morto, ou qualquer outra coisa que precisar sumir.
 
-uplink-penguin-grenade-name = Grenade Penguin
-uplink-penguin-grenade-desc = A small, highly-aggressive penguin with a grenade strapped around its neck. Trained to ignore all Syndicate agents and relentlessly pursue a single, random nearby target when released.
+uplink-penguin-grenade-name = Pinguim Granada
+uplink-penguin-grenade-desc = Um pinguim pequeno e altamente agressivo com uma granada amarrada em volta do pescoço. Colhido pelo Sindicato de planetas gelados pra caralho.
 
 uplink-c4-name = C-4
 # Trauma - AI powered :rocket:
-uplink-c4-desc = Use it to breach walls, airlocks or sabotage equipment. It can be attached to almost all objects and has a modifiable timer with a minimum setting of 10 seconds. AI-powered.
+uplink-c4-desc = Use-o para quebrar paredes, portas ou equipamentos de sabotagem. Pode ser afixado a quase todos os objetos e tem um temporizador modificável com uma configuração mínima de 10 segundos.
 
-uplink-grenadier-rig-name = grenadier chest rig
-uplink-grenadier-rig-desc = All you need for a loud party: 4 explosive grenades, 2 EMP grenades and 2 minibombs in a chest rig.
+uplink-grenadier-rig-name = Colete Granadeiro
+uplink-grenadier-rig-desc = Tudo o que você precisa para uma festa barulhenta: 4 granadas explosivas, 2 granadas EMP e 2 minibombas em um rig de peito.
 
-uplink-c4-bundle-name = C-4 bundle
-uplink-c4-bundle-desc = Because sometimes quantity is quality. Contains 8 C-4 plastic explosives.
+uplink-c4-bundle-name = Pacote C-4
+uplink-c4-bundle-desc = Porque às vezes a quantidade é de qualidade. Contém 8 explosivos de plástico C-4.
 
-uplink-emp-grenade-name = EMP Grenade
-uplink-emp-grenade-desc = A grenade designed to disrupt electronic systems. Useful for disrupting communications, security's energy weapons, and APCs when you're in a tight spot.
+uplink-emp-grenade-name = Granada EMP
+uplink-emp-grenade-desc = Uma granada projetada para interromper sistemas eletrônicos. Útil para interromper comunicações, armas de energia da segurança e APCs quando você está em uma situação difícil.
 
-uplink-exploding-pen-name = Exploding pen
-uplink-exploding-pen-desc = A class IV explosive device contained within a standard pen. Comes with a 4 second fuse.
+uplink-exploding-pen-name = Caneta Explosiva
+uplink-exploding-pen-desc = Explosivo sólido oculto dentro de uma caneta padrão. Vem com um fusível de 4 segundos.
 
-uplink-exploding-syndicate-bomb-name = Syndicate Bomb
+uplink-exploding-syndicate-bomb-name = Bomba do Sindicato
 # Trauma - 180 -> 60
-uplink-exploding-syndicate-bomb-desc = A big, anchored bomb that can create a huge explosion if not defused in time. Useful as a distraction. Has an adjustable timer with a minimum and base setting of 60 seconds.
+uplink-exploding-syndicate-bomb-desc = Uma bomba de treinamento cuidadosamente feita para se parecer com a real. Em todos os aspectos semelhante a uma bomba syndie, mas cria apenas uma pequena explosão.
 
-uplink-shrapnel-grenade-name = Shrapnel Grenade
-uplink-shrapnel-grenade-desc = Launches a spray of sharp fragments dealing great damage against unarmored targets.
+uplink-shrapnel-grenade-name = Granada de Estilhaços
+uplink-shrapnel-grenade-desc = Lança uma rajada de fragmentos pontiagudos, causando grande dano contra alvos sem armadura.
 
-uplink-incendiary-grenade-name = Incendiary Grenade
-uplink-incendiary-grenade-desc = Releases a spray of incendiary fragments, igniting anyone near the detonation area.
+uplink-incendiary-grenade-name = Granada Incendiária
+uplink-incendiary-grenade-desc = Libera um jato de fragmentos incendiários, incendiando qualquer pessoa próxima à área de detonação.
 
-uplink-power-sink-name = Power Sink
-uplink-power-sink-desc = Drains immense amounts of electricity from the grid, then explodes once it's saturated. Use wrench to connect it to wires.
+uplink-power-sink-name = Dreno de Energia
+uplink-power-sink-desc = Drena quantidades imensas de eletricidade da rede. Use a chave inglesa para conectá-lo aos fios.

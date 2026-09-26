@@ -1,37 +1,33 @@
 # Chemicals
 
 uplink-hypopen-name = Hypopen
-uplink-hypopen-desc = A chemical hypospray disguised as a pen, capable of instantly injecting up to 10u of reagents. Takes a moment to refill it, so plan accordingly!
+uplink-hypopen-desc = Um hypospray químico disfarçado como uma caneta, capaz de injetar instantaneamente até 10u de reagentes. Vem vazio.
 
-uplink-hypodart-name = Hypodart
-uplink-hypodart-desc = A seemingly unremarkable dart with a hidden 10u liquid reserve. Instantly injects into a target when thrown and pierces hardsuits.
+uplink-hypodart-name = Hipodardo
+uplink-hypodart-desc = Um dardo aparentemente normal com um reservatório ampliado para produtos químicos. Ele pode armazenar até 7u reagentes e injetar instantaneamente quando atingir o alvo. Começa vazio.
 
-uplink-chemistry-kit-name = Chemical Synthesis Kit
+uplink-chemistry-kit-name = Kit de Síntese Química
 # Trauma - reworked contents
 uplink-chemistry-kit-desc = A starter kit for the aspiring chemist, notably includes a chemical payload and timer, a hyperzine syringe, and two vials of vestine for all your criminal needs!
 
-uplink-zombie-bundle-name = Syndicate Zombie Bundle
-uplink-zombie-bundle-desc = An all-in-one kit for unleashing the undead upon a station. Take the Ambuzol+ pill for the cure!
+uplink-zombie-bundle-name = Kit Zumbi do Sindicato
+uplink-zombie-bundle-desc = Um kit all-in-one para soltar os mortos-vivos em cima de uma estação.
 
-uplink-nocturine-chemistry-bottle-name = Nocturine Bottle
-uplink-nocturine-chemistry-bottle-desc = A chemical that puts your target straight to sleep. Frequently bought with the Hypodarts or Hypopen.
+uplink-combat-medkit-name = Kit Médico de Combate
+uplink-combat-medkit-desc = Um medkit feito para tratar lesões de combate.
 
-uplink-combat-medkit-name = Combat Medical Kit
-uplink-combat-medkit-desc = A medkit made for fixing combat injuries.
+uplink-combat-medipen-name = Medipen de Combate
+uplink-combat-medipen-desc = Um medpen de uso único contendo produtos químicos que regeneram a maioria dos tipos de danos
 
-uplink-combat-medipen-name = Combat Medipen
-uplink-combat-medipen-desc = A single-use medipen containing chemicals that regenerate most types of damage.
-
-uplink-stimpack-name = Hyperzine Injector
-# Trauma - 60s -> 40s
-uplink-stimpack-desc = The legendary chemical produced by Donk Co. for the Syndicate. Injecting yourself with this will increase your run speed and let you recover from stuns faster for 40 seconds.
+uplink-stimpack-name = Stimpack
+uplink-stimpack-desc = O lendário produto químico produzido pela Donk Co. para o Syndicate. Injetar-se com isso aumentará sua velocidade de corrida e permitirá que você se recupere de atordoamentos mais rápido por 5 minutos.
 
 uplink-stimkit-name = Hyperzine Injector Kit
 # Trauma - 6 -> 8 injectors, 30s -> 20s
-uplink-stimkit-desc = A standard medkit containing 8 hyperzine microinjectors, which each inject you with enough hyperzine to last for 20 seconds.
+uplink-stimkit-desc = A standard medkit containing 8 hyperzine microinjectors, which each inject you with enough hyperzine to last for 30 seconds.
 
-uplink-cigarettes-name = Syndicate Smokes Packet
-uplink-cigarettes-desc = Elite cigarettes for elite agents. Infused with omnizine for when you need to do more than calm your nerves.
+uplink-cigarettes-name = Pacote de Fumo do Sindicato
+uplink-cigarettes-desc = Cigarros de elite para agentes de elite. Infundido com medicamentos para quando você precisa fazer mais do que acalmar seus nervos.
 
-uplink-meds-bundle-name = Interdyne Medical Bundle
-uplink-meds-bundle-desc = An assortment of autoinjectors and combat medkits to cover for every possible situation. Contains an elite compact defibrillator that can be used as a weapon.
+uplink-meds-bundle-name = Pacote Médico
+uplink-meds-bundle-desc = Tudo o que você precisa para colocar seus companheiros de volta na luta: principalmente um medkit de combate, um desfibrilador e três medidores de combate.

@@ -26,8 +26,8 @@ ent-WallGold = parede dourada
 ent-WallIce = parede de gelo
     .desc = Mantém o ar dentro e a maré cinzenta fora.
 
-ent-WallPlasma = parede de plasma
-    .desc = Mantém o ar dentro e a maré cinzenta fora.
+# ent-WallPlasma = parede de plasma
+#    .desc = Mantém o ar dentro e a maré cinzenta fora.
 
 ent-WallPlastic = parede de plástico
     .desc = Mantém o ar dentro e a maré cinzenta fora.

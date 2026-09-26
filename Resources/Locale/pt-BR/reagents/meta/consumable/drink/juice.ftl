@@ -48,10 +48,4 @@ reagent-desc-juice-tomato = Tomates transformados em suco. Que desperdício de t
 reagent-name-juice-watermelon = suco de melancia
 reagent-desc-juice-watermelon = O suco deliciosa de uma melancia.
 
-reagent-name-juice-potato = potato juice
-reagent-desc-juice-potato = Juice of the potato. Bleh.
-
-reagent-name-juice-tomato = tomato juice
-reagent-desc-juice-tomato = Tomatoes made into juice. What a waste of good tomatoes, huh?
-
 reagent-name-juice-cherry = cherry juice

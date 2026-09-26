@@ -1,9 +1,6 @@
 ent-WeaponLaserGun = arma laser retrô
      .desc = Arma que utiliza luz amplificada pela emissão estimulada de radiação.
 
-ent-WeaponLaserCarbine = arma laser
-     .desc = Preferido pela Nanotrasen Security por ser barato e fácil de usar.
-
 ent-WeaponPulsePistol = pistola de pulso
      .desc = Uma pistola de energia de última geração, preferida como arma secundária pelos agentes do NT-ERT.
 
@@ -12,9 +9,6 @@ ent-WeaponPulseCarbine = carabina de pulso
 
 ent-WeaponPulseRifle = rifle de pulso
      .desc = Uma arma quase tão famosa quanto seus usuários.atordoador
-
-ent-WeaponLaserCannon = canhão laser
-     .desc = Uma arma laser resistente e de alta potência.
 
 ent-WeaponXrayCannon = canhão de raios X
      .desc = Uma arma experimental que usa energia concentrada de raios X contra seu alvo.

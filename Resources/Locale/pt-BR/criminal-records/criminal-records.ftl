@@ -19,11 +19,8 @@ criminal-records-status-paroled = sob Condicional
 criminal-records-status-hostile = Hostil
 criminal-records-status-eliminated = Eliminado
 
-criminal-records-console-wanted-reason = Wanted Reason
-criminal-records-console-suspected-reason = Suspected Reason
-
-criminal-records-console-wanted-reason = [color=gray]Procurado por[/color]
-criminal-records-console-suspected-reason = [color=gray]Razão de Suspeita[/color]
+criminal-records-console-wanted-reason = Procurado por
+criminal-records-console-suspected-reason = Razão de Suspeita
 criminal-records-console-reason-placeholder = Por exemplo: {$placeholder}
 
 ## Crime History
