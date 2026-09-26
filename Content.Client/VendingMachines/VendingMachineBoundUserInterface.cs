@@ -4,11 +4,12 @@ using Content.Shared.VendingMachines;
 using Robust.Client.UserInterface;
 using Robust.Shared.Input;
 using System.Linq;
+using Content.Client._Funkystation.VendingMachines;
 using Content.Shared.VendingMachines.Components;
 
 namespace Content.Client.VendingMachines;
 
-public sealed class VendingMachineBoundUserInterface(EntityUid owner, Enum uiKey) : BoundUserInterface(owner, uiKey)
+public sealed class VendingMachineBoundUserInterface(EntityUid owner, Enum uiKey) : BoundUserInterface(owner, uiKey), IVendingMachineBoundUi // Funky change
 {
     [ViewVariables]
     private VendingMachineMenu? _menu;
