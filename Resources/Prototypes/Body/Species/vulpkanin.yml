@@ -94,51 +94,11 @@
   - type: Inventory
     speciesId: vulpkanin
     displacements:
-      jumpsuit:
-        sizeMaps:
-          32:
-            sprite: Mobs/Species/Vulpkanin/displacement.rsi
-            state: jumpsuit
-      back:
-        sizeMaps:
-          32:
-            sprite: Mobs/Species/Vulpkanin/displacement.rsi
-            state: back
-      outerClothing:
-        sizeMaps:
-          32:
-            sprite: Mobs/Species/Vulpkanin/displacement.rsi
-            state: outerwear
-      gloves:
-        sizeMaps:
-          32:
-            sprite: Mobs/Species/Vulpkanin/displacement.rsi
-            state: hand
-      shoes:
-        sizeMaps:
-          32:
-            sprite: Mobs/Species/Vulpkanin/displacement.rsi
-            state: shoes
       head:
         sizeMaps:
           32:
             sprite: Mobs/Species/Vulpkanin/displacement.rsi
             state: head
-      neck:
-        sizeMaps:
-          32:
-            sprite: Mobs/Species/Vulpkanin/displacement.rsi
-            state: neck
-      eyes:
-        sizeMaps:
-          32:
-            sprite: Mobs/Species/Vulpkanin/displacement.rsi
-            state: eyes
-      belt:
-        sizeMaps:
-          32:
-            sprite: Mobs/Species/Vulpkanin/displacement.rsi
-            state: belt
 
 - type: entity
   parent:
@@ -237,7 +197,7 @@
   components:
   - type: VisualOrgan
     data:
-      sprite: Mobs/Species/Vulpkanin/parts.rsi
+      sprite: _RMC14/Mobs/Vulpkanin/parts.rsi
   - type: VisualOrganMarkings
     markingData:
       group: Vulpkanin
@@ -248,14 +208,14 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    sprite: _RMC14/Mobs/Vulpkanin/parts.rsi
 
 - type: entity
   parent: [ OrganBaseTorsoSexed, OrganBaseTorsoTailed, OrganVulpkaninExternal ] # Trauma - Tailed torso
   id: OrganVulpkaninTorso
 
 - type: entity
-  parent: [ OrganBaseHead, OrganVulpkaninExternal ]
+  parent: [ OrganBaseHeadSexed, OrganBaseHead, OrganVulpkaninExternal ]
   id: OrganVulpkaninHead
   components:
   - type: VisualOrganMarkings
@@ -314,6 +274,10 @@
 - type: entity
   parent: [ OrganVulpkaninVisual, OrganBaseEyes, OrganVulpkaninInternal ]
   id: OrganVulpkaninEyes
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: Mobs/Customization/eyes.rsi
 
 - type: entity
   parent: [ OrganBaseTongue, OrganVulpkaninInternal ]
