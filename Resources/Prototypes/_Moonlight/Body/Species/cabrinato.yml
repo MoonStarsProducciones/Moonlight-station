@@ -1,6 +1,6 @@
 - type: markingsGroup
   parent: Undergarments
-  id: Tajaran
+  id: Cabrinato
   limits:
     enum.HumanoidVisualLayers.Hair:
       limit: 1
@@ -58,39 +58,39 @@
 
 - type: entity
   parent: BaseSpeciesAppearance
-  id: AppearanceTajaran
+  id: AppearanceCabrinato
   categories: [ HideSpawnMenu ]
-  name: Tajaran appearance
+  name: Cabrinato appearance
   components:
   - type: InitialBody
     organs:
-      Torso: OrganTajaranTorso
-      Head: OrganTajaranHead
-      Tail: OrganTajaranTail # Moonlight
-      ArmLeft: OrganTajaranArmLeft
-      ArmRight: OrganTajaranArmRight
-      HandRight: OrganTajaranHandRight
-      HandLeft: OrganTajaranHandLeft
-      LegLeft: OrganTajaranLegLeft
-      LegRight: OrganTajaranLegRight
-      FootLeft: OrganTajaranFootLeft
-      FootRight: OrganTajaranFootRight
-      Brain: OrganTajaranBrain
-      Eyes: OrganTajaranEyes
-      Tongue: OrganTajaranTongue
-      Appendix: OrganTajaranAppendix
-      Ears: OrganTajaranEars
-      Lungs: OrganTajaranLungs
-      Heart: OrganTajaranHeart
-      Stomach: OrganTajaranStomach
-      Liver: OrganTajaranLiver
-      Kidneys: OrganTajaranKidneys
+      Torso: OrganCabrinatoTorso
+      Head: OrganCabrinatoHead
+#      Tail: OrganCabrinatoTail # Moonlight
+      ArmLeft: OrganCabrinatoArmLeft
+      ArmRight: OrganCabrinatoArmRight
+      HandRight: OrganCabrinatoHandRight
+      HandLeft: OrganCabrinatoHandLeft
+      LegLeft: OrganCabrinatoLegLeft
+      LegRight: OrganCabrinatoLegRight
+      FootLeft: OrganCabrinatoFootLeft
+      FootRight: OrganCabrinatoFootRight
+      Brain: OrganCabrinatoBrain
+      Eyes: OrganCabrinatoEyes
+      Tongue: OrganCabrinatoTongue
+      Appendix: OrganCabrinatoAppendix
+      Ears: OrganCabrinatoEars
+      Lungs: OrganCabrinatoLungs
+      Heart: OrganCabrinatoHeart
+      Stomach: OrganCabrinatoStomach
+      Liver: OrganCabrinatoLiver
+      Kidneys: OrganCabrinatoKidneys
   - type: HumanoidProfile
-    species: Tajaran
+    species: Cabrinato
 
 - type: entity
   parent:
-  - AppearanceTajaran
+  - AppearanceCabrinato
   - BaseSpeciesMobOrganic
   - MobNightVision
   id: MobCabrinato
@@ -107,7 +107,7 @@
   - type: Vocal
     emoteSounds: MaleFelinid
   - type: Damageable
-    damageModifierSet: Tajaran
+    damageModifierSet: Cabrinato
   - type: Flammable
     firestackFade: -0.08 # until you light it up, cuz it's oily too. 20% lower than default
   - type: MeleeWeapon
@@ -140,32 +140,32 @@
 
 - type: entity
   parent: OrganBaseOrganic
-  id: OrganTajaran
+  id: OrganCabrinato
   abstract: true
-  suffix: Tajaran
+  suffix: Cabrinato
   # <Shitmed>
   components:
   - type: Injurable
-    damageContainer: Tajaran
+    damageContainer: Cabrinato
   # </Shitmed>
 
 - type: entity
-  id: OrganTajaranMetabolizer
+  id: OrganCabrinatoMetabolizer
   abstract: true
   components:
   - type: Metabolizer
     metabolizerTypes: [ Animal ]
 
 - type: entity
-  parent: OrganTajaran
-  id: OrganTajaranInternal
+  parent: OrganCabrinato
+  id: OrganCabrinatoInternal
   abstract: true
   components:
   - type: Sprite
     sprite: Mobs/Species/Human/organs.rsi # Trauma - no piss fetish organs
 
 - type: entity
-  id: OrganTajaranVisual
+  id: OrganCabrinatoVisual
   abstract: true
   components:
   - type: VisualOrgan
@@ -173,23 +173,23 @@
       sprite: _Moonlight/Mobs/Species/Cabrinato/parts.rsi
   - type: VisualOrganMarkings
     markingData:
-      group: Tajaran
+      group: Cabrinato
 
 - type: entity
-  parent: [ OrganTajaran, OrganTajaranVisual ]
-  id: OrganTajaranExternal
+  parent: [ OrganCabrinato, OrganCabrinatoVisual ]
+  id: OrganCabrinatoExternal
   abstract: true
   components:
   - type: Sprite
-    sprite: Moonlight/Mobs/Species/Cabrinato/parts.rsi
+    sprite: _Moonlight/Mobs/Species/Cabrinato/parts.rsi
 
 - type: entity
-  parent: [ OrganBaseTorsoSexed, OrganBaseTorsoTailed, OrganTajaranExternal ] # Trauma - Tailed torso
-  id: OrganTajaranTorso
+  parent: [ OrganBaseTorsoSexed, OrganBaseTorsoTailed, OrganCabrinatoExternal ] # Trauma - Tailed torso
+  id: OrganCabrinatoTorso
 
 - type: entity
-  parent: [ OrganBaseHeadSexed, OrganBaseHead,OrganTajaranExternal ] # Trauma
-  id: OrganTajaranHead
+  parent: [ OrganBaseHeadSexed, OrganBaseHead,OrganCabrinatoExternal ] # Trauma
+  id: OrganCabrinatoHead
   components:
   - type: VisualOrganMarkings
     hideableLayers:
@@ -208,89 +208,89 @@
             sprite: Mobs/Species/Vulpkanin/displacement.rsi
             state: hair
 
-- type: entity
-  parent: [ OrganBaseTail, OrganTajaranExternal ]
-  id: OrganTajaranTail
-  components:
-  - type: Sprite
-    sprite: _Moonlight/Mobs/Species/Tajaran/parts.rsi
-  - type: VisualOrgan
-    data:
-      sprite: _Trauma/empty.rsi
-      state: empty # no sprite since the markings actually control it
+# - type: entity
+#   parent: [ OrganBaseTail, OrganCabrinatoExternal ]
+#   id: OrganCabrinatoTail
+#   components:
+#   - type: Sprite
+#     sprite: _Moonlight/Mobs/Species/Cabrinato/parts.rsi
+#   - type: VisualOrgan
+#     data:
+#       sprite: _Trauma/empty.rsi
+#       state: empty # no sprite since the markings actually control it
 
 - type: entity
-  parent: [ OrganBaseArmLeft, OrganTajaranExternal ]
-  id: OrganTajaranArmLeft
+  parent: [ OrganBaseArmLeft, OrganCabrinatoExternal ]
+  id: OrganCabrinatoArmLeft
 
 - type: entity
-  parent: [ OrganBaseArmRight, OrganTajaranExternal ]
-  id: OrganTajaranArmRight
+  parent: [ OrganBaseArmRight, OrganCabrinatoExternal ]
+  id: OrganCabrinatoArmRight
 
 - type: entity
-  parent: [ OrganBaseHandLeft, OrganTajaranExternal ]
-  id: OrganTajaranHandLeft
+  parent: [ OrganBaseHandLeft, OrganCabrinatoExternal ]
+  id: OrganCabrinatoHandLeft
 
 - type: entity
-  parent: [ OrganBaseHandRight, OrganTajaranExternal ]
-  id: OrganTajaranHandRight
+  parent: [ OrganBaseHandRight, OrganCabrinatoExternal ]
+  id: OrganCabrinatoHandRight
 
 - type: entity
-  parent: [ OrganBaseLegLeft, OrganTajaranExternal ]
-  id: OrganTajaranLegLeft
+  parent: [ OrganBaseLegLeft, OrganCabrinatoExternal ]
+  id: OrganCabrinatoLegLeft
 
 - type: entity
-  parent: [ OrganBaseLegRight, OrganTajaranExternal ]
-  id: OrganTajaranLegRight
+  parent: [ OrganBaseLegRight, OrganCabrinatoExternal ]
+  id: OrganCabrinatoLegRight
 
 - type: entity
-  parent: [ OrganBaseFootLeft, OrganTajaranExternal ]
-  id: OrganTajaranFootLeft
+  parent: [ OrganBaseFootLeft, OrganCabrinatoExternal ]
+  id: OrganCabrinatoFootLeft
 
 - type: entity
-  parent: [ OrganBaseFootRight, OrganTajaranExternal ]
-  id: OrganTajaranFootRight
+  parent: [ OrganBaseFootRight, OrganCabrinatoExternal ]
+  id: OrganCabrinatoFootRight
 
 - type: entity
-  parent: [ OrganBaseBrain, OrganSpriteHumanInternal, OrganTajaranInternal ]
-  id: OrganTajaranBrain
+  parent: [ OrganBaseBrain, OrganSpriteHumanInternal, OrganCabrinatoInternal ]
+  id: OrganCabrinatoBrain
 
 - type: entity
-  parent: [ OrganTajaranVisual, OrganBaseEyes, OrganTajaranInternal ]
-  id: OrganTajaranEyes
+  parent: [ OrganCabrinatoVisual, OrganBaseEyes, OrganCabrinatoInternal ]
+  id: OrganCabrinatoEyes
   components:
   - type: VisualOrgan
     data:
       sprite: Mobs/Customization/eyes.rsi
 
 - type: entity
-  parent: [ OrganBaseTongue, OrganTajaranInternal ]
-  id: OrganTajaranTongue
+  parent: [ OrganBaseTongue, OrganCabrinatoInternal ]
+  id: OrganCabrinatoTongue
 
 - type: entity
-  parent: [ OrganBaseAppendix, OrganTajaranInternal ]
-  id: OrganTajaranAppendix
+  parent: [ OrganBaseAppendix, OrganCabrinatoInternal ]
+  id: OrganCabrinatoAppendix
 
 - type: entity
-  parent: [ OrganBaseEars, OrganTajaranInternal ]
-  id: OrganTajaranEars
+  parent: [ OrganBaseEars, OrganCabrinatoInternal ]
+  id: OrganCabrinatoEars
 
 - type: entity
-  parent: [ OrganBaseLungs, OrganTajaranInternal, OrganTajaranMetabolizer ]
-  id: OrganTajaranLungs
+  parent: [ OrganBaseLungs, OrganCabrinatoInternal, OrganCabrinatoMetabolizer ]
+  id: OrganCabrinatoLungs
 
 - type: entity
-  parent: [ OrganBaseHeart, OrganTajaranInternal, OrganTajaranMetabolizer ]
-  id: OrganTajaranHeart
+  parent: [ OrganBaseHeart, OrganCabrinatoInternal, OrganCabrinatoMetabolizer ]
+  id: OrganCabrinatoHeart
 
 - type: entity
-  parent: [ OrganBaseStomach, OrganTajaranInternal, OrganTajaranMetabolizer ]
-  id: OrganTajaranStomach
+  parent: [ OrganBaseStomach, OrganCabrinatoInternal, OrganCabrinatoMetabolizer ]
+  id: OrganCabrinatoStomach
 
 - type: entity
-  parent: [ OrganBaseLiver, OrganTajaranInternal, OrganTajaranMetabolizer ]
-  id: OrganTajaranLiver
+  parent: [ OrganBaseLiver, OrganCabrinatoInternal, OrganCabrinatoMetabolizer ]
+  id: OrganCabrinatoLiver
 
 - type: entity
-  parent: [ OrganBaseKidneys, OrganTajaranInternal, OrganTajaranMetabolizer ]
-  id: OrganTajaranKidneys
+  parent: [ OrganBaseKidneys, OrganCabrinatoInternal, OrganCabrinatoMetabolizer ]
+  id: OrganCabrinatoKidneys
