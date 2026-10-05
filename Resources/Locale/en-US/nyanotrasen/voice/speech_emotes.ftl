@@ -1,6 +1,3 @@
-chat-emote-name-hiss = "Hiss"
-chat-emote-mgs-hiss = "hisses."
-
 chat-emote-name-meow = "Meow"
 chat-emote-mgs-meow = "meows."
 
