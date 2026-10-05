@@ -241,6 +241,7 @@
   priority: 6
   text: "/ServerInfo/_Moonlight/Guidebook/ServerRules/Specific/RuleS6Antagonists.xml"
 
+<<<<<<< HEAD:Resources/Prototypes/_Moonlight/Guidebook/rules.yml
 ## Space Law
 
 - type: guideEntry
@@ -257,6 +258,9 @@
 #   name: guide-entry-rules-sl-crime-list
 #   priority: 5
 #   text: "/ServerInfo/_Moonlight/Guidebook/ServerRules/SpaceLaw/SLCrimeList.xml"
+=======
+## Corporate Law
+>>>>>>> d31a11657607face55db2697a5bc72a765aba3cb:Resources/Prototypes/_Trauma/Guidebook/rules.yml
 
 # - type: guideEntry
 #   id: SpaceLawRightsCharter

@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
 using System.Linq;
-using Content.Client.Administration.UI.CustomControls;
 using Content.Client.UserInterface.Controls;
+using Content.Shared.Body;
 using Content.Medical.Client.Choice.UI;
 using Content.Medical.Common.Body;
 using Content.Medical.Shared.Body;
@@ -184,7 +184,11 @@ public sealed partial class SurgeryWindow : FancyWindow
             label.Set(msg, null);
 
             Steps.AddChild(label);
-            Steps.AddChild(new HSeparator { Margin = new Thickness(0, 0, 0, 1) });
+            Steps.AddChild(new Separator
+            {
+                Margin = new Thickness(0, 0, 0, 1),
+                Orientation = Separator.OrientationMode.Horizontal
+            });
         }
 
         var netPart = _ent.GetNetEntity(part);
