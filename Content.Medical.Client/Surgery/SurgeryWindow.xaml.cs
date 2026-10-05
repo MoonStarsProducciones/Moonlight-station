@@ -8,7 +8,6 @@ using Content.Medical.Common.Body;
 using Content.Medical.Shared.Body;
 using Content.Medical.Shared.Surgery;
 using Content.Medical.Shared.Surgery.Conditions;
-using Content.Shared.Body;
 using Robust.Client.Player;
 using Robust.Shared.Collections;
 using Robust.Shared.Timing;
