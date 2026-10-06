@@ -1,16 +1,16 @@
 
-[color=#ffffff]Entity spawn panel options[/color]
-[color=#a4885c]Default[/color] spawns small entities like mugs without aligning them to anything, while aligning block entities like walls to the grid.
-[color=#a4885c]PlaceFree[/color] spawns all entities without aligning them.
-[color=#a4885c]PlaceNearby[/color] limits the spawn radius to around 2 tiles.
-[color=#a4885c]SnapgridCenter[/color] aligns the entity to the middle of the tile.
-[color=#a4885c]SnapgridBorder[/color] aligns the entity to the border of the tile.
+[color=#ffffff]Opções do painel de surgimento de entidades[/color]
+[color=#a4885c]Default[/color] gera pequenas entidades, como canecas, sem alinhá-las a nada, enquanto alinha entidades espaço correto, como paredes, à grade.
+[color=#a4885c]PlaceFree[/color] gera todas as entidades sem alinhá-las.
+[color=#a4885c]PlaceNearby[/color] limita o raio de surgimento a cerca de 2 blocos.
+[color=#a4885c]SnapgridCenter[/color] alinha a entidade ao centro do bloco.
+[color=#a4885c]SnapgridBorder[/color] alinha a entidade à borda do bloco.
 
-[color=#ffffff]Grid aligned options[/color]
-[color=#a4885c]AlignSimilar[/color] snaps the entity to similar entities. Currently broken.
-[color=#a4885c]AlignTileAny[/color] aligns the entity to the grid.
-[color=#a4885c]AlignTileEmpty[/color] target tile must be empty
-[color=#a4885c]AlignTileNonDense[/color] no colliders allowed in the target tile.
-[color=#a4885c]AlignTileDense[/color] colliders must be in the target tile.
-[color=#a4885c]AlignWall[/color] snaps to vertical halftiles.
-[color=#a4885c]AlignWallProper[/color] snaps the entity to the middle of the tile edges
+[color=#ffffff]Opções alinhadas à grade[/color]
+[color=#a4885c]AlignSimilar[/color] Alinha a entidade a entidades semelhantes. Atualmente com defeito.
+[color=#a4885c]AlignTileAny[/color] alinha a entidade à grade.
+[color=#a4885c]AlignTileEmpty[/color] O bloco de destino deve estar vazio.
+[color=#a4885c]AlignTileNonDense[/color] Não são permitidos colisores no bloco de destino.
+[color=#a4885c]AlignTileDense[/color] Os colisores devem estar no bloco de destino.
+[color=#a4885c]AlignWall[/color] alinha-se a meios-tiles verticais.
+[color=#a4885c]AlignWallProper[/color] alinha a entidade ao meio das bordas do bloco

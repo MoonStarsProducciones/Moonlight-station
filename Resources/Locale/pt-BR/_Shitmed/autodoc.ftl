@@ -1,6 +1,6 @@
-autodoc-program-step-surgery = perform surgery on {$part}: {$name}
-autodoc-program-step-grab-item = grab item: '{$name}'
-autodoc-program-step-grab-any = grab any: {$name}
+autodoc-program-step-surgery = realizar uma cirurgia em {$part}: {$name}
+autodoc-program-step-grab-item = Pegar item: '{$name}'
+autodoc-program-step-grab-any = pegue qualquer um: {$name}
 autodoc-item-organ = Organ
 autodoc-item-part = Body Part
 autodoc-program-step-store-item = store item

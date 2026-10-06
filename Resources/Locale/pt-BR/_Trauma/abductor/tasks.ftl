@@ -1,27 +1,27 @@
 # Special
 
-abductor-task-InstallGland = Replace the subject's heart with our special gland
+abductor-task-InstallGland = Substitua o coração do sujeito pela nossa glândula especial.
 
 # Organs
 
-abductor-task-RemoveWings = Remove the subject's wings
-abductor-task-FixWings = Attach new wings to the subject
-abductor-task-RemoveTail = Remove the subject's tail
-abductor-task-EndRacism = Attach a reptilian's tail 👽 to the subject
-abductor-task-CyberEyes = Install cybernetic eyes in the subject's skull
-abductor-task-InsertCavity = Hide something 👽 inside the subject's chest cavity
+abductor-task-RemoveWings = Remova as asas do espécime.
+abductor-task-FixWings = Anexe novas asas ao objeto.
+abductor-task-RemoveTail = Remova a cauda do espécime.
+abductor-task-EndRacism = Anexe a cauda de um réptil. 👽 para o sujeito
+abductor-task-CyberEyes = Instale olhos cibernéticos no crânio do sujeito.
+abductor-task-InsertCavity = Esconder algo 👽 dentro da cavidade torácica do sujeito
 
 # Damage
 
-abductor-task-FullyHeal = Completely heal the subject
-abductor-task-Beating = Apply 30 blunt damage to the subject
-abductor-task-BurnMoth = Apply 30 burn damage to the fluffy subject 👽
+abductor-task-FullyHeal = Cure completamente o sujeito.
+abductor-task-Beating = Cause 30 de dano de impacto ao alvo.
+abductor-task-BurnMoth = Cause 30 de dano de queimadura ao alvo fofinho. 👽
 
 # Abuse
 
-abductor-task-RemoveArms = Sever the subject's arms
-abductor-task-RemoveLegs = Sever the subject's legs
-abductor-task-RemoveTongue = Extract the subject's tongue
-abductor-task-RemoveKidneys = Extract the subject's kidneys
-abductor-task-RemoveStomach = Extract the subject's stomach
-abductor-task-RemoveHair = Make the subject bald like us 👽👽, using our high-tech retractor 👽
+abductor-task-RemoveArms = Ceife os braços do sujeito.
+abductor-task-RemoveLegs = Ceife as pernas do sujeito.
+abductor-task-RemoveTongue = Extraia a língua do sujeito.
+abductor-task-RemoveKidneys = Extraia os rins do sujeito.
+abductor-task-RemoveStomach = Extraia o estômago do sujeito.
+abductor-task-RemoveHair = Deixe o sujeito careca, como nós. 👽👽, usando nosso afastador de alta tecnologia 👽

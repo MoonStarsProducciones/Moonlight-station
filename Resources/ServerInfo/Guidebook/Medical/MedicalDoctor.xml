@@ -8,15 +8,15 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-# Medical Doctor
-It's time to heal. Or at least, try to heal, anyway. Medical Doctors are the primary caretakers of every boo boo and ouchie crewmembers get on the station, be it a small scratch, or boiled skin.
+# Médico
+É hora de curar. Ou, pelo menos, de tentar curar. Os médicos são os principais responsáveis ​​por cuidar de qualquer machucado ou ferimento que os tripulantes sofram na estação, seja um pequeno arranhão ou uma queimadura.
 
-This guide will give you a basic outline of the treatment options you have available, triage, and other avenues of care.
+Este guia apresentará uma visão geral das opções de tratamento disponíveis, da triagem e de outras vias de atendimento.
 
-## The Basics
-There are two ways to tell what's ailing someone: Taking a scan (with a health analyzer or a medical PDA), or examining them, with a shift-click, and clicking the heart symbol.
+## O Básico
+Existem duas maneiras de descobrir o que está afetando alguém: realizar uma varredura (com um analisador de saúde ou um PDA médico) ou examiná-lo — usando Shift + clique e clicando no símbolo de coração.
 
-Using a health analyzer is often more powerful than examination, as some things (such as poison, or radiation) don't show up on examination. However, using an analyzer has its drawbacks, as it makes noise and uses up a battery.
+Usar um analisador de saúde costuma ser mais eficaz do que realizar um exame, já que certos elementos (como veneno ou radiação) não são detectados pelo exame. No entanto, o uso do analisador apresenta desvantagens, pois gera ruído e consome bateria.
 <Box>
 <GuideEntityEmbed Entity="SignExamroom" Caption="examine patient"/>
 <GuideEntityEmbed Entity="MedicalPDA"/>
@@ -24,20 +24,20 @@ Using a health analyzer is often more powerful than examination, as some things 
 <GuideEntityEmbed Entity="HandheldHealthAnalyzer"/>
 </Box>
 
-## Medication and Treatment Options
-Before we go any further, it's probably a good idea to go over damage types, and what will heal them. The wiki has more extensive info available, but these are commonly used.
+## Opções de Medicamentos e Tratamento
+Antes de prosseguirmos, é uma boa ideia analisar os tipos de dano e o que os cura. A wiki traz informações mais detalhadas, mas estes são os mais comuns.
 
-An important note: Most medication has an overdose level, which will cause harm to your patient. Chemicals also take time to metabolise in pill form, if you want things to act quickly, use a syringe.
+Uma observação importante: a maioria dos medicamentos tem um limite de dosagem que, se ultrapassado, causará danos ao paciente. Além disso, substâncias químicas administradas na forma de comprimido levam tempo para serem metabolizadas; se você precisar de uma ação rápida, utilize uma seringa.
 
-- Brute Damage: Bicaridine or Bruise Packs
-- Burn Damage: Dermaline or Ointment
-- Toxin (Poison): Dylovene
-- Toxin (Radiation) Hyronalin or Arithrazine
-- Airloss: Dexaline or Inaprovaline
-- Bloodloss: Dexaline (Examine the patient, if pale, they still need blood or iron.)
-- Bleeding: Tranexamic acid and Gauze (Bleeding can also be cauterized with burn damage.)
+- Dano de Bruto: Bicaridina ou Bolsas de Compressão para Contusões
+- Lesão por queimadura: Dermaline ou pomada
+- Toxina (Veneno): Dylovene
+- Toxina (Radiação) Hyronalin ou Arithrazine
+- Airloss: Dexaline ou Inaprovaline
+- Perda de sangue: Dexaline (Examine o paciente; se estiver pálido, ainda precisa de sangue ou ferro.)
+- Sangramento: Ácido tranexâmico e gaze (o sangramento também pode ser cauterizado por meio de queimadura.)
 
-Many stations are stocked with kits in storage, and all medics have some equipment in their starting belt.
+Muitas bases dispõem de kits em estoque, e todos os socorristas possuem algum equipamento em seu cinto inicial.
 
 <Box>
 <GuideEntityEmbed Entity="MedkitFilled"/>
@@ -55,27 +55,26 @@ Many stations are stocked with kits in storage, and all medics have some equipme
 <GuideEntityEmbed Entity="Gauze"/>
 </Box>
 
-## Basic Treatment and Triage
-Examine your patient, and note down the important details: Are they alive? Bleeding? What type of damage?
+## Tratamento Básico e Triagem
+Examine o paciente e anote os detalhes importantes: ele está vivo? Está sangrando? Que tipo de lesão apresenta?
+Se estiverem vivos, trate-os da melhor maneira possível. Os pacientes entram em estado crítico ao atingirem 100 de dano e morrem ao chegar a 200. Lembre-se disso ao decidir como tratá-los. Canetas de emergência e adrenalina são frequentemente usadas para manter os pacientes estáveis.
 
-If alive, treat them as best as you can. Patients are in critical condition at 100 damage, and dead at 200. Keep this in mind when choosing how to treat them. Emergency Pens and Epinephrine are often used to keep patients stable.
-
-If possible, buckle them to a medical bed, if you need time to treat them, strap them to a stasis bed instead. Just keep in mind that metabolism (and by extension, healing chemicals) are slowed to a crawl when on stasis, they'll need to be taken off of it for the medicine to be effective. (But Blood Packs, Ointment, and Brute packs all work as normal.)
+Se possível, prenda-os a uma cama médica; caso precise de tempo para tratá-los, prenda-os a uma cama de estase. Lembre-se apenas de que o metabolismo (e, consequentemente, a ação de substâncias de cura) fica extremamente lento durante a estase; será necessário retirá-los dela para que o medicamento faça efeito. (No entanto, bolsas de sangue, pomadas e kits para traumas físicos funcionam normalmente.)
 <Box>
 <GuideEntityEmbed Entity="MedicalBed"/>
 <GuideEntityEmbed Entity="StasisBed"/>
 </Box>
-## Assessing Corpses
-You can't save them all, sometimes, death happens. Depending on the [color=#a4885c]status[/color] of the body, there are a few things that can be done.
+## Avaliação de cadáveres
+Você não pode salvar a todos, às vezes, a morte acontece. Dependendo do [color=#a4885c]status[/color] do corpo, há algumas coisas que podem ser feitas.
 
-1. Do they have a soul attached? You can tell if, when examining, the following phrase is displayed: "Their soul has departed." If this isn't displayed, there is still a player who can be revived.
+1. Elas possuem uma alma vinculada? Você pode verificar isso observando se, ao examiná-las, a seguinte frase é exibida: "A alma deles partiu." Se essa frase não aparecer, ainda há um jogador que pode ser revivido.
 
-2. Is the body rotting? If it is, sadly, they'll have to be cloned. A rotting body can't be brought back with a defibrillator. (See Cloning)
+2. O corpo está em decomposição? Se estiver, infelizmente, terão de ser clonados. Um corpo em decomposição não pode ser reanimado com um desfibrilador. (Veja Clonagem)
 
-3. If they have a soul, and aren't rotten, it's possible to revive them. Consider storing the body in a morgue tray if you don't have enough time to revive someone, as the body will rot if you wait too long.
+3. Se eles tiverem alma e não estiverem em decomposição, é possível revivê-los. Considere guardar o corpo em uma bandeja de necrotério caso não tenha tempo suficiente para reviver alguém, pois o corpo entrará em decomposição se você esperar demais.
 
-## Revival
-Not counting airloss, Defibrillators can be used to revive patients under 200 total damage. Chemicals don't metabolise in the dead, but brute packs and ointment can still patch them up. Use them to bring their numbers down enough for revival.
+## Renascimento
+Desconsiderando a perda de ar, desfibriladores podem ser usados ​​para reanimar pacientes com menos de 200 de dano total. Produtos químicos não são metabolizados em corpos sem vida, mas kits de trauma e pomadas ainda podem tratar os ferimentos. Use-os para reduzir o dano a um nível que permita a reanimação.
 
 <Box>
 <GuideEntityEmbed Entity="Brutepack"/>

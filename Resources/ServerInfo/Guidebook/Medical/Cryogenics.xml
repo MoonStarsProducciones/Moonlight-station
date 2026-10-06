@@ -12,14 +12,14 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-# Cryogenics
-Cryogenics can be a bit daunting to understand, but hopefully, quick run through of this diagram, you'll learn how to work it! So, let's go over what each part does:
+# Criogenia
+A criogenia pode parecer um pouco intimidadora, mas, com uma breve explicação deste diagrama, você vai aprender como tudo funciona! Então, vamos ver o que cada parte faz:
 
-- Air in: Air comes in here through the distro or an air tank, giving those inside something to breathe, and the freezer something to chill.
-- Gas pump: Limits the network pressure, so those in the tube aren't crushed.
-- Freezer: Chills the air, and by extension, patients in the tube, so Cryoxadone can activate.
-- Gas filters: Removes waste gas (Carbon Dioxide and Nitrous Oxide) from the loop.
-- Air out: Waste gasses go here, either into a storage tank, or into the waste network.
+- Entrada de ar: O ar entra aqui através do distribuidor ou de um tanque de ar, fornecendo aos ocupantes algo para respirar e ao freezer algo para resfriar.
+- Bomba de gás: limita a pressão da rede, evitando que os elementos no tubo sejam esmagados.
+- Freezer: Resfria o ar e, consequentemente, os pacientes no tubo, permitindo que o Cryoxadone seja ativado.
+- Filtros de gás: Removem gases residuais (dióxido de carbono e óxido nitroso) do circuito.
+- Saída de ar: Os gases residuais são direcionados para cá, seja para um tanque de armazenamento ou para a rede de resíduos.
 <Box>
 <GuideEntityEmbed Entity="GasPipeBend" Rotation="90"/>
 <GuideEntityEmbed Entity="GasPipeStraight" Rotation="90"/>
@@ -45,18 +45,18 @@ Cryogenics can be a bit daunting to understand, but hopefully, quick run through
 <GuideEntityEmbed Entity="GasPipeBend" Rotation="270"/>
 </Box>
 
-Not every network will look like this, but hopefully, it's enough to give you the basic gist of how it's functioning.
+Nem toda rede será assim, mas espero que isso seja suficiente para lhe dar uma noção básica de como ela funciona.
 
-An important thing to note, winter clothing (and hardsuits) will make cryogenic treatment less, or completely ineffective. Be sure to remove cold preventative clothing before placing people in the pod.
+Um ponto importante a observar é que roupas de inverno (e hardsuits) tornarão o tratamento criogênico menos eficaz ou totalmente ineficaz. Certifique-se de remover as roupas de proteção contra o frio antes de colocar as pessoas na cápsula.
 
-## Using the Pod
-  Once things have been set up, you're going to require cryogenic medications (all listed below). They each provide healing when a patient is chilled, and should be loaded into the pod directly with a beaker. Do note, patients won't begin to heal until they've chilled to the appropriate temperature, it may be worthwhile to wait a bit before placing a beaker inside.
+## Usando o Pod
+  Após a configuração inicial, você precisará de medicamentos criogênicos (todos listados abaixo). Cada um deles promove a cura quando o paciente está resfriado e deve ser inserido diretamente na cápsula usando um béquer. Vale ressaltar que o processo de cura só começa quando o paciente atinge a temperatura adequada; portanto, pode ser vantajoso aguardar um pouco antes de colocar o béquer no interior da cápsula.
 
-## Additional Information:
+## Informações adicionais:
 
-  The standard pressure for a gas pump is 100.325 kpa, and sometimes increased for faster results. A majority of cryogenics medicines work at under 213K (150K for Opporozidone), but it is standard practice to set the freezer to 100K for faster freezing.
+  A pressão padrão para uma bomba de gás é de 100,325 kPa, sendo por vezes aumentada para obter resultados mais rápidos. A maioria dos medicamentos criogênicos atua abaixo de 213 K (150 K no caso da Opporozidona), mas a prática padrão consiste em ajustar o freezer para 100 K para acelerar o congelamento.
 
-  Cryo pods separate out each reagent from the beaker in the pod, injecting a small, steady amount of each into the patient.  This allows for medicine to be administered twice as efficiently than with injection or oral administration.
+  As cápsulas criogênicas separam cada reagente contido no recipiente interno e injetam uma quantidade pequena e constante de cada um no paciente. Isso permite que o medicamento seja administrado com o dobro da eficiência em comparação com a injeção ou a administração oral.
 
 <GuideReagentEmbed Reagent="Aloxadone"/>
 <GuideReagentEmbed Reagent="Arcryox"/>

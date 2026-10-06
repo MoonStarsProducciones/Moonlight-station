@@ -59,15 +59,15 @@ SPDX-License-Identifier: AGPL-3.0-or-later
   </Box>
 
   <Box>
-    [color=#999999][italic]An example of a small gas holding tank[italic][/color]
+    [color=#999999][italic]Um exemplo de um pequeno tanque de armazenamento de gás[italic][/color]
   </Box>
 
-  Various atmos processes insert and remove gasses from the gas storage tanks.
-  For example:
-  - The gas miner provides fresh gasses to the gas storage tanks, if there is room.
-  - The recyclernet injects reclaimed gasses into the gas storage tanks for reuse.
-  - Setups like the distronet and burn chamber remove gasses from the gas storage tanks.
+  Vários processos atmosféricos introduzem e removem gases dos tanques de armazenamento de gás.
+  Por exemplo:
+  - O minerador de gás fornece gases frescos aos tanques de armazenamento de gás, se houver espaço.
+  - O sistema de reciclagem injeta gases recuperados nos tanques de armazenamento de gás para reutilização.
+  - Sistemas como o *distronet* e a câmara de queima removem gases dos tanques de armazenamento de gás.
 
-  Gas storage tanks are designed to be able to be measured using a [textlink="Gas Analyzer" link="AtmosTools"].
-  Because the outflow vent is a [textlink="passive vent" link="PassiveVent"], you can use a [textlink="gas analyzer" link="AtmosTools"] to measure the gas content of the [textlink="pump's" link="Pumps"] input, which is drawing from the gas storage tank.
+  Os tanques de armazenamento de gás são projetados para que possam ser medidos usando um [textlink="Gas Analyzer" link="AtmosTools"].
+  Porque a saída de escoamento é uma [textlink="passive vent" link="PassiveVent"], você pode usar um [textlink="gas analyzer" link="AtmosTools"] para medir o conteúdo de gás do [textlink="pump's" link="Pumps"] entrada, que provém do tanque de armazenamento de gás.
 </Document>

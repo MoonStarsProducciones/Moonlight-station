@@ -6,7 +6,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Gas Canisters
+  # tonel de gás
   <Box>
     <GuideEntityEmbed Entity="AirCanister"/>
     <GuideEntityEmbed Entity="OxygenCanister"/>
@@ -18,20 +18,21 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="GasPort"/>
   </Box>
 
-  Gas canisters are a way to store gas in a portable container for easy transport.
-  They can store [color=orange][protodata="StorageCanister" comp="GasCanister" member="Volume"/] liters[/color] of gas.
+  tonel de gás são uma forma de armazenar gás em um recipiente portátil para facilitar o transporte.
+  Eles podem armazenar [color=orange][protodata="StorageCanister" comp="GasCanister" member="Volume"/] litros[/color] de gás.
 
-  You can connect handheld tanks to a gas canister to refill them using the release valve on the canister.
-  The release valve also has a adjustable pressure regulator to control the pressure of the handheld tank connected.
+  Você pode conectar tanques portáteis a um cilindro de gás para reabastecê-los usando a válvula de liberação do cilindro.
+  A válvula de alívio também possui um regulador de pressão ajustável para controlar a pressão do reservatório portátil conectado.
 
-  Opening the release valve on a canister with no handheld tank connected will release gas into the atmosphere, at the specified regulator pressure.
+  Abrir a válvula de liberação de um cilindro sem um tanque portátil conectado liberará gás na atmosfera, na pressão especificada do regulador.
 
-  [bold]Be sure to close the release valve before you eject your handheld tank![/bold]
+  [bold]Certifique-se de fechar a válvula de liberação antes de ejetar o tanque portátil![/bold]
 
-  ## Connector Ports
-  Gas canisters and [textlink="portable scrubbers" link="PortableScrubber"] can be connected to a [textlink="pipenet" link="PipeNetworks"] by anchoring (wrenching) the device on top of a connector.
-  When connected, gas will be free to move in and out of the canister to balance pressure, temperature, and composition.
+  ## Portas de Conexão
 
-  A pump can be used to insert or extract gas from a canister, useful for filling or emptying a canister entirely.
+  tonel de gás e [textlink="portable scrubbers" link="PortableScrubber"] pode ser conectado a um [textlink="pipenet" link="PipeNetworks"] ancorando (fixando com força) o dispositivo sobre um conector.
+  Uma vez conectado, o gás poderá fluir livremente para dentro e para fora do cilindro para equilibrar a pressão, a temperatura e a composição.
+
+  Uma bomba pode ser usada para inserir ou extrair gás de um recipiente, sendo útil para enchê-lo ou esvaziá-lo completamente.
 
 </Document>

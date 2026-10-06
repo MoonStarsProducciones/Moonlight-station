@@ -26,10 +26,10 @@ accent-cowboy-words-7 = animals
 accent-cowboy-replacement-7 = bichos
 
 accent-cowboy-words-8 = prender
-accent-cowboy-replacement-8 = enlaçar
+accent-cowboy-replacement-8 = Amarrar o burro
 
 accent-cowboy-words-9 = preso
-accent-cowboy-replacement-9 = enlaçado
+accent-cowboy-replacement-9 = pego no laço
 
 accent-cowboy-words-10 = bomba
 accent-cowboy-replacement-10 = dinamite
