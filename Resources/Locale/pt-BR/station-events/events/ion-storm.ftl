@@ -46,10 +46,10 @@ ion-storm-law-requires = {ION-WHO-GENERAL($ion)} {ION-PLURAL($ion) ->
     [true] REQUEREM
     *[false] REQUER
 } {ION-REQUIRE($ion)}
-ion-storm-law-requires-subjects = {ION-WHO($ion)} {$plural ->
+ion-storm-law-requires-subjects = {ION-WHO($ion)} {ION-PLURAL($ion) ->
     [true] REQUEREM
     *[false] REQUER
-} {$joined} {$subjects}
+} {ION-NUMBER-BASE($ion)} {ION-NUMBER-MOD($ion)} {ION-ADJECTIVE($ion)} {ION-SUBJECT($ion)}
 
 ion-storm-law-allergic = {ION-WHO-GENERAL($ion)} {ION-PLURAL($ion) ->
     [true] É
@@ -78,7 +78,7 @@ ion-storm-law-lowest-rank = O {ION-WHO($ion)} AGORA SÃO OS TRIPULANTES DE MENOR
 ion-storm-law-crew-must = O {ION-WHO($ion)} DEVE {ION-MUST($ion)}
 ion-storm-law-crew-must-go = O {ION-WHO($ion)} DEVE IR PARA {ION-AREA($ion)}
 
-ion-storm-part = {$part ->
+ion-storm-part = {ION-PART($ion) ->
     [true] SÃO PARTE
     *[false] NÃO SÃO PARTE
 }
@@ -86,7 +86,7 @@ ion-storm-part = {$part ->
 # ONLY HUMANS ARE NOT PART OF THE CREW
 # would make non-human nukies/syndies/whatever crew :)
 ion-storm-law-crew-only-1 = APENAS OS {ION-WHO($ion)} {ion-storm-part} DA TRIPULAÇÃO
-ion-storm-law-crew-only-2 = APENAS OS {ION-WHO($ion)} AND {$other} {ion-storm-part} DA TRIPULAÇÃO
+ion-storm-law-crew-only-2 = APENAS OS {ION-WHO($ion)} AND {ION-WHO-RANDOM($ion)}  {ion-storm-part} DA TRIPULAÇÃO
 ion-storm-law-crew-only-subjects = APENAS {ION-ADJECTIVE($ion)} {$subjects} {ion-storm-part} DA TRIPULAÇÃO
 ion-storm-law-crew-only-species = APENAS {$species} {ion-storm-part} DA TRIPULAÇÃO
 ion-storm-law-crew-must-do = APENAS AQUELES QUE {ION-MUST($ion)} {ion-storm-part} DA TRIPULAÇÃO
