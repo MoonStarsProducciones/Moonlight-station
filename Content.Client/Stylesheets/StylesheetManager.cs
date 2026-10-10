@@ -67,12 +67,12 @@ namespace Content.Client.Stylesheets
                 Init(sheet);
             }
             // </Trauma>
-            SheetNanotrasen = Init(new NanotrasenStylesheet(new BaseStylesheet.NoConfig(), this));
-            SheetSystem = Init(new SystemStylesheet(new BaseStylesheet.NoConfig(), this));
+            SheetNanotrasen = Init(new NanotrasenStylesheet(ResolveStyleTheme(), this)); // Moonlight: Starlight Themed
             SheetNano = new StyleNano(_resCache).Stylesheet; // TODO: REMOVE (obsolete)
             SheetSpace = new StyleSpace(_resCache).Stylesheet; // TODO: REMOVE (obsolete)
 
             _userInterfaceManager.Stylesheet = SheetNanotrasen;
+            InitializeStyleTheme(); // Starlight
 
             // warn about unused sheetlets
             if (UnusedSheetlets.Count > 0)

@@ -7,8 +7,18 @@
             <BoxContainer Orientation="Vertical" Margin="8 8 8 8" VerticalExpand="True">
                 <Label Text="{Loc 'ui-options-general-ui-style'}"
                        StyleClasses="LabelKeyText"/>
+                <!-- <Moonlight> -->
+                <ui:OptionDropDown Name="DropDownStyleTheme" Title="{Loc 'ui-options-style-theme'}" />
+                <!-- <Moonlight> -->
+
                 <ui:OptionDropDown Name="DropDownHudTheme" Title="{Loc 'ui-options-hud-theme'}" />
                 <ui:OptionDropDown Name="DropDownHudLayout" Title="{Loc 'ui-options-hud-layout'}" />
+
+                <!-- <Moonlight> -->
+                <CheckBox Name="StyleCustomAccentCheckBox" Text="{Loc 'ui-options-style-custom-accent'}" />
+                <ui:OptionColorSlider Name="StyleAccentSlider" Title="{Loc 'ui-options-style-accent'}" />
+                <!-- <Moonlight> -->
+
                 <Label Text="{Loc 'ui-options-general-discord'}"
                        StyleClasses="LabelKeyText"/>
                 <CheckBox Name="DiscordRich" Text="{Loc 'ui-options-discordrich'}" />

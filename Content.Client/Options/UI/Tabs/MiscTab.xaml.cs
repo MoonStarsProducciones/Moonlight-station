@@ -28,6 +28,9 @@ public sealed partial class MiscTab : Control
     {
         RobustXamlLoader.Load(this);
         IoCManager.InjectDependencies(this);
+        // <Moonlight> Adicionar o picker Theme Style
+        InitThemeStylePicker();
+        // <Moonlight/>
 
         var themes = _prototypeManager.EnumeratePrototypes<HudThemePrototype>().ToList();
         themes.Sort();
