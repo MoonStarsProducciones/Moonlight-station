@@ -1,12 +1,15 @@
 - type: entity
   parent: BaseSpeciesAppearance
   id: AppearanceVulpkanin
-  displacements: !Clear # Moonlight - Tira as displaciment do vulp
-    head:
-      sizeMaps:
-        32:
-          sprite: Mobs/Species/Vulpkanin/displacement.rsi
-          state: head
+  components:
+  - type: Inventory
+    speciesId: vulpkanin
+    displacements: !Clear
+      head:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Vulpkanin/displacement.rsi
+            state: head
 
 
 - type: entity
