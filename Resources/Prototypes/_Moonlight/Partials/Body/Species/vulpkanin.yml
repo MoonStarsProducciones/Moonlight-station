@@ -1,0 +1,36 @@
+- type: entity
+  parent: BaseSpeciesAppearance
+  id: AppearanceVulpkanin
+  displacements: !Clear # Moonlight - Tira as displaciment do vulp
+    head:
+      sizeMaps:
+        32:
+          sprite: Mobs/Species/Vulpkanin/displacement.rsi
+          state: head
+
+
+- type: entity
+  id: OrganVulpkaninVisual
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: _RMC14/Mobs/Vulpkanin/parts.rsi # Moonlight - Muda o sprite feio do vulp do Trauma
+
+- type: entity
+  parent: [ OrganVulpkanin, OrganVulpkaninVisual ]
+  id: OrganVulpkaninExternal
+  components:
+  - type: Sprite
+    sprite: _RMC14/Mobs/Vulpkanin/parts.rsi # Moonlight - Muda o sprite feio do vulp do Trauma
+
+- type: entity
+  parent: [ OrganBaseHeadSexed, OrganBaseHead, OrganVulpkaninExternal ] # Moonlight - Cabeça do sprite do rcm tem versão feminina e masculina
+  id: OrganVulpkaninHead
+
+- type: entity
+  parent: [ OrganVulpkaninVisual, OrganBaseEyes, OrganVulpkaninInternal ]
+  id: OrganVulpkaninEyes
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: Mobs/Customization/eyes.rsi # Moonlight -

@@ -2,5 +2,4 @@
   id: SpaceLaw
   priority: 1
   text: "/ServerInfo/_Moonlight/Guidebook/ServerRules/SpaceLaw/SpaceLaw.xml"
-  children:
-   - !Remove SpaceLawCrimeList
+  children: !Clear
