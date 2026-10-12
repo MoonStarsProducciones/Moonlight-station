@@ -201,7 +201,7 @@
   id: OrganCabrinatoTorso
 
 - type: entity
-  parent: [ OrganBaseHeadSexed, OrganBaseHead, OrganCabrinatoExternal ] # Trauma
+  parent: [ OrganBaseHeadSexed, OrganBaseHeadNoFacialHair, OrganCabrinatoExternal ] # Trauma
   id: OrganCabrinatoHead
   components:
   - type: VisualOrganMarkings
