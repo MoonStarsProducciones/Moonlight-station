@@ -165,23 +165,24 @@
   - sprite: _Goobstation/Mobs/Customization/Tajaran/torso.rsi
     state: fullbelly
 
-# Overlays
+# Moonlight - Isso dai ta meio bugado então vou remover temporariamente
+# # Overlays
 
-- type: marking
-  id: TajaranOverlayPatch
-  bodyPart: LLeg
-  groupWhitelist: [Tajaran]
-  sprites:
-  - sprite: _Goobstation/Mobs/Customization/Tajaran/overlays.rsi
-    state: patch
+# - type: marking
+#   id: TajaranOverlayPatch
+#   bodyPart: Chest
+#   groupWhitelist: [Tajaran]
+#   sprites:
+#   - sprite: _Goobstation/Mobs/Customization/Tajaran/overlays.rsi
+#     state: patch
 
-- type: marking
-  id: TajaranOverlayPoints
-  bodyPart: LLeg
-  groupWhitelist: [Tajaran]
-  sprites:
-  - sprite: _Goobstation/Mobs/Customization/Tajaran/overlays.rsi
-    state: points
+# - type: marking
+#   id: TajaranOverlayPoints
+#   bodyPart: Chest
+#   groupWhitelist: [Tajaran]
+#   sprites:
+#   - sprite: _Goobstation/Mobs/Customization/Tajaran/overlays.rsi
+#     state: points
 
 # Felinid Ears, adapted for tajaran (all needed to be higher up and/or modified to fit better)
 

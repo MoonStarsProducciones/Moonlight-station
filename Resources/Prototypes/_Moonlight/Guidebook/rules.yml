@@ -240,26 +240,3 @@
   ruleEntry: true
   priority: 6
   text: "/ServerInfo/_Moonlight/Guidebook/ServerRules/Specific/RuleS6Antagonists.xml"
-
-## Space Law
-
-- type: guideEntry
-  id: SpaceLaw
-  name: guide-entry-rules-space-law
-  priority: 1
-  text: "/ServerInfo/_Moonlight/Guidebook/ServerRules/SpaceLaw/SpaceLaw.xml"
-  # children:
-  # - SpaceLawCrimeList
-  # - SpaceLawRightsCharter
-
-# - type: guideEntry
-#   id: SpaceLawCrimeList
-#   name: guide-entry-rules-sl-crime-list
-#   priority: 5
-#   text: "/ServerInfo/_Moonlight/Guidebook/ServerRules/SpaceLaw/SLCrimeList.xml"
-
-# - type: guideEntry
-#   id: SpaceLawRightsCharter
-#   name: guide-entry-rules-sl-rights-charter
-#   priority: 5
-#   text: "/ServerInfo/_Moonlight/Guidebook/ServerRules/SpaceLaw/SLRightsCharter.xml"

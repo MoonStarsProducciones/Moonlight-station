@@ -25,7 +25,7 @@ ent-Hemostat = hermoestato
 ent-Saw = serra de metal
     .desc = Para cortar madeira, ou em caso de emergência, até mesmo ossos.
 
-ent-SawImprov = choppa
+ent-SawImprov = serra inprovisada
     .desc = Uma lâmina serrilhada feita de qualquer coisa afiada e desagradável que você pudesse encontrar.
 
 ent-SawElectric = serra circular

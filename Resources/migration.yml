@@ -172,6 +172,12 @@ MachinePowerTransmissionLaserFlatpack: null
 
 # 2026-09-16
 SpawnMobPlantbot: null
+
+# 2026-09-19
+PoweredFloorLight: null
+WallXenoMembrane: ResinMembrane
+WallXenoResin: WallResin
+WallXenoResinThick: WallResin
 # </Trauma>
 
 # Goobstation - Submarine from DeltaV
@@ -1278,3 +1284,7 @@ DrinkWaterJug: JugWater
 
 #2026-09-05
 AsimovCircuitBoard: CrewsimovCircuitBoard
+
+# 2026-09-24
+ClothingShoesTourist: ClothingShoesSandalsBlack
+ClothingShoesWizard: ClothingShoesSandalsBrown

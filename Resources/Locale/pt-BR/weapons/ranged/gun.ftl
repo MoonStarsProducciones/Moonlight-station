@@ -63,8 +63,8 @@ gun-magazine-examine = Há [color={$color}]{$count}[/color] tiros restantes.
 gun-revolver-empty = Revólver vazio
 gun-revolver-full = Revólver carregado
 gun-revolver-insert = Inserido
-gun-revolver-spin = Girar revólver
-gun-revolver-spun = Girou
+gun-revolver-spin = Girar tambor revólver
+gun-revolver-spun = Girou o tambor
 gun-speedloader-empty = Carregador rápido vazio
 
 # GunSpreadModifier

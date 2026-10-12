@@ -10,15 +10,15 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Airlock Upgrades
-  It is not uncommon for plucky individuals to try and bypass an airlock by meddling with its internal wiring.
+  # Atualizações de Eclusas de Ar
+  Não é incomum que indivíduos audazes tentem burlar uma eclusa mexendo em sua fiação interna.
 
-  Fortunately, certain countermeasures can be installed into airlocks to inconvenience any would-be trespassers.
+  Felizmente, certas contramedidas podem ser instaladas nas eclusas para dificultar a vida de eventuais invasores.
 
-  ## Medium security airlocks
-  The most basic form of intrusion deterrence is to install a secured steel plating that will prevent access to internal wiring of the airlock.
+  ## Comportas de segurança de nível médio
+  A forma mais básica de dissuasão de intrusões é a instalação de uma placa de aço segura que impeça o acesso à fiação interna da eclusa.
 
-  To upgrade a basic airlock to a medium security airlock, you will require the following materials:
+  Para atualizar uma eclusa básica para uma eclusa de segurança média, você precisará dos seguintes materiais:
   <Box HorizontalAlignment="Stretch">
 	  <Box>
 		  <GuideEntityEmbed Entity="SheetSteel" Caption="2 steel sheets"/>
@@ -31,16 +31,16 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 	  </Box>
   </Box>
 
-  To upgrade a basic airlock:
-  -	Use the screwdriver to open the airlock maintenance panel.
-  -	Add the steel sheets to the airlock.
-  -	Weld the steel sheets into place.
-  -	Close the maintenance panel using the screwdriver.
+  Para atualizar uma eclusa de ar básica:
+  -	Use a chave de fenda para abrir o painel de manutenção da eclusa de ar.
+  -	Adicione as chapas de aço à eclusa.
+  -	Solda as chapas de aço no lugar.
+  -	Feche o painel de manutenção usando a chave de fenda.
 
-  ## High security airlocks
-  For airlocks leading to the more sensitive areas of the space station, the use of stronger deterrents are advised. High security airlocks have improved armor plating to protect its internal wiring.
+  ## Comportas de segurança de alto nível
+  Para as eclusas que dão acesso às áreas mais sensíveis da estação espacial, recomenda-se o uso de medidas dissuasórias mais potentes. Eclusas de alta segurança contam com blindagem reforçada para proteger a fiação interna.
 
-  To upgrade a medium security airlock to a high security airlock, you will require the following materials:
+  Para atualizar uma eclusa de segurança média para uma eclusa de alta segurança, você precisará dos seguintes materiais:
   <Box HorizontalAlignment="Stretch">
 	  <Box>
 		  <GuideEntityEmbed Entity="SheetPlasteel" Caption="2 plasteel sheets"/>
@@ -53,16 +53,16 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 	  </Box>
   </Box>
 
-  To upgrade a medium security airlock:
-  - Use the screwdriver to open the airlock maintenance panel.
-  - Add the plasteel sheets to the airlock.
-  - Weld the plasteel sheets into place.
-  - Close the maintenance panel using the screwdriver.
+  Para atualizar uma eclusa de segurança média:
+  - Use a chave de fenda para abrir o painel de manutenção da eclusa de ar.
+  - Adicione as placas de plasteço à câmara de descompressão.
+  - Solda as chapas de plastaço no lugar.
+  - Feche o painel de manutenção usando a chave de fenda.
 
-  ## Maximum security airlocks
-  You can optionally upgrade a high security airlock to a maximum security airlock. Maximum security airlocks possess an additional layer of electrified wire mesh on top of its other protections, which can shock any unauthorized personnel attempting to tamper with the airlock.
+  ## Comportas de segurança máxima
+  Opcionalmente, é possível atualizar uma eclusa de alta segurança para uma eclusa de segurança máxima. As eclusas de segurança máxima contam com uma camada adicional de tela de arame eletrificada, além de suas outras proteções, capaz de causar choque em qualquer pessoa não autorizada que tente adulterar a eclusa.
 
-  To upgrade a high security airlock to a maximum security airlock, you will require the following materials:
+  Para atualizar uma eclusa de alta segurança para uma eclusa de segurança máxima, você precisará dos seguintes materiais:
   <Box HorizontalAlignment="Stretch">
 	  <Box>
 		  <GuideEntityEmbed Entity="SheetPlasteel" Caption="2 plasteel sheets"/>
@@ -78,10 +78,10 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 	  </Box>
   </Box>
 
-  To upgrade a high security airlock:
-  -	Use the screwdriver to open the airlock maintenance panel.
-  -	Add the plasteel sheets to the airlock.
-  -	Weld the plasteel sheets into place.
-  - Add the metal rods to the airlock.
-  -	Close the maintenance panel using the screwdriver.
+  Para atualizar uma eclusa de alta segurança:
+  -	Use a chave de fenda para abrir o painel de manutenção da eclusa de ar.
+  -	Adicione as placas de plasteço à câmara de descompressão.
+  -	Solda as chapas de plastaço no lugar.
+  - Insira as hastes metálicas na válvula de retenção.
+  -	Feche o painel de manutenção usando a chave de fenda.
 </Document>

@@ -9,16 +9,16 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Gingerbread
+  # Pão de mel
 
   <Box>
     <GuideEntityEmbed Entity="MobGingerbread" Caption=""/>
   </Box>
 
-  Gingerbreads are a species of sentient confectionary. They have sugar for blood, and can be butchered for cookies. Being made of dough, they weigh half as much as species made of flesh.
+  Os Homens-Biscoito são uma espécie de doce senciente. Eles têm açúcar no lugar do sangue e podem ser abatidos para fornecer biscoitos. Por serem feitos de massa, pesam metade do que pesam as espécies feitas de carne.
 
-  ## Damage stats
+  ## Estatísticas de dano
 
-  Gingerbreads take 3x less fire damage than Humans, do not take Asphyxiation (though they still breathe and are uncomfortable without oxygen), Bloodloss (though again, are uncomfortable without sugar) and Cold damage (though are slowed down by cold), but take 1.5x more Blunt damage and take a lot of Heat damage from being exposed to water externally.
+  Bonecos de gengibre sofrem 3 vezes menos dano de fogo do que humanos; não sofrem efeitos de asfixia (embora ainda respirem e se sintam desconfortáveis ​​sem oxigênio), perda de sangue (embora, novamente, sintam-se desconfortáveis ​​sem açúcar) ou dano por frio (embora tenham sua velocidade reduzida pelo frio); no entanto, sofrem 1,5 vez mais dano de impacto e recebem muito dano de calor ao serem expostos externamente à água.
 
 </Document>

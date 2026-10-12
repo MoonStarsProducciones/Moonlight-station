@@ -8,18 +8,18 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Large Bomb Defusal
-  So, you found a large bomb and it's beeping. These bombs take a long time to detonate and punch a big hole into the hull. Just keep reading, and nobody will explode.
+  # Desarmamento de bomba de grande porte
+  Então, você encontrou uma bomba grande e ela está apitando. Essas bombas levam muito tempo para detonar e abrem um rombo enorme no casco. Basta continuar lendo e ninguém vai explodir.
 
-  ## Gear
-  You require two essential tools to perform defusal, however, a multitool is extremely helpful in terms of identifying wires.
+  ## equipamento
+  Você precisa de duas ferramentas essenciais para realizar a desativação; no entanto, uma multiferramenta é extremamente útil para identificar os fios.
   <Box>
     <GuideEntityEmbed Entity="Wirecutter"/>
     <GuideEntityEmbed Entity="Screwdriver"/>
     <GuideEntityEmbed Entity="Multitool"/>
   </Box>
 
-  For protective equipment, a [color=yellow]bomb suit[/color] or any other protective equipment can assist you in not blowing into gibs.
+  Quanto a equipamentos de proteção, um [color=yellow]traje antibombas[/color] ou qualquer outro equipamento de proteção pode ajudar a evitar que você seja despedaçado.
   <Box>
     <GuideEntityEmbed Entity="ClothingHeadHelmetBombSuit"/>
     <GuideEntityEmbed Entity="ClothingOuterSuitBomb"/>
@@ -27,56 +27,57 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="ClothingOuterHardsuitAtmos"/>
   </Box>
 
-  ## Hardbombs
-  Listed below are the two common types of bombs you will encounter while defusing. A training bomb will only provide minor hull damage and generally not kill you. A syndicate bomb however will punch a big hole into the hull, and gib you if you are not wearing protective gear.
+  ## Bombas duras
+  Abaixo estão listados os dois tipos comuns de bombas que você encontrará ao realizar o desarmamento. Uma bomba de treinamento causará apenas danos leves à estrutura e, geralmente, não o matará. Já uma bomba do sindicato abrirá um grande buraco na estrutura e o despedaçará se você não estiver usando equipamento de proteção.
   <Box>
     <GuideEntityEmbed Entity="SyndicateBomb"/>
     <GuideEntityEmbed Entity="TrainingBomb"/>
   </Box>
 
-  ## Arming
-  To arm a bomb, you can either [color=yellow]right click[/color] and click [color=yellow]Begin countdown[/click], or [color=yellow]alt-click[/color] the bomb. It will begin beeping.
+  ## Armando
+Para armar uma bomba, você pode [color=yellow]clique com o botão direito[/color] e clique [color=yellow]Iniciar contagem regressiva[/click], ou [color=yellow]Alt+clique[/color] a bomba. Ela começará a apitar.
 
-  ## Time
-  A bomb has a limited time, at a minimum of [protodata="SyndicateBomb" comp="TimerTrigger" member="ShortestDelayOption"/] seconds and a maximum of [protodata="SyndicateBomb" comp="TimerTrigger" member="LongestDelayOption"/] seconds. You can view the timer by examining it, unless the Proceed wire is cut. Once the timer hits zero, the bomb will detonate.
+  ## Tempo
+  Uma bomba tem um tempo limitado, no mínimo de [protodata="SyndicateBomb" comp="TimerTrigger" member="ShortestDelayOption"/] segundos e um máximo de [protodata="SyndicateBomb" comp="TimerTrigger" member="LongestDelayOption"/] segundos. Você pode ver o cronômetro examinando-o, a menos que o fio "Proceed" seja cortado. Assim que o cronômetro chegar a zero, a bomba detonará.
 
-  ## Bolts
-  By default, once armed, a bomb will bolt itself to the ground. You must find the BOLT wire and cut it to disable the bolts, after which you can unwrench it and throw it into space.
+  ## pino
+  Por padrão, uma vez armada, a bomba se fixa ao solo por meio de parafusos. Você deve encontrar o fio "BOLT" e cortá-lo para desativar a fixação; depois disso, poderá soltá-la e lançá-la no espaço.
 
-  ## Wires
-  You must access the wiring in order to defuse a bomb. You can use a [color=yellow]screwdriver[/color] to open the access panel. Inside, you will find many types of wires. In a standard syndicate bomb, there are around [color=yellow]10 wires[/color], 3 are dummy wires, [color=red]3 will cause a detonation[/color], and the rest that weren't mentioned can be found below (alongside BOOM wires). With each wire, you can do 3 actions. You can:
-  - [color=yellow]Pulse the wire[/color] with a multitool, this can help you safely identify most wires.
-  - [color=red]Cut the wire[/color] with a wirecutter, this can trigger various effects, be cautious of cutting without reason!
-  - [color=green]Mend the wire[/color] with a wirecutter, this can restore some functionality of the bomb if it isn't disposable.
+  ## fiação
+  Você precisa acessar a fiação para desarmar uma bomba. Você pode usar um [color=yellow]chave de fenda[/color] Para abrir o painel de acesso. Lá dentro, você encontrará muitos tipos de fios. Em uma bomba de sindicato padrão, há cerca de [color=yellow]10 fios[/color], 3 são fios fictícios, [color=red]3 causará uma detonação[/color], e os demais que não foram mencionados podem ser encontrados abaixo (juntamente com os fios BOOM). Com cada fio, você pode realizar 3 ações. Você pode:
+  - [color=yellow]Aplique pulsos ao fio[/color] Com uma multiferramenta, isso pode ajudar você a identificar a maioria dos fios com segurança.
+  - [color=red]Corte o fio[/color] Com um alicate, isso pode acionar vários efeitos; cuidado ao cortar sem motivo!
+  - [color=green]Conserte o fio[/color]Com um alicate, é possível restaurar parte da funcionalidade da bomba, caso ela não seja descartável.
 
-  Onward for the types of wires.
+  Passemos agora aos tipos de fios.
 
-  ## Wire Types
-  [color=#a4885c]Activation Wire (LIVE)[/color]
-  - [color=yellow]Pulse the wire[/color]: Pulsing the wire will make the wire chirp and delay the bomb by 30 seconds.
-  - [color=red]Cut the wire[/color]: Cutting the wire will defuse the bomb if active, otherwise, will begin the timer.
-  - [color=green]Mend the wire[/color]: Nothing.
+  ## Tipos de fios
+  [color=#a4885c]Fio de ativação (LIVE)[/color]
+  - [color=yellow]Aplique pulsos ao fio[/color]: Enviar pulsos pelo fio fará com que ele emita um som de bipe e atrasará a bomba em 30 segundos.
+  - [color=red]Corte o fio[/color]: Cortar o fio desarmará a bomba se ela estiver ativa; caso contrário, iniciará a contagem regressiva.
 
-  [color=#a4885c]Proceed Wire (PRCD)[/color]
-  - [color=yellow]Pulse the wire[/color]: Pulsing the wire will forward the time by 15 seconds.
-  - [color=red]Cut the wire[/color]: Cutting the wire will disable the timer display on examine.
-  - [color=green]Mend the wire[/color]: Nothing.
+  - [color=green]Re-faça a fiação[/color]: Nada.
 
-  [color=#a4885c]Delay Wire (DLAY)[/color]
-  - [color=yellow]Pulse the wire[/color]: Pulsing the delay wire will delay the bomb by 30 seconds.
-  - [color=red]Cut the wire[/color]: Nothing.
-  - [color=green]Mend the wire[/color]: Nothing.
+  [color=#a4885c]Processar Transferência Bancária (PRCD)[/color]
+  - [color=yellow]Aplique pulsos ao fio[/color]: Enviar um pulso pelo fio avançará o tempo em 15 segundos.
+  - [color=red]Corte o fio[/color]: Cortar o fio desativará o visor do temporizador ao examiná-lo.
+  - [color=green]Re-faça a fiação[/color]: Nada.
 
-  [color=#a4885c]Boom Wire (BOOM)[/color]
-  - [color=yellow]Pulse the wire[/color]: [color=red]The bomb will explode if armed![/color]
-  - [color=red]Cut the wire[/color]: [color=red]The bomb will explode if armed![/color] Otherwise, will disable the bomb.
-  - [color=green]Mend the wire[/color]: Re-enables the bomb if disabled previously.
+  [color=#a4885c]Fio de Atraso (DLAY)[/color]
+  - [color=yellow]Aplique pulsos ao fio[/color]: Enviar um pulso pelo fio de retardo atrasará a bomba em 30 segundos.
+  - [color=red]Corte o fio[/color]: Nada.
+  - [color=green]Re-faça a fiação[/color]: Nada.
 
-  [color=#a4885c]Bolt Wire (BOLT)[/color]
-  - [color=yellow]Pulse the wire[/color]: Pulsing the wire will make the bolts spin.
-  - [color=red]Cut the wire[/color]: Cutting the wire will disable the bolts, throw it into space!
-  - [color=green]Mend the wire[/color]: Mending the wire will re-enable the bolts.
+  [color=#a4885c]Fio Ka-boom (BOOM)[/color]
+  - [color=yellow]Aplique pulsos ao fio[/color]: [color=red]A bomba explodirá se for armada![/color]
+  - [color=red]Corte o fio[/color]: [color=red]A bomba explodirá se for armada![/color] Caso contrário, desativará a bomba.
+  - [color=green]Re-faça a fiação[/color]: Reativa a bomba se ela tiver sido desativada anteriormente.
 
-  [color=#a4885c]Dummy Wire[/color]
-  - Dummy wires don't do anything. You can pulse, cut, and mend them freely without affecting the bomb at all.
+  [color=#a4885c]Fio do pino (BOLT)[/color]
+  - [color=yellow]Aplique pulsos ao fio[/color]: Aplicar pulsos ao fio fará os parafusos girarem.
+  - [color=red]Corte o fio[/color]: Cortar o fio desativará os parafusos; jogue-o no espaço!
+  - [color=green]Conserte o fio[/color]: Reparar o fio reativará os parafusos.
+
+  [color=#a4885c]Fio fictício[/color]
+  - Fios fictícios não têm função alguma. Você pode enviar pulsos, cortá-los e emendá-los livremente sem afetar a bomba de forma alguma.
 </Document>

@@ -6,31 +6,31 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Air Scrubber
-  The air scrubber is essential in maintaining an atmosphere free of waste gasses emitted by breathing creatures and atmospheric upsets.
-  Its primary job is to scrub unwanted gasses from the atmosphere it's exposed to.
+  # Purificador de ar
+  O purificador de ar é essencial para manter uma atmosfera livre de gases residuais emitidos por seres que respiram e de perturbações atmosféricas..
+  Sua função principal é remover gases indesejados da atmosfera à qual está exposto.
   <Box>
     <GuideEntityEmbed Entity="GasVentScrubber"/>
   </Box>
-  The air scrubber requires [textlink="power" link="Power"] through a nearby [textlink="LV cable" link="VoltageNetworks"] to function.
+  O lavador de gases requer [textlink="power" link="Power"] através de um próximo [textlink="LV cable" link="VoltageNetworks"] funcionar.
 
-  The default behavior of an air scrubber is to scrub all gasses except Nitrogen and Oxygen from the atmosphere it's exposed to. It will continue this behavior unless directed by a [textlink="linked" link="Networking"] [textlink="air alarm" link="AirAlarms"].
+  O comportamento padrão de um purificador de ar é remover todos os gases, exceto nitrogênio e oxigênio, da atmosfera à qual está exposto. Ele continuará com esse comportamento a menos que seja instruído por um sistema diferente [textlink="linked" link="Networking"] [textlink="air alarm" link="AirAlarms"].
 
-  The scrubber can be welded with any welding tool to stop it from functioning.
+  O lavador de gases pode ser soldado com qualquer ferramenta de soldagem para interromper seu funcionamento.
 
-  ## Configuration Options
-  When [textlink="linked" link="Networking"] to an [textlink="air alarm" link="AirAlarms"], air scrubbers gain more functionality.
+  ## Opções de configuração
+  Quando [textlink="linked" link="Networking"] a um [textlink="air alarm" link="AirAlarms"], Os purificadores de ar ganham mais funcionalidade.
 
-  The target gasses for scrubbing can be defined in the "Gas filters" dropdown. Keep in mind this resets if you change [textlink="air alarm" link="AirAlarms"] modes.
+  Os gases alvo para lavagem podem ser definidos no menu suspenso "Filtros de gás". Lembre-se de que essa configuração é redefinida se você a alterar. [textlink="air alarm" link="AirAlarms"] modos.
 
-  Air scrubbers have two "direction" options: Scrubbing and Siphoning.
-  - Scrubbing scrubs gasses as defined in the gas filters.
-  - Siphoning ignores all gas filters, and sucks all gasses out of the atmosphere.
+  Os purificadores de ar possuem duas opções de "direção": depuração e sifonagem.
+  - A depuração remove gases, conforme definido para os filtros de gás.
+  - A sifonagem ignora todos os filtros de gás e suga todos os gases da atmosfera.
 
-  Both of these modes are limited by the Rate setting, which defines the rate (in litres) at which the scrubber sucks gasses from its exposed atmosphere.
+  Ambos os modos são limitados pela configuração de vazão (*Rate*), que define a taxa (em litros) na qual o depurador aspira gases da atmosfera a que está exposto.
 
-  Air scrubbers also have a "WideNet" setting, which expands the radius of the scrubber's operating range. Normally, the scrubber scrubs the atmosphere on the single tile it's exposed to.
-  In WideNet mode, the scrubber scrubs gas from the 4 tiles surrounding the scrubber, as shown:
+  Os purificadores de ar também possuem uma configuração "WideNet", que amplia o raio de alcance de operação do equipamento. Normalmente, o purificador trata a atmosfera apenas na célula (tile) onde está posicionado.
+  No modo WideNet, o depurador remove gases dos 4 blocos que o cercam, conforme mostrado:
 
   <Box>
     <GuideEntityEmbed Entity="FloorTileItemSteel" Caption=""/>
@@ -44,10 +44,10 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="FloorTileItemSteel" Caption=""/>
   </Box>
 
-  This effectively multiplies its total speed, as air scrubbers will now perform their scrubbing work on 5 tiles at once.
+  Isso efetivamente multiplica sua velocidade total, já que os purificadores de ar agora realizarão seu trabalho de purificação em 5 blocos de uma só vez.
 
-  Scrubbers [textlink="linked" link="Networking"] to an [textlink="air alarm" link="AirAlarms"] in auto mode will automatically enable WideNet mode under the [textlink="air alarm's" link="AirAlarms"] "Filtering (Wide)" mode when a high concentration of unwanted gasses is detected in the atmosphere.
+  Lavadores de gases [textlink="linked" link="Networking"] a um [textlink="air alarm" link="AirAlarms"] No modo automático, o modo WideNet será ativado automaticamente em [textlink="air alarm's" link="AirAlarms"] Modo "Filtragem (Ampla)" quando é detectada uma alta concentração de gases indesejados na atmosfera.
 
-  WideNet is extremely useful in quickly scrubbing large amounts of tritium from plasma burn chambers.
+  O WideNet é extremamente útil para remover rapidamente grandes quantidades de trítio das câmaras de combustão de plasma.
 
 </Document>

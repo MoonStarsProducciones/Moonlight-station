@@ -1,48 +1,48 @@
 <Document>
-  # Unlocking Nodes
+  # Desbloqueando Nós
   <Box>
     <GuideEntityEmbed Entity="ComplexXenoArtifact" Caption=""/>
     <GuideEntityEmbed Entity="ComplexXenoArtifactItem" Caption=""/>
   </Box>
 
-  To activate and unlock nodes on an artifact, you should:
-  - Check a node on the [bold]Analysis Console[/bold] to check its triggers and effects.
-  - Perform the [bold]triggers[/bold] listed in the console. Some require direct interaction with the artifact, while others may only need the correct environment or a specific action performed nearby.
-  - Once a trigger is successfully performed, the artifact will respond with the message: [italic]"It begins to shift in strange ways..."[/italic]. The [bold]Node Scanner[/bold] will then indicate which specific nodes are being triggered.
+  Para ativar e desbloquear nós em um artefato, você deve:
+  - Marque um nó no [bold]Console de Análise[/bold] para verificar seus gatilhos e efeitos.
+  - Execute o [bold]gatilhos[/bold] listados no console. Alguns exigem interação direta com o artefato, enquanto outros podem necessitar apenas do ambiente adequado ou de uma ação específica realizada nas proximidades.
+  - Assim que um gatilho for executado com sucesso, o artefato responderá com a mensagem: [italic]"Começa a mudar de maneiras estranhas..."[/italic]. O [bold]Scanner de Nós[/bold] indicará então quais nós específicos estão sendo acionados.
 
-  Artifacts enter an unlocking state after the first trigger is met. During this state, any remaining triggers must be completed. The unlocking window initially lasts a few seconds and resets each time a new trigger is activated. This window grows longer with each additional node unlocked, giving more time to complete further triggers.
+  Os artefatos entram em um estado de desbloqueio após o cumprimento do primeiro gatilho. Durante esse estado, quaisquer gatilhos restantes devem ser concluídos. O intervalo de desbloqueio dura inicialmente alguns segundos e é reiniciado sempre que um novo gatilho é ativado. Esse intervalo aumenta a cada nó adicional desbloqueado, proporcionando mais tempo para concluir os gatilhos subsequentes.
 
-  Once all required triggers are completed successfully, the artifact will trigger it's effect and a popup will appear saying: [italic]"It slows down, visibly changed."[/italic], and the node will appear as [bold][color=plum]Active[/color][/bold] on the Console.
+  Assim que todos os gatilhos necessários forem concluídos com sucesso, o artefato ativará seu efeito e uma janela pop-up aparecerá com a seguinte mensagem: [italic]"Ele desacelera, visivelmente transformado."[/italic], e o nó aparecerá como [bold][color=plum]Ativo[/color][/bold] no console.
 
-  If an artifact fails to activate, it will stop resonating and display the message: [italic]"It slows down before uneventfully stopping."[/italic] After this, it enters a cooldown period before it can be activated again.
+  Se um artefato falhar ao ser ativado, ele parará de ressoar e exibirá a mensagem: [italic]"Ele desacelera antes de parar sem incidentes."[/italic] Após isso, entre em um período de recarga antes de poder ser ativado novamente.
 
-  The order of trigger activation [bold]does not matter[/bold] for individual nodes. [italic]However[/italic], some triggers affect multiple nodes. As a rule of thumb, start with a trigger that is unique to the node you want to unlock. Activating a trigger for a different node during this phase prevents the target node from unlocking until the artifact’s cooldown ends.
+  A ordem de ativação dos gatilhos [bold]Não importa[/bold] para nós individuais. [italic]No entanto[/italic], Alguns gatilhos afetam múltiplos nós. Como regra geral, comece com um gatilho exclusivo do nó que você deseja desbloquear. Ativar um gatilho para um nó diferente durante essa fase impede o desbloqueio do nó desejado até que o tempo de recarga do artefato termine.
 
   <GuideReagentEmbed Reagent="Artifexium"/>
 
-  ## Active Nodes
-  Once unlocked, a node is considered active. Only the highest unlocked nodes in a tree’s layer are activatable, lower nodes in the same tree cannot be triggered anymore once a higher node has been activated.
+  ## Nós ativos
+  Uma vez desbloqueado, um nó é considerado ativo. Apenas os nós desbloqueados mais elevados em uma camada da árvore podem ser ativados; nós inferiores na mesma árvore não podem mais ser acionados após a ativação de um nó superior.
 
-  Artifacts often have multiple trees. Layer precedence applies within each tree, but different trees operate independently. This means nodes in different trees can be activated simultaneously as long as they are the highest unlocked nodes in their respective trees.
+  Artefatos frequentemente possuem múltiplas árvores. A precedência de camadas aplica-se dentro de cada árvore, mas árvores diferentes operam de forma independente. Isso significa que nós em árvores diferentes podem ser ativados simultaneamente, desde que sejam os nós desbloqueados de nível mais alto em suas respectivas árvores.
 
-  [bold]Manual activation triggers all unlocked nodes at once and consumes durability.[/bold]
+  [bold]A ativação manual aciona todos os nós desbloqueados de uma só vez e consome durabilidade.[/bold]
 
   <GuideReagentEmbed Reagent="ArtifactGlue"/>
 
-  ## Triggers
-  Examples include:
-  - Examining the artifact
-  - Playing an instrument
-  - Damaging or throwing it
-  - Exposing it to gases (plasma, tritium, etc.)
-  - Changing pressure or temperature
-  - Using tools (screwdriver, multitool, crowbar, wrench)
-  - Splashing reagents (blood, water, ammonia, etc.)
-  - Killing something nearby
+  ## Gatilhos
+  Exemplos incluem:
+  - Examinando o artefato
+  - Tocar um instrumento
+  - Danificá-lo ou jogá-lo
+  - Expondo-o a gases (plasma, tritium, etc.)
+  - Alteração de pressão ou temperatura
+  - Uso de ferramentas (chave de fenda, multiferramenta, pé de cabra, chave inglesa)
+  - Reagentes passíveis de respingar (sangue, água, amônia, etc.)
+  - Matando algo por perto
 
-  ## Effects
-  Effects can be:
-  - [color=green]Harmless:[/color] producing plants, animals, or junk
-  - [color=#00ccff]Helpful:[/color] charging batteries, creating instruments or money
-  - [color=red]Hazardous:[/color] anomalies, radiation, explosions, hostile fauna
+  ## Efeitos
+  Os efeitos podem ser:
+  - [color=green]Inofensivo:[/color] produzindo plantas, animais ou sucata
+  - [color=#00ccff]Útil:[/color] carregar baterias, criar instrumentos ou dinheiro
+  - [color=red]Perigoso;[/color] anomalias, radiação, explosões, fauna hostil
 </Document>

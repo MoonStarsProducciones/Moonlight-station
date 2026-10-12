@@ -6,27 +6,27 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Expanding and Repairing Stations
-  In Space Station 14, it is common for players to want to expand the station, or repair holes left by meteors or other damage.
+  # Expandindo e reparando estações
+  Em Space Station 14, é comum que os jogadores queiram expandir a estação ou reparar buracos deixados por meteoros ou outros danos..
 
-  ## Lattice
-  Lattice is bare rodwork placed in empty space. It's used as a foundation for building and anchoring objects onto the station.
+  ## Treliça
+  A treliça consiste em uma estrutura de barras expostas situada no espaço vazio. Ela serve de base para a construção e a fixação de objetos na estação.
 
   <Box>
     <GuideEntityEmbed Entity="SheetSteel" Caption=""/>
     <GuideEntityEmbed Entity="PartRodMetal" Caption=""/>
   </Box>
 
-  You can create lattice by placing rods on empty space using [color=yellow][bold][keybind="Use"][/bold][/color]. Remember you can craft steel sheets into rods using the construction menu.
+  Você pode criar uma treliça colocando hastes no espaço vazio usando [color=yellow][bold][keybind="Use"][/bold][/color]. Lembre-se de que você pode transformar chapas de aço em barras usando o menu de construção.
 
-  Lattice cannot hold pressure, and all gasses will leak out into space through it.
+  A rede não consegue reter pressão, e todos os gases escaparão para o espaço através dela.
 
-  You can use wirecutters to remove lattice by using [color=yellow][bold][keybind="Use"][/bold][/color] on them.
+  Você pode usar um alicate de corte para remover a treliça usando [color=yellow][bold][keybind="Use"][/bold][/color] neles.
 
-  If the game is preventing you from placing lattice, it's because there is another separated grid too close to the grid you're trying to expand. You can use a wirecutter to remove the offending grid.
+  Se o jogo estiver impedindo você de colocar uma grade, é porque existe outra grade separada muito próxima daquela que você está tentando expandir. Você pode usar um cortador de fios para remover a grade que está causando o problema
 
-  ## Hull Tiles
-  Hull tiles are solid foundation for the station, where all the other parts of the station rest upon.
+  ## Placas de revestimento do casco
+  Os painéis do casco constituem a base sólida da estação, sobre a qual todas as outras partes da estrutura se apoiam.
 
   <Box>
     <GuideEntityEmbed Entity="SheetSteel" Caption=""/>
@@ -35,12 +35,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="FloorTileItemWhite" Caption=""/>
   </Box>
 
-  Lattice can be made into hull tiles by using either steel or almost any type of floor tile on them by pressing [color=yellow][bold][keybind="Use"][/bold][/color].
-  This will convert the lattice into a hull tile, which can hold pressure and gasses.
+  As estruturas em forma de treliça podem ser transformadas em ladrilhos para cascos de barcos usando aço ou praticamente qualquer tipo de ladrilho para piso, pressionando-os sobre elas. [color=yellow][bold][keybind="Use"][/bold][/color].
+  Isso converterá a estrutura em um painel de casco capaz de suportar pressão e gases.
 
-  It is advised to use floor tiles to replace lattice instead of steel sheets, as you can craft 4 floor tiles from a single steel sheet.
+  Recomenda-se usar pisos para substituir as grades em vez de chapas de aço, pois é possível fabricar 4 pisos a partir de uma única chapa de aço
 
-  You can use an RCD to deconstruct hull tiles into lattice.
+  Você pode usar um RCD para desmontar placas do casco e transformá-las em treliças.
 
 
 </Document>

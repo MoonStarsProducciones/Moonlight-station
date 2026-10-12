@@ -24,15 +24,15 @@ implanter-component-implanting-target = {$user} está tentando implantar algo em
 implanter-component-implant-failed = O {$implant} não pode ser dado a {$target}!
 implanter-draw-failed-permanent = O {$implant} em {$target} está engastado neles e não pode ser removido!
 implanter-draw-failed = Você tentou remover um implante mas não encontrou nada.
-implanter-draw-failed-catastrophically = The implanter finds nothing and catastrophically fails, shunting genetic material into {$user}'s hand!
-implanter-component-implant-already = {CAPITALIZE(THE({$target}))} already has the {$implant}!
-implanter-component-draw-target = {CAPITALIZE(THE({$user}))} is trying to extract something from you!
+implanter-draw-failed-catastrophically = O implantador não encontra nada e falha catastroficamente, desviando material genético para {$user}a mão dele!
+implanter-component-implant-already = {CAPITALIZE(THE({$target}))} já tem o {$implant}!
+implanter-component-draw-target = {CAPITALIZE(THE({$user}))} está tentando extrair algo de você!
 
 ## UI
-implanter-draw-text = Sacar
+implanter-draw-text = Retirar
 implanter-inject-text = Injetar
-implanter-set-draw-window = Set Implant Draw
-implanter-set-draw-type = Implant type:
+implanter-set-draw-window = Definir Tipo do Implante
+implanter-set-draw-type = Tipo de implante:
 
 implanter-empty-text = Nenhum
 
