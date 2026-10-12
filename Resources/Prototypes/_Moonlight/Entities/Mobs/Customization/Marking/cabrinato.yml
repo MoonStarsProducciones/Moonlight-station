@@ -1,0 +1,48 @@
+# Cabrinato Ears
+- type: marking
+  id: CabrinatoEars
+  bodyPart: HeadTop
+  groupWhitelist: [Cabrinato]
+  sprites:
+  - sprite: _Moonlight/Mobs/Customization/Cabrinato/ears.rsi/
+    state: ears
+
+- type: marking
+  id: CabrinatoEarsFloppy
+  bodyPart: HeadTop
+  groupWhitelist: [Cabrinato]
+  sprites:
+  - sprite: _Moonlight/Mobs/Customization/Cabrinato/ears.rsi/
+    state: ears_floppy
+
+- type: marking
+  id: CabrinatoEarsLong
+  bodyPart: HeadTop
+  groupWhitelist: [Cabrinato]
+  sprites:
+  - sprite: _Moonlight/Mobs/Customization/Cabrinato/ears.rsi/
+    state: ears_long
+
+- type: marking
+  id: CabrinatoEarsOpen
+  bodyPart: HeadTop
+  groupWhitelist: [Cabrinato]
+  sprites:
+  - sprite: _Moonlight/Mobs/Customization/Cabrinato/ears.rsi/
+    state: ears_open
+
+- type: marking
+  id: CabrinatoEarsRound
+  bodyPart: HeadTop
+  groupWhitelist: [Cabrinato]
+  sprites:
+  - sprite: _Moonlight/Mobs/Customization/Cabrinato/ears.rsi/
+    state: ears_round
+
+- type: marking
+  id: CabrinatoEarsStretched
+  bodyPart: HeadTop
+  groupWhitelist: [Cabrinato]
+  sprites:
+  - sprite: _Moonlight/Mobs/Customization/Cabrinato/ears.rsi/
+    state: ears_stretched

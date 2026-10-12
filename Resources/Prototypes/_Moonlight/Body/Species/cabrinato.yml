@@ -6,20 +6,21 @@
       limit: 1
       required: false
     enum.HumanoidVisualLayers.FacialHair:
-      limit: 1
-      required: false
+       limit: 0
+       required: false
     enum.HumanoidVisualLayers.Snout:
       limit: 1
       required: false
-    enum.HumanoidVisualLayers.Tail:
-      limit: 1
-      required: true
+    # enum.HumanoidVisualLayers.Tail:
+    #   limit: 1
+    #   required: true
     enum.HumanoidVisualLayers.HeadTop:
       limit: 1
       required: true
+      default: [CabrinatoEars]
     enum.HumanoidVisualLayers.HeadSide:
       limit: 3
-      required: true
+      required: false
     enum.HumanoidVisualLayers.Chest:
       limit: 2
       required: true
@@ -66,7 +67,6 @@
     organs:
       Torso: OrganCabrinatoTorso
       Head: OrganCabrinatoHead
-#      Tail: OrganCabrinatoTail # Moonlight
       ArmLeft: OrganCabrinatoArmLeft
       ArmRight: OrganCabrinatoArmRight
       HandRight: OrganCabrinatoHandRight
@@ -87,12 +87,24 @@
       Kidneys: OrganCabrinatoKidneys
   - type: HumanoidProfile
     species: Cabrinato
+  - type: Inventory
+    speciesId: cabrinato
+    displacements: # Moonlight - Temporiamente vamos uasr o displaciment do lizard, porque é mais facil do que fazer do 0
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: _White/Mobs/Species/Reptilian/displacement.rsi
+            state: jumpsuit
+      shoes:
+        sizeMaps:
+          32:
+            sprite: _White/Mobs/Species/Reptilian/displacement.rsi
+            state: shoes
 
 - type: entity
   parent:
   - AppearanceCabrinato
   - BaseSpeciesMobOrganic
-  - MobNightVision
   id: MobCabrinato
   name: Urist Cabrinato
   components:
