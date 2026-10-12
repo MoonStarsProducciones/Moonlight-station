@@ -1,0 +1,47 @@
+{
+    "version": 1,
+    "copyright": "Created By Monster213(Discord)",
+    "license": "CC-BY-SA-3.0",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "horns",
+            "directions": 4
+        },
+        {
+            "name": "horns_charming",
+            "directions": 4
+        },
+        {
+            "name": "horns_diabolical",
+            "directions": 4
+        },
+        {
+            "name": "horns_l",
+            "directions": 4
+        },
+        {
+            "name": "horns_spiral",
+            "directions": 4
+        },
+        {
+            "name": "horns_mini",
+            "directions": 4
+        },
+        {
+            "name": "horns_small_pointed",
+            "directions": 4
+        },
+        {
+            "name": "horns_small",
+            "directions": 4
+        },
+        {
+            "name": "horns_pointed",
+            "directions": 4
+        }
+    ]
+}

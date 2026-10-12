@@ -19,8 +19,9 @@
       required: true
       default: [CabrinatoEars]
     enum.HumanoidVisualLayers.HeadSide:
-      limit: 3
+      limit: 1
       required: false
+      default: [CabrinatoHorns]
     enum.HumanoidVisualLayers.Chest:
       limit: 2
       required: true
@@ -200,7 +201,7 @@
   id: OrganCabrinatoTorso
 
 - type: entity
-  parent: [ OrganBaseHeadSexed, OrganBaseHead,OrganCabrinatoExternal ] # Trauma
+  parent: [ OrganBaseHeadSexed, OrganBaseHead, OrganCabrinatoExternal ] # Trauma
   id: OrganCabrinatoHead
   components:
   - type: VisualOrganMarkings

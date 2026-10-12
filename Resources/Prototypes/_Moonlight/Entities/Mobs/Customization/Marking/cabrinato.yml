@@ -46,3 +46,68 @@
   sprites:
   - sprite: _Moonlight/Mobs/Customization/Cabrinato/ears.rsi/
     state: ears_stretched
+
+# Cabrinato Horns
+- type: marking
+  id: CabrinatoHorns
+  bodyPart: HeadSide
+  groupWhitelist: [Cabrinato]
+  sprites:
+  - sprite: _Moonlight/Mobs/Customization/Cabrinato/horns.rsi/
+    state: horns
+
+- type: marking
+  id: CabrinatoHornsCharming
+  bodyPart: HeadSide
+  groupWhitelist: [Cabrinato]
+  sprites:
+  - sprite: _Moonlight/Mobs/Customization/Cabrinato/horns.rsi/
+    state: horns_charming
+
+- type: marking
+  id: CabrinatoHornsDiabolical
+  bodyPart: HeadSide
+  groupWhitelist: [Cabrinato]
+  sprites:
+  - sprite: _Moonlight/Mobs/Customization/Cabrinato/horns.rsi/
+    state: horns_diabolical
+
+- type: marking
+  id: CabrinatoHornsL
+  bodyPart: HeadSide
+  groupWhitelist: [Cabrinato]
+  sprites:
+  - sprite: _Moonlight/Mobs/Customization/Cabrinato/horns.rsi/
+    state: horns_l
+
+- type: marking
+  id: CabrinatoHornsMini
+  bodyPart: HeadSide
+  groupWhitelist: [Cabrinato]
+  sprites:
+  - sprite: _Moonlight/Mobs/Customization/Cabrinato/horns.rsi/
+    state: horns_mini
+
+- type: marking
+  id: CabrinatoHornsSpiral
+  bodyPart: HeadSide
+  groupWhitelist: [Cabrinato]
+  sprites:
+  - sprite: _Moonlight/Mobs/Customization/Cabrinato/horns.rsi/
+    state: horns_spiral
+
+- type: marking
+  id: CabrinatoHornsSmallPointed
+  bodyPart: HeadSide
+  groupWhitelist: [Cabrinato]
+  sprites:
+  - sprite: _Moonlight/Mobs/Customization/Cabrinato/horns.rsi/
+    state: horns_small_pointed
+
+- type: marking
+  id: CabrinatoHornsPointed
+  bodyPart: HeadSide
+  groupWhitelist: [Cabrinato]
+  sprites:
+  - sprite: _Moonlight/Mobs/Customization/Cabrinato/horns.rsi/
+    state: horns_pointed
