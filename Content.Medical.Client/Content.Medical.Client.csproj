@@ -18,6 +18,12 @@
 		<ProjectReference Include="../Content.Medical.Shared/Content.Medical.Shared.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Compile Update="Surgery\SurgeryWindow.Moonlight.xaml.cs">
+	    <DependentUpon>SurgeryWindow.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
 	<Import Project="../RobustToolbox/Imports/Client.props" />
 	<Import Project="../RobustToolbox/Imports/Shared.props" />
 	<Import Project="../RobustToolbox/MSBuild/Robust.Properties.targets" />

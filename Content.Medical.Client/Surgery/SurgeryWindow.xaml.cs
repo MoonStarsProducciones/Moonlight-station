@@ -33,10 +33,11 @@ public sealed partial class SurgeryWindow : FancyWindow
     private EntityUid? _part;
     private (EntityUid Ent, EntProtoId Proto)? _surgery;
     private readonly List<EntProtoId> _previousSurgeries = new();
-
+    // <Moonlight>
     private Dictionary<BodyPart,EntityUid> _parts = new();
-    private List<EntProtoId> _surgeries = new();
     private readonly Dictionary<BodyPart, TextureButton> _bodyPartControls;
+    // <Moonlight/>
+    private List<EntProtoId> _surgeries = new();
 
     public SurgeryWindow()
     {
@@ -48,7 +49,7 @@ public sealed partial class SurgeryWindow : FancyWindow
 
         _partQuery = _ent.GetEntityQuery<BodyPartComponent>();
         _surgeryQuery = _ent.GetEntityQuery<SurgeryComponent>();
-
+        // <Moonlight>
         _bodyPartControls = new Dictionary<BodyPart, TextureButton>
         {
             { new BodyPart(BodyPartType.Head, BodyPartSymmetry.None), HeadButton },
@@ -73,6 +74,7 @@ public sealed partial class SurgeryWindow : FancyWindow
                 SelectPart(bodyPartControl.Key);
             };
         }
+        // <Moonlight/>
 
         SurgeriesButton.OnPressed += _ =>
         {
@@ -110,41 +112,6 @@ public sealed partial class SurgeryWindow : FancyWindow
         _owner = owner;
         _isBody = _ent.HasComponent<BodyComponent>(owner);
         Update();
-    }
-
-    private void SetBodyPartVisible(EntityUid part)
-    {
-        _partQuery.TryComp(part, out var comp);
-
-        if(comp == null)
-            return;
-
-        foreach (var bodyPartControl in _bodyPartControls)
-            bodyPartControl.Value.Children.First().Visible = bodyPartControl.Key == new BodyPart(comp.PartType, comp.Symmetry);
-    }
-
-    private void SetBodyAllPartsInvisible()
-    {
-        foreach (var bodyPartControl in _bodyPartControls)
-            bodyPartControl.Value.Children.First().Visible = false;
-    }
-
-    private void SelectPart(BodyPart bodyPart)
-    {
-        if(_selectedPart == bodyPart)
-            return;
-
-        if (!_parts.TryGetValue(bodyPart, out var ent))
-            return;
-
-        _selectedPart = bodyPart;
-        _part = ent;
-
-        if (_part is { } part)
-        {
-            SetBodyPartVisible(part);
-            ViewPart(part);
-        }
     }
 
     private new string Name(EntityUid uid)
@@ -239,6 +206,7 @@ public sealed partial class SurgeryWindow : FancyWindow
     {
         var changed = false;
         // get rid of any parts that were removed
+        // <Moonlight>
         foreach (var part in _parts)
         {
             if (Deleted(part.Value) || _isBody && _body.GetBody(part.Value) != _owner)
@@ -250,7 +218,7 @@ public sealed partial class SurgeryWindow : FancyWindow
                 changed = true;
             }
         }
-
+        // <Moonlight/>
         // check for new parts
         if (_isBody)
         {
@@ -285,6 +253,7 @@ public sealed partial class SurgeryWindow : FancyWindow
             PartsChanged();
     }
 
+    // <Moonlight>
     private void PartsChanged()
     {
         if(_selectedPart == null)
@@ -296,6 +265,7 @@ public sealed partial class SurgeryWindow : FancyWindow
         _selectedPart = null;
         SetBodyAllPartsInvisible();
     }
+    // <Moonlight/>
 
     private void UpdateSurgeries(EntityUid part)
     {
@@ -458,6 +428,4 @@ public sealed partial class SurgeryWindow : FancyWindow
         Complete,
         Incomplete
     }
-
-    private record struct BodyPart(BodyPartType Type, BodyPartSymmetry Symmetry);
 }
