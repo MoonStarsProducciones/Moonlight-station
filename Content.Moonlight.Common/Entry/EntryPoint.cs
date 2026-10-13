@@ -2,7 +2,7 @@
 
 using Robust.Shared.ContentPack;
 
-namespace Content.Moonlight.Client.Entry;
+namespace Content.Moonlight.Common.Entry;
 
 // EntryPoint is marked as GameShared for module registration purposes.
-public sealed class EntryPoint : GameClient;
+public sealed class EntryPoint : GameShared;

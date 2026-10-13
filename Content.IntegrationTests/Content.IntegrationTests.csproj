@@ -27,6 +27,11 @@
     <ProjectReference Include="../Content.Medical.Client/Content.Medical.Client.csproj" />
     <ProjectReference Include="../Content.Medical.Server/Content.Medical.Server.csproj" />
     <!-- /Trauma -->
+    <!-- Moonlight -->
+    <ProjectReference Include="../Content.Moonlight.Client/Content.Moonlight.Client.csproj" />
+    <ProjectReference Include="../Content.Moonlight.Server/Content.Moonlight.Server.csproj" />
+    <ProjectReference Include="../Content.Moonlight.Shared/Content.Moonlight.Shared.csproj" />
+    <!-- /Moonlight -->
     <ProjectReference Include="..\Content.Client\Content.Client.csproj" />
     <ProjectReference Include="..\Content.Server\Content.Server.csproj" />
     <ProjectReference Include="..\Content.Shared\Content.Shared.csproj" />
