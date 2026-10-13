@@ -5,9 +5,6 @@
     enum.HumanoidVisualLayers.Hair:
       limit: 1
       required: false
-    enum.HumanoidVisualLayers.FacialHair:
-       limit: 0
-       required: false
     enum.HumanoidVisualLayers.Snout:
       limit: 1
       required: false
