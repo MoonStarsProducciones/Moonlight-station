@@ -22,6 +22,9 @@
     <ProjectReference Include="../Content.Factory.Common/Content.Factory.Common.csproj" />
     <ProjectReference Include="../Content.Common/Content.Common.csproj" />
     <!-- </Trauma> -->
+    <!-- <Moonlight> -->
+    <ProjectReference Include="../Content.Moonlight.Common/Content.Moonlight.Common.csproj" />
+    <!-- </Moonlight> -->
     <ProjectReference Include="..\Content.Shared.Database\Content.Shared.Database.csproj" />
   </ItemGroup>
 

@@ -13,7 +13,7 @@ public static class ModulePackaging
     /// <summary>
     /// All independent modules which need to be compiled individually.
     /// </summary>
-    public static readonly string[] AllModules = [ "Factory", "Lavaland", "Medical", "Trauma" ];
+    public static readonly string[] AllModules = [ "Factory", "Lavaland", "Medical", "Trauma", "Moonlight" ];
 
     /// <summary>
     /// Build every module for the server or client.
