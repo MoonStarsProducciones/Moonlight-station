@@ -12,9 +12,9 @@
   femaleFirstNames: NamesTajaranFirst
   lastNames: NamesTajaranLast
   defaultSoundsBySex:
-  - MaleFelinid
-  - FemaleFelinid
-  - MaleFelinid
+  - MaleCabrinato
+  - FemaleCabrinato
+  - MaleCabrinato
   voices:
-  - MaleFelinid
-  - FemaleFelinid
+  - MaleCabrinato
+  - FemaleCabrinato

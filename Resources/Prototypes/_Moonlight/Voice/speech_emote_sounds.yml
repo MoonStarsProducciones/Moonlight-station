@@ -26,7 +26,7 @@
       collection: Whistles
     Gasp:
       collection: MaleGasp
-    Bee:
+    GoatBee:
       collection: CabrinatoBees
     DefaultDeathgasp:
       collection: MaleDeathGasp
@@ -63,21 +63,9 @@
       collection: Whistles
     Weh:
       collection: Weh
-    Hiss:
-      collection: FelinidHisses
-    Meow:
-      collection: FelinidMeows
-    Mew:
-      collection: FelinidMews
-    Growl:
-      collection: FelinidGrowls
-    Purr:
-      collection: FelinidPurrs
-    CatMeow:
-      collection: CatMeows # Goobstation - effect standardization
     Gasp:
       collection: FemaleGasp
-    Bee:
+    GoatBee:
       collection: CabrinatoBees
     DefaultDeathgasp:
       collection: FemaleDeathGasp

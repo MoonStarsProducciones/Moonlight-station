@@ -1,0 +1,9 @@
+- type: emote
+  id: GoatBee
+  name: chat-emote-name-goatbee
+  category: Vocal
+  chatMessages: ["chat-emote-msg-goatbee"]
+  chatTriggers:
+  - Bee
+  - bee
+  - Bees

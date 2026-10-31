@@ -111,7 +111,7 @@
   - type: Speech
     speechSounds: Alto
     speechVerb: Felinid
-    allowedEmotes: [ 'Hiss', 'Meow', 'Mew', 'Purr' ]
+    allowedEmotes: [ 'Bee' ]
   - type: TypingIndicator
     proto: felinid
   - type: Vocal
@@ -142,8 +142,8 @@
       - ReagentId: Blood # Trauma - no piss fetish please
         Quantity: 300 # Trauma, was 600
   - type: MovementSpeedModifier
-    baseWalkSpeed: 0.9 #
-    baseSprintSpeed: 0.9 # Goob - was 7
+    baseWalkSpeed: 0.9
+    baseSprintSpeed: 0.9
   - type: CreamPied
     sprite:
       sprite: Effects/creampie.rsi
