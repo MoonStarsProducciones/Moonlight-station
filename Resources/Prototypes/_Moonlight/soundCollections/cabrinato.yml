@@ -1,0 +1,30 @@
+- type: soundCollection
+  id: CabrinatoScreams
+  files:
+  - /Audio/_Moonlight/voice/cabrinato/goat_bee1.ogg
+  - /Audio/_Moonlight/voice/cabrinato/goat_scream2.ogg
+  - /Audio/_Moonlight/voice/cabrinato/goat_scream3.ogg
+  - /Audio/_Moonlight/voice/cabrinato/goat_scream4.ogg
+  - /Audio/_Moonlight/voice/cabrinato/goat_scream5.ogg
+  - /Audio/_Moonlight/voice/cabrinato/goat_scream6.ogg
+
+- type: soundCollection
+  id: CabrinatoFemaleScreams
+  files:
+  - /Audio/_Moonlight/voice/cabrinato/goat_female_scream1.ogg
+  - /Audio/_Moonlight/voice/cabrinato/goat_female_scream2.ogg
+
+- type: soundCollection
+  id: CabrinatoLaughs
+  files:
+  - /Audio/_Moonlight/voice/cabrinato/goat_laugh1.ogg
+  - /Audio/_Moonlight/voice/cabrinato/goat_laugh2.ogg
+
+- type: soundCollection
+  id: CabrinatoBees
+  files:
+  - /Audio/_Moonlight/voice/cabrinato/goat_bee1.ogg
+  - /Audio/_Moonlight/voice/cabrinato/goat_bee2.ogg
+  - /Audio/_Moonlight/voice/cabrinato/goat_bee3.ogg
+  - /Audio/_Moonlight/voice/cabrinato/goat_bee4.ogg
+  - /Audio/_Moonlight/voice/cabrinato/goat_bee5.ogg

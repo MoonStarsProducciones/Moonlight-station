@@ -13,12 +13,12 @@
     #   required: true
     enum.HumanoidVisualLayers.HeadTop:
       limit: 1
-      required: true
-      default: [CabrinatoEars]
+      required: false
+      default: []
     enum.HumanoidVisualLayers.HeadSide:
       limit: 1
-      required: false
-      default: [CabrinatoHorns]
+      required: true
+      default: [CabrinatoEars]
     enum.HumanoidVisualLayers.Chest:
       limit: 2
       required: true
@@ -88,16 +88,16 @@
   - type: Inventory
     speciesId: cabrinato
     displacements: # Moonlight - Temporiamente vamos uasr o displaciment do lizard, porque é mais facil do que fazer do 0
-      jumpsuit:
-        sizeMaps:
-          32:
-            sprite: _White/Mobs/Species/Reptilian/displacement.rsi
-            state: jumpsuit
       shoes:
         sizeMaps:
           32:
             sprite: _White/Mobs/Species/Reptilian/displacement.rsi
             state: shoes
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: _White/Mobs/Species/Reptilian/displacement.rsi
+            state: jumpsuit
 
 - type: entity
   parent:
@@ -115,11 +115,9 @@
   - type: TypingIndicator
     proto: felinid
   - type: Vocal
-    emoteSounds: MaleFelinid
+    emoteSounds: MaleCabrinato
   - type: Damageable
     damageModifierSet: Cabrinato
-  - type: Flammable
-    firestackFade: -0.08 # until you light it up, cuz it's oily too. 20% lower than default
   - type: MeleeWeapon
     soundHit:
       path: /Audio/Weapons/pierce.ogg
@@ -143,6 +141,9 @@
       reagents:
       - ReagentId: Blood # Trauma - no piss fetish please
         Quantity: 300 # Trauma, was 600
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 0.9 #
+    baseSprintSpeed: 0.9 # Goob - was 7
   - type: CreamPied
     sprite:
       sprite: Effects/creampie.rsi
@@ -218,6 +219,7 @@
             sprite: Mobs/Species/Vulpkanin/displacement.rsi
             state: hair
 
+# Moonlight - Futuramente adicionar uma rabinho para o cabrinato
 # - type: entity
 #   parent: [ OrganBaseTail, OrganCabrinatoExternal ]
 #   id: OrganCabrinatoTail
