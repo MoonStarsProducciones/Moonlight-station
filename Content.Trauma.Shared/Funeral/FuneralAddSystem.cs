@@ -73,7 +73,7 @@ public sealed partial class FuneralAddSystem : EntitySystem
         }
 
         // check target's soul moved on
-        if (mind.UserId != null)
+        if (mind.HasMind)
         {
             _popup.PopupEntity("Can't consecrate because the soul is still present.", user, user, PopupType.SmallCaution);
             return;
