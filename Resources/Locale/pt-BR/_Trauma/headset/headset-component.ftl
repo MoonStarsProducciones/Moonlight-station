@@ -1,3 +1,3 @@
-chat-radio-revolutionary = Revolutionary
-chat-radio-head-revolutionary = Head Revolutionary
+chat-radio-revolutionary = Revolucionário
+chat-radio-head-revolutionary = Líder Revolucionário
 chat-radio-egg = Egg

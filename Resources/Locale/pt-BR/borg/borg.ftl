@@ -34,24 +34,24 @@ borg-ui-modules-label = Módulos:
 borg-ui-module-counter = {$actual}/{$max}
 
 # Transponder
-borg-transponder-disabled-popup = A brain shoots out the top of {$name}!
-borg-transponder-disabling-popup = Your transponder begins to lock you out of the chassis!
-borg-transponder-destroying-popup = The self destruct of {$name} starts beeping!
+borg-transponder-disabled-popup = Um cérebro sai disparado do topo de {$name}!
+borg-transponder-disabling-popup = Seu transponder começa a impedir seu acesso ao chassi!
+borg-transponder-destroying-popup = A autodestruição de {$name} começa a apitar!
 borg-transponder-emagged-disabled-popup = Your transponder's lights go out!
 borg-transponder-emagged-destroyed-popup = Your transponder's fuse blows!
 
 ## Borg type selection UI.
-borg-select-type-menu-title = Select Chassis Type
-borg-select-type-menu-bottom-text = Chassis selection is irreversible
-borg-select-type-menu-available = Available types
-borg-select-type-menu-information = Information
-borg-select-type-menu-select-type = Select type to view information
-borg-select-type-menu-confirm = Confirm selection
+borg-select-type-menu-title = Selecione o tipo de chassi
+borg-select-type-menu-bottom-text = A seleção do chassi é irreversível.
+borg-select-type-menu-available = Tipos disponíveis
+borg-select-type-menu-information = Informação
+borg-select-type-menu-select-type = Selecione o tipo para visualizar as informações
+borg-select-type-menu-confirm = Confirmar seleção
 borg-select-type-menu-guidebook = Guidebook
 
 ## Borg type information
 
-borg-type-generic-name = Generic
+borg-type-generic-name = Genérico
 borg-type-generic-desc = Jack of all trades, master of none. Do various random station tasks, or maybe help out the science department that built you.
 borg-type-generic-transponder = generic cyborg
 

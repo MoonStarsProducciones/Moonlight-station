@@ -1,1 +1,1 @@
-department-Service-description = Cater to the crew's food and drink needs.
+department-Service-description = Atenda às necessidades de alimentação e bebidas da tripulação.

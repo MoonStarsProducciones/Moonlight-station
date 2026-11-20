@@ -1,10 +1,10 @@
-job-description-brigmedic = Fight in the rear of the security service, for the lives of your comrades! You are the first and last hope of your squad. Hippocrates bless you.
-job-description-geneticist = Modify the genes of organisms, including your fellow crewmembers!
+job-description-brigmedic = Lutem na retaguarda do serviço de segurança, pelas vidas de seus camaradas! Vocês são a primeira e a última esperança de seu esquadrão. Que Hipócrates os abençoe.
+job-description-geneticist = Modifique os genes de organismos, incluindo os de seus colegas de tripulação!
 
 # upstream never made these lol
-job-description-cburn = Exterminate biological hazards onboard the station.
-job-description-deathsquad = Rip and tear, until it is done.
+job-description-cburn = Extermine os riscos biológicos a bordo da estação.
+job-description-deathsquad = Rasgue e despedace, até que tudo esteja terminado.
 
-job-description-rancher = Raise and breed chickens for recreation/novelty, food, utility, etc., nurture them and look out for their needs.
+job-description-rancher = Criar galinhas — seja por lazer, curiosidade, obtenção de alimentos, utilidade, etc. — cuidando delas e atendendo às suas necessidades.
 
-job-description-dclass = Serve the crew under the iron fist of Nanotrasen, at their beck and call, hoping they don't choose to shoot you for sport.
+job-description-dclass = Sirva à tripulação sob o punho de ferro da Nanotrasen, sempre à disposição deles, na esperança de que não decidam atirar em você por diversão.

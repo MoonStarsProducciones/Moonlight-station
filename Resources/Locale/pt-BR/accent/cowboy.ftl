@@ -46,7 +46,7 @@ accent-cowboy-replacement-13 = xilindró
 accent-cowboy-words-14 = cozinheiro
 accent-cowboy-replacement-14 = mestre cuca
 
-accent-cowboy-words-15 = cafée
+accent-cowboy-words-15 = café
 accent-cowboy-replacement-15 = agua preta
 
 accent-cowboy-words-16 = confuso

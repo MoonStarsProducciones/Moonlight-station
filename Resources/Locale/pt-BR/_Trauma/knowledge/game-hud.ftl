@@ -1,1 +1,1 @@
-game-hud-open-martial-arts-menu-button-tooltip = Open martial arts menu.
+game-hud-open-martial-arts-menu-button-tooltip = Abrir menu de artes marciais.

@@ -1,7 +1,7 @@
-cargo-console-alert-level = Insufficient alert level
+cargo-console-alert-level = Nível de alerta insuficiente
 
-cargo-console-destination-lost = Destination telepad destroyed or missing!
+cargo-console-destination-lost = Teletransporte de destino destruído ou ausente!
 
-cargo-console-menu-tab-title-destination = Destination
-cargo-console-menu-no-destinations = No destinations available! Build a telepad or FTL to the station.
-cargo-console-menu-set-destination = Set the destination for approved orders:
+cargo-console-menu-tab-title-destination = Destino
+cargo-console-menu-no-destinations = Nenhum destino disponível! Construa uma plataforma de teletransporte ou um sistema FTL para a estação.
+cargo-console-menu-set-destination = Defina o destino para pedidos aprovados:

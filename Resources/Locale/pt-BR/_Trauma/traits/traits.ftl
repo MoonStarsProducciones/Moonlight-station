@@ -1,8 +1,8 @@
-trait-no-hypoport-name = No Hypoport
-trait-no-hypoport-desc = Unlike most personnel, having a hypoport creeps you out too much. You won't have a hypoport installed.
+trait-no-hypoport-name = Na Hypoport
+trait-no-hypoport-desc = Ao contrário da maioria do pessoal, a ideia de ter um hipoporto causa um desconforto excessivo em você. Você não vai instalar um hipoporto.
 
-trait-swedish-name = Swedish
-trait-swedish-desc = A horrible mutation originating from the distant past. Makes you speak like a real svede.
+trait-swedish-name = Sueco
+trait-swedish-desc =Uma mutação horrível, originária de um passado distante. Faz você falar como um sueco de verdade.
 
 trait-caveman-name = Caveman
-trait-caveman-desc = Ooga Booga, me want insuls!
+trait-caveman-desc = Ooga Booga, eu quero insultos!

@@ -17,4 +17,4 @@ armor-damage-type-cold = Frio
 armor-damage-type-poison = Veneno
 armor-damage-type-shock = Choque
 armor-damage-type-structural = Estrutural
-armor-damage-type-holy = Holy
+armor-damage-type-holy = Sagrado

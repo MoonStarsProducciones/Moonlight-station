@@ -1,1 +1,1 @@
-department-Service = Service
+department-Service = Serviço

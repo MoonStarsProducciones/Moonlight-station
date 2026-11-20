@@ -1,0 +1,6 @@
+- type: marking
+  id: Cabelo_Baguncado_Medio
+  bodyPart: Hair
+  sprites:
+    - sprite: _Moonlight\Mobs\Custamization\human_hair.rsi
+      state: Cabelo_Baguncado_Medio

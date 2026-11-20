@@ -1,3 +1,3 @@
-construction-category-antagonist = Antagonist
-construction-category-forging = Forging
-construction-category-demonology = Demonology
+construction-category-antagonist =Antagonista
+construction-category-forging = Forjamento
+construction-category-demonology = Demonologia

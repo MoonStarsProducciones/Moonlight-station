@@ -1,1 +1,1 @@
-exoskeleton-inject-fail = You try to inject {CAPITALIZE($target)}, but the needle can't pierce {POSS-ADJ($target)} shell!
+exoskeleton-inject-fail = Você tenta injetar {CAPITALIZE($target)}, mas a agulha não consegue perfurar {POSS-ADJ($target)} a casca!

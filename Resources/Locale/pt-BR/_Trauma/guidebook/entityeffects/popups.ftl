@@ -1,21 +1,21 @@
-entity-effect-popup-crucified = {CAPITALIZE($entity)} has been crucified!
-entity-effect-popup-mothmaggot-matured = {CAPITALIZE(THE($entity))} rapidly shifts and changes!
-entity-effect-popup-mothmaggot-maturing = You will mature into a mothroach in {$delay} seconds...
-entity-effect-popup-make-felinid = {CAPITALIZE($entity)} turned into a disgusting felinid!
-entity-effect-popup-revert-felinid = {CAPITALIZE($entity)} turned back to normal...
-entity-effect-popup-heart-stops = Your heart stops beating!
-entity-effect-popup-convoke-void = {$entity} is dragged into the void, leaving a hole in {POSS-ADJ($entity)} place!
+entity-effect-popup-crucified = {CAPITALIZE($entity)} foi crucificado!
+entity-effect-popup-mothmaggot-matured = {CAPITALIZE(THE($entity))} muda e se transforma rapidamente!
+entity-effect-popup-mothmaggot-maturing = Você vai se transformar em uma Mothmaggot em {$delay} segundos...
+entity-effect-popup-make-felinid = {CAPITALIZE($entity)} transformou-se em um felinídeo repugnante!
+entity-effect-popup-revert-felinid = {CAPITALIZE($entity)} voltou ao normal...
+entity-effect-popup-heart-stops = Seu coração para de bater!
+entity-effect-popup-convoke-void = {$entity} é arrastado para o vazio, deixando um buraco em {POSS-ADJ($entity)} lugar!
 
 entity-condition-popup-not-vox-raider = {$self ->
-    [true] You aren't
-    *[false] {$target} isn't
-} a vox!
+    [true] Você não é
+    *[false] {$target} não é
+} um vox!
 
-entity-effect-popup-blood-swells = Your blood swells...
-entity-effect-popup-blood-stops-swelling = Your blood stops swelling.
+entity-effect-popup-blood-swells =Seu sangue escorre...
+entity-effect-popup-blood-stops-swelling = Seu sangue para de escorrer.
 
-entity-effect-popup-vampire-light-1 = The sunlight burns you!
-entity-effect-popup-vampire-light-2 = You should go away from space...
-entity-effect-popup-vampire-light-3 = You look pale!
+entity-effect-popup-vampire-light-1 = A luz do sol queima você!
+entity-effect-popup-vampire-light-2 = Você deveria se afastar do espaço...
+entity-effect-popup-vampire-light-3 = Você está pálido!
 
-entity-effect-popup-pressurized-slime-death = The blob ruptures, spraying the area with liquid!
+entity-effect-popup-pressurized-slime-death = A massa se rompe, espalhando líquido por toda a área!

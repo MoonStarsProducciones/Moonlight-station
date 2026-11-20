@@ -1,25 +1,25 @@
-entity-effect-guidebook-relay-implanted = for the implant's user, {$effect}
-entity-effect-guidebook-add-killsign = gives the target a KILL sign
-entity-effect-guidebook-add-accents = gives the target some funny accents
-entity-effect-guidebook-install-hypoport = gives the target a hypoport
-entity-effect-guidebook-rupture-lungs = ruptures the target's lungs
-entity-effect-guidebook-remove-reactive = stops the target from reacting with fluids
-entity-effect-guidebook-add-trash-tag = makes the target recyclable
-entity-effect-guidebook-make-felinid = Turns the target into a felinid
-entity-effect-guidebook-revert-felinid = Turns the target back into a person
+entity-effect-guidebook-relay-implanted = para o usuário do implante, {$effect}
+entity-effect-guidebook-add-killsign = coloca um sinal de "matar" no alvo
+entity-effect-guidebook-add-accents = confere ao alvo sotaques engraçados
+entity-effect-guidebook-install-hypoport = fornece ao alvo um hipoporto
+entity-effect-guidebook-rupture-lungs = rompe os pulmões do alvo
+entity-effect-guidebook-remove-reactive = impede que o alvo reaja com fluidos
+entity-effect-guidebook-add-trash-tag = torna o alvo reciclável
+entity-effect-guidebook-make-felinid = Transforma o alvo em um felino.
+entity-effect-guidebook-revert-felinid = Transforma o alvo de volta em uma pessoa
 
-entity-effect-guidebook-increases-reach = Increases reach
-entity-effect-guidebook-decreases-reach = Decreases reach
+entity-effect-guidebook-increases-reach = Aumenta o alcance
+entity-effect-guidebook-decreases-reach = Diminui o alcance
 
-entity-effect-guidebook-paralyze-legs = Paralyzes legs
-entity-effect-guidebook-make-fragile = Makes extremely fragile
+entity-effect-guidebook-paralyze-legs = Pparalisa as pernas
+entity-effect-guidebook-make-fragile = Torna extremamente frágil
 
 entity-effect-guidebook-melts-eyes = {$chance ->
-    [1] melts
-    *[other] melt
-} the target's eyes
+    [1] derrete
+    *[other] derretido
+} os olhos do alvo
 
 entity-effect-guidebook-melts-brain = {$chance ->
-    [1] melts
-    *[other] melt
-} the target's brain
+    [1] derrete
+    *[other] derretido
+} o cérebro do alvo

@@ -1,1 +1,1 @@
-condition-body-low-blood = • {$entity} has a [color=red]dangerously low[/color] blood level.
+condition-body-low-blood = • {$entity} tem um [color=red]perigosamente baixo[/color] nível sanguíneo.

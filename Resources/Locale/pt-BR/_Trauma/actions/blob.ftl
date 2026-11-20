@@ -1,1 +1,1 @@
-transform-blob-confirm-popup = THIS WILL TURN YOU INTO A BLOB RIGHT HERE! Use it again to confirm.
+transform-blob-confirm-popup = Isso vai transformar você em uma massa disforme bem aqui! Use novamente para confirmar.
