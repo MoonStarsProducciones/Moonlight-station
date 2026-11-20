@@ -4,7 +4,7 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-cmd-nukearm-desc = Ativa ou desativa o timer da bomba nuclear. Você pode alterar a contagem do timer diretamente. Uid é opcional.
+cmd-nukearm-desc = Ativa ou desativa o timer da bomba nuclear. Você pode alterar a contagem do timer diretamente. Uid é opcional. *bi, bi boom ka boom!!*
 cmd-nukearm-help = nukearm <timer> <uid>
 cmd-nukearm-not-found = Não foi possível encontrar uma entidade com um NukeComponent.
 

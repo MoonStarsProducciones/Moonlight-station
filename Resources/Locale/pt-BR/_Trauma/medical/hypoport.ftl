@@ -1,7 +1,7 @@
-hypoport-fail-missing = {CAPITALIZE($target)} has no hypoport to inject into!
-hypoport-fail-access = {CAPITALIZE($target)}'s hypoport is locked!
-hypoport-fail-grab = You need to get a hold of {$target} first!
+hypoport-fail-missing = {CAPITALIZE($target)} não tem um hipoporto onde injetar!
+hypoport-fail-access = {CAPITALIZE($target)}O hypoport está bloqueado!
+hypoport-fail-grab = Você precisa entrar em contato com {$target} primeiro!
 
-hypoport-detail-examine = {CAPITALIZE(POSS-ADJ($target))} neck has a [color=blue]hypoport[/color] for use with hyposprays.
+hypoport-detail-examine = {CAPITALIZE(POSS-ADJ($target))} o pescoço tem um(a) [color=blue]hypoport[/color] para uso com injetores sem agulha.
 
 item-slot-name-vial = Vial

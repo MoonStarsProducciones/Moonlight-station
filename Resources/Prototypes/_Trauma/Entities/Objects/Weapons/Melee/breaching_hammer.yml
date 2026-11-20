@@ -14,10 +14,10 @@
   - type: MeleeWeapon
     attackRate: 0.5
     range: 1.70
-    heavyStaminaCost: 25
+    heavyStaminaCost: 15
     damage:
       types:
-        Blunt: 5
+        Blunt: 30
         Structural: 25
     soundHit:
       path: /Audio/_Trauma/Weapons/Melee/breaching_hammer/club.ogg
@@ -31,7 +31,7 @@
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Blunt: 5
+        Blunt: 15
         Structural: 35
   - type: Item
     size: Ginormous

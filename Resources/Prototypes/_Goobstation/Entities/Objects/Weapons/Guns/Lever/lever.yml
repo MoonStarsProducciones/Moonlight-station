@@ -34,7 +34,7 @@
           tags:
           - ShellShotgunHeavy
   - type: Gun
-    fireRate: 0.65
+    fireRate: 0.55
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/batrifle.ogg
   - type: ChamberMagazineAmmoProvider

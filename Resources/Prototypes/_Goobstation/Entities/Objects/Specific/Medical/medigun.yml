@@ -20,18 +20,18 @@
   - type: MediGun
     healing:
       types:
-        Blunt: -2
-        Slash: -2
-        Piercing: -2
-        Heat: -2
-        Ballistic: -2
-    uberHealing:
-      types:
         Blunt: -4
         Slash: -4
         Piercing: -4
         Heat: -4
         Ballistic: -4
+    uberHealing:
+      types:
+        Blunt: -8
+        Slash: -8
+        Piercing: -8
+        Heat: -8
+        Ballistic: -8
     soundOnTarget:
       path: /Audio/_Goobstation/Weapons/Effects/energy_reload.ogg
       params:

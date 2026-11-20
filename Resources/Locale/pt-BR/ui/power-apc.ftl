@@ -19,7 +19,7 @@ apc-menu-power-state-good = Bom
 apc-menu-power-state-low = Baixo
 apc-menu-power-state-none = Nenhum
 apc-menu-power-state-label-text = { POWERWATTS($power) } / { POWERWATTS($maxLoad) }
-apc-menu-power-state-label-tripped = SOBRECARGA
+apc-menu-power-state-label-tripped = SOBRECARGA!!!
 
 # For the flavor text on the footer
 

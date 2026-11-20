@@ -1,5 +1,5 @@
-# Ears
-marking-VulpEar-vulp = Vulpkanin ears (Base)
+# Orelhas
+marking-VulpEar-vulp = Orelhas Vulpkanin (Base)
 marking-VulpEar-vulp-inner = Vulpkanin ears (Inner)
 marking-VulpEar = Vulpkanin
 

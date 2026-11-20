@@ -17,11 +17,11 @@ guide-entry-ranching = Ranching
 
 guide-entry-bingle = Bingle
 guide-entry-changelings = Changelings
-guide-entry-changeling-abilities = Changeling Abilities
-guide-entry-corporate-agents = Corporate Agents
+guide-entry-changeling-abilities = Habilidades de Changeling
+guide-entry-corporate-agents = Agentes Corporativos
 guide-entry-devil = Devil
-guide-entry-devil-clauses = Devil Clauses
-guide-entry-insurgents = Insurgents
+guide-entry-devil-clauses = Cláusulas Diabólicas
+guide-entry-insurgents = Insurgentes
 guide-entry-morph = Morph
 guide-entry-shadow-demon = Shadow Demon
 guide-entry-slasher = Slasher
