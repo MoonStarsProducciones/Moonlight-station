@@ -1,31 +1,31 @@
-<!-- Guidelines: https://github.com/Trauma-Station/Trauma-Station/blob/master/CONTRIBUTING.md -->
-<!-- NOTE: All code submitted to this repository is ALWAYS licensed under the AGPL-3.0-or-later license.  -->
-## About the PR
-<!-- What did you change? -->
+<!-- Guidelines:https://github.com/MoonStarsProducciones/Moonlight-station/blob/master/CONTRIBUTING.md -->
+<!-- NOTE: Todo codigo enviado para este repositorio é SEMPRE licenciado na licença AGPL-3.0-or-later.  -->
+## Sobre a PR
+<!-- O que você mudou? -->
 
-## Why / Balance
-<!-- Discuss how this would affect game balance or explain why it was changed. Link any relevant discussions or issues. -->
+## Por que / Balanceamento?
+<!-- Discuta como isso afetaria o equilíbrio do jogo ou explique por que essa alteração foi feita. Inclua links para quaisquer discussões ou questões relevantes. -->
 
-## Test plan
+## Plano de teste
 <!--
-Describe how you tested the pull request, and how someone reviewing this PR can test it themselves.
+Descreva como você testou a solicitação de pull request, e como alguem poderia testar esta PR por ele mesmo
 -->
 
 ## Media
-<!-- Attach media if the PR makes in-game changes (clothing, items, features, etc).
-Small fixes/refactors are exempt. -->
+<!-- Anexe arquivos de mídia caso o PR introduza alterações no jogo (roupas, itens, funcionalidades etc.).
+Pequenas correções/refatorações você não precisa. -->
 
-## Requirements
-<!-- Confirm the following by placing an X in the brackets without spaces inside (for example: [X] ): -->
-- [ ] I have read and am following the [Contributing Guidelines](https://github.com/Trauma-Station/Trauma-Station/blob/master/CONTRIBUTING.md).
-- [ ] I have tested this pull request and written instructions on how to test it
-- [ ] I have added media to this PR or it does not require an in-game showcase.
+## Requerimentos
+<!-- Confirme o seguinte colocando um X entre colchetes, sem espaços dentro deles (por exemplo: [X] ): -->
+- [ ] Eu li e segui [Guidelines de contribuição](https://github.com/Trauma-Station/Trauma-Station/blob/master/CONTRIBUTING.md).
+- [ ] Eu testei este pull request e escrevi instruções em como testar
+- [ ] Eu adicionei imagens/Videos para esta PR ou não exige uma demonstração dentro do jogo.
 <!-- You should understand that not following the above may get your PR closed at a maintainer's discretion -->
 
 ## Changelog
-<!-- Add a Changelog entry to make players aware of new features or changes that could affect gameplay.
-Make sure to read the guidelines and take this Changelog template out of the comment block in order for it to show up.
-Changelog must have a :cl: symbol, so the bot recognizes the changes and adds them to the game's changelog. -->
+<!-- Adicione uma entrada no Changelog para informar aos jogadores sobre novos recursos ou alterações que possam afetar a jogabilidade.
+Certifique-se de ler as guidelines e retirar este template do Changelog do bloco de comentários para que ele seja exibido.
+O Changelog deve conter o símbolo :cl:, para que o bot reconheça as alterações e as adicione ao changelog do jogo. -->
 <!--
 :cl:
 - add: Added fun!
