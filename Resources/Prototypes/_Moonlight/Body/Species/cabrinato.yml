@@ -111,7 +111,7 @@
   - type: Speech
     speechSounds: Alto
     speechVerb: Felinid
-    allowedEmotes: [ 'Bee' ]
+    allowedEmotes: [ 'GoatBee' ]
   - type: TypingIndicator
     proto: felinid
   - type: Vocal

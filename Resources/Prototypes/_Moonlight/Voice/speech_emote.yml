@@ -2,7 +2,8 @@
   id: GoatBee
   name: chat-emote-name-goatbee
   category: Vocal
+  available: false
   chatMessages: ["chat-emote-msg-goatbee"]
   chatTriggers:
-  - Bee
-  - Bees
+  - bee
+  - bees
