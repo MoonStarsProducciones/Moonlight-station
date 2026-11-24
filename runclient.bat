@@ -1,3 +1,3 @@
 @echo off
 dotnet build
-dotnet run --project Content.Moonlight.Client
+dotnet run --project Content.Trauma.Client
