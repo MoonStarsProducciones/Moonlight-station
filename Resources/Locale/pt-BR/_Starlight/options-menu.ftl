@@ -1,0 +1,19 @@
+## UI
+ui-options-style-theme = Tema
+ui-options-style-accent = Cor de destaque
+ui-options-style-custom-accent = Use uma cor de destaque personalizada
+style-theme-void = Void
+style-theme-graphite = Grafite
+style-theme-paper = Papel
+style-theme-classic = Classico (Nanotrasen)
+style-theme-abyss = Abismo
+style-theme-ribbon = Fita
+style-theme-rosewood = Rosewood
+style-theme-oneshot = Mundo das maquinas
+style-theme-pda = PDA
+style-theme-holo = Holo
+style-theme-industrial = Industrial
+style-theme-cosmic = Cosmico
+style-theme-flesh = Carne
+style-theme-syndicate = Sindicato
+style-theme-clockwork = Clockwork

@@ -1,0 +1,19 @@
+## UI
+ui-options-style-theme = Color Theme
+ui-options-style-accent = Accent Color
+ui-options-style-custom-accent = Use custom accent color
+style-theme-void = Void
+style-theme-graphite = Graphite
+style-theme-paper = Paper
+style-theme-classic = Classic (Nanotrasen)
+style-theme-abyss = Abyss
+style-theme-ribbon = Ribbon
+style-theme-rosewood = Rosewood
+style-theme-oneshot = World Machine
+style-theme-pda = PDA
+style-theme-holo = Holo
+style-theme-industrial = Industrial
+style-theme-cosmic = Cosmic
+style-theme-flesh = Flesh
+style-theme-syndicate = Syndicate
+style-theme-clockwork = Clockwork
