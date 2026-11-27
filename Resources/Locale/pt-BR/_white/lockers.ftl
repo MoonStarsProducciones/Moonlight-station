@@ -1,2 +1,2 @@
-station-alert-level-lock-examined = It can not be unlocked at certain station alert levels: {$levels}.
-access-failed-wrong-station-alert-level = It won't open at this station alert level!
+station-alert-level-lock-examined = Não é possível desbloqueá-lo em determinados níveis de alerta da estação: {$levels}.
+access-failed-wrong-station-alert-level = Não é possível abri-lo neste nível de alerta da estação!

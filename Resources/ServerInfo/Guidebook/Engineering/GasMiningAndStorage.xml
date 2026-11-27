@@ -6,24 +6,24 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Gas Mining and Storage
-  Gasses are often permanently used. Whether they are lost to [textlink="space" link="Spacing"] or used in a burn chamber, the station needs to be able to produce more gas to replace what is lost.
-  It also needs to store this gas in a safe and efficient manner.
+  # Extração e Armazenamento de Gases
+  Gases são frequentemente consumidos de forma definitiva. Seja por serem perdidos no [textlink="space" link="Spacing"] ou utilizados em uma câmara de combustão, a estação precisa ser capaz de produzir mais gás para repor o que foi perdido.
+  Também é necessário armazenar esse gás de maneira segura e eficiente.
 
-  ## Gas Miners
-  Gas miners are used to replenish the station's gas supply. They are found in the gas storage tanks in Atmospherics.
+  ## Extratores de Gás
+  Extratores de gás são utilizados para repor o suprimento de gás da estação. Eles são encontrados nos tanques de armazenamento de gás, no setor de Atmosféricos.
 
   <Box>
     <GuideEntityEmbed Entity="GasMinerOxygenStation"/>
     <GuideEntityEmbed Entity="GasMinerNitrogenStation"/>
   </Box>
 
-  Gas miners constantly produce room temperature gas and push it into the exposed atmosphere. They require no power to function, and never stop working unless they have reached the defined [bold]cutoff pressure[/bold].
+  Os extratores de gás produzem constantemente gás à temperatura ambiente e o liberam na atmosfera ao redor. Eles não requerem energia para funcionar e nunca param de operar, a menos que atinjam a [bold]pressão de corte[/bold] definida.
 
-  You can see more information about the gas miners by inspecting them using [color=yellow][bold][keybind="ExamineEntity"][/bold][/color].
-  Try inspecting the gas miners presented above.
+  Você pode obter mais informações sobre os extratores de gás examinando-os com [color=yellow][bold][keybind="ExamineEntity"][/bold][/color].
+  Tente examinar os extratores de gás apresentados acima.
 
-  Gas miners come in tiers, with the larger versions having a higher pressure cutoff than the smaller versions.
+  Os extratores de gás possuem diferentes níveis (tiers); as versões maiores apresentam uma pressão de corte mais elevada do que as versões menores.
 
   <Box>
     <GuideEntityEmbed Entity="GasMinerNitrogen" Caption="300 kPa"/>
@@ -31,10 +31,10 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="GasMinerNitrogenStationLarge" Caption="4500 kPa"/>
   </Box>
 
-  If gas miners are ever unanchored from the station, they can be reanchored using a regular wrench.
+  Caso os extratores de gás sejam desconectados da estação, eles podem ser reconectados utilizando uma chave inglesa comum.
 
-  ## Gas Storage
-  Gas storage tanks are used to store gas produced by the gas miners, and to make it available to other processes. They are found in Atmospherics.
+  ## Armazenamento de Gás
+  Tanques de armazenamento de gás são utilizados para guardar o gás produzido pelos extratores e disponibilizá-lo para outros processos. Eles podem ser encontrados na seção de Atmosféricos (Atmospherics).
 
   <Box>
     <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
