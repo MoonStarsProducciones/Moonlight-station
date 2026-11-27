@@ -31,7 +31,7 @@ guide-entry-rules-s5 = S5
 guide-entry-rules-s6 = S6
 
 guide-entry-rules-space-law = Space Law
-guide-entry-rules-sl-crime-list = Crime List
-guide-entry-rules-sl-controlled-substances = Controlled Substances
-guide-entry-rules-sl-restricted-gear = Restricted Gear
-guide-entry-rules-sl-restricted-weapons = Restricted Weapons
+guide-entry-rules-sl-crime-list = Lista de crimes
+guide-entry-rules-sl-controlled-substances = Substâncias controladas
+guide-entry-rules-sl-restricted-gear = Equipamento Restrito
+guide-entry-rules-sl-restricted-weapons = Armas restritas

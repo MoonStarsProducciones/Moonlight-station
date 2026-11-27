@@ -1,6 +1,6 @@
 gas-phoron = Phoron
 
-ent-WallPlasma = phoron wall
+ent-WallPlasma = parede de phoron
 ent-PlasmaWindow = phoron glass window
 ent-PlasmaWindowDirectional = directional phoron glass window
 ent-ReinforcedPlasmaWindow = reinforced phoron glass window

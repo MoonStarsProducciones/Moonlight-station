@@ -1,7 +1,7 @@
-petting-failure-duckbot = You reach out to pet {THE($target)}, but {SUBJECT($target)} moves {POSS-ADJ($target)} head out of the way.
-petting-success-duckbot = You pet {THE($target)} on {POSS-ADJ($target)} metal head.
+petting-failure-duckbot = Você estende a mão para fazer carinho {THE($target)}, mas {SUBJECT($target)} movi=se {POSS-ADJ($target)} para longe de você.
+petting-success-duckbot = Você faz cafuné {THE($target)} na {POSS-ADJ($target)} cabeça de matal.
 
-petting-failure-boogiebot = You reach out to pet {THE($target)}, but {SUBJECT($target)} boogies outta the way!
-petting-success-boogiebot = You pet {THE($target)} on {POSS-ADJ($target)} disco head.
+petting-failure-boogiebot = Você estende a mão para fazer carinho {THE($target)}, mas {SUBJECT($target)} boogies vai embora!
+petting-success-boogiebot = você faz cafuné {THE($target)} na {POSS-ADJ($target)} cabeça de discoteca dele!.
 
 desk-bell-ding = Ding!

@@ -1,6 +1,6 @@
-marking-MothWingsStellar-plain = Wing
+marking-MothWingsStellar-plain = Asas
 
-marking-MothWingsDefault-atlas = Wing
+marking-MothWingsDefault-atlas = Asas
 
 marking-MothWingsDeathhead-deathhead_1 = 1
 marking-MothWingsDeathhead-deathhead_2 = 2
@@ -26,14 +26,14 @@ marking-MothWingsRoyal-royal_2 = 2
 marking-MothWingsWitchwing-witchwing_1 = 1
 marking-MothWingsWitchwing-witchwing_2 = 2
 
-marking-MothWingsMonarch = Wings (Monarch)
-marking-MothWingsMonarch-monarch = Wing
+marking-MothWingsMonarch = Asas (Monarca)
+marking-MothWingsMonarch-monarch = Asas
 
-marking-MothWingsFan-ragged = Wing
+marking-MothWingsFan-ragged = Asas
 
-marking-MothWingsDfan-poison = Wing
+marking-MothWingsDfan-poison = Asas
 
-marking-MothWingsBluespace = Wings (Bluespace)
+marking-MothWingsBluespace = Asas (Bluespace)
 marking-MothWingsBluespace-bluespace_1 = 1
 marking-MothWingsBluespace-bluespace_2 = 2
 
@@ -49,11 +49,11 @@ marking-MothWingsStriped-lovers_2 = 2
 marking-MothWingsSwirly-moonfly_1 = 1
 marking-MothWingsSwirly-moonfly_2 = 2
 
-marking-MothWingsRosy = Wings (Rosy)
+marking-MothWingsRosy = Asas (Rosadas)
 marking-MothWingsRosy-rosy_1 = 1
 marking-MothWingsRosy-rosy_2 = 2
 
-marking-MothWingsLightbearer = Wings (Lightbearer)
+marking-MothWingsLightbearer = Asas (Portador da Luz)
 marking-MothWingsLightbearer-lightbearer_1 = 1
 marking-MothWingsLightbearer-lightbearer_2 = 2
 marking-MothWingsLightbearer-lightbearer_3 = 3

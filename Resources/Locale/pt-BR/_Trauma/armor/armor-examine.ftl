@@ -1,10 +1,10 @@
--protection = damage { $protect ->
+-protection = dano { $protect ->
     [true] reduced
-    *[false] [color=red]increased[/color]
+    *[false] [color=red]aumentou[/color]
 } by [color=lightblue]{TOSTRING($value, "F1")}%[/color].
 
 armor-coefficient-value-trauma = - [color=yellow]{$type}[/color] { -protection(protect: $protect, value: $value) }
 
 stamina-resistance-coefficient-value-trauma = - [color=lightyellow]Stamina[/color] { -protection(protect: $protect, value: $value) }
 
-armor-damage-type-ballistic = Ballistic
+armor-damage-type-ballistic = Balístico

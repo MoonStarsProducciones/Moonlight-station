@@ -2,8 +2,8 @@
 guidebook-nested-effect-description =
     {$chance ->
         [1] { $effect }
-        *[other] Has a { NATURALPERCENT($chance, 2) } chance to { $effect }
+        *[other] Tem um{ NATURALPERCENT($chance, 2) } chance de { $effect }
     }{ $conditionCount ->
         [0] {""}
-        *[other] {" "}when { $conditions }
+        *[other] {" "}quando { $conditions }
     }

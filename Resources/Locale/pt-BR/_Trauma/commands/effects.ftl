@@ -1,1 +1,1 @@
-command-description-effect = Apply an entity effect prototype to the target entity.
+command-description-effect = Aplique um protótipo de efeito de entidade à entidade alvo.

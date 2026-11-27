@@ -1,1 +1,1 @@
-damage-type-ballistic = Ballistic
+damage-type-ballistic = Balístico

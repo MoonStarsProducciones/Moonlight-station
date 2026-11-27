@@ -831,83 +831,83 @@ accent-caveman-words-replace-264 = xamã doente
 accent-caveman-words-265 = robótica
 accent-caveman-words-replace-265 = Caverna dos Golems
 
-accent-caveman-words-266 = roboticist
-accent-caveman-words-replace-266 = golem maker
+accent-caveman-words-266 = roboticista
+accent-caveman-words-replace-266 = fazedor de golens
 
-accent-caveman-words-267 = artifact
-accent-caveman-words-replace-267 = strange rock
+accent-caveman-words-267 = artefato
+accent-caveman-words-replace-267 = pedra estranha
 
-accent-caveman-words-268 = artifacts
-accent-caveman-words-replace-268 = strange rocks
+accent-caveman-words-268 = artefatos
+accent-caveman-words-replace-268 = pedras estranhas
 
-accent-caveman-words-269 = archaeology
-accent-caveman-words-replace-269 = old rock finding
+accent-caveman-words-269 = arqueologia
+accent-caveman-words-replace-269 = encontra pedra velhas
 
-accent-caveman-words-270 = archaeologist
-accent-caveman-words-replace-270 = old rock finder
+accent-caveman-words-270 = arqueologista
+accent-caveman-words-replace-270 = encontrador de pedras velhas
 
-accent-caveman-words-271 = vending
-accent-caveman-words-replace-271 = food box
+accent-caveman-words-271 = maquina de vendas
+accent-caveman-words-replace-271 = caixa de comida
 
-accent-caveman-words-272 = vendor
-accent-caveman-words-replace-272 = giving box
+accent-caveman-words-272 = maquina de brinquedo
+accent-caveman-words-replace-272 = caixa de doações
 
 accent-caveman-words-273 = vendomat
-accent-caveman-words-replace-273 = magic box
+accent-caveman-words-replace-273 = caixa mágica
 
 accent-caveman-words-274 = fabricator
-accent-caveman-words-replace-274 = maker box
+accent-caveman-words-replace-274 = Caixa do Criador
 
-accent-caveman-words-275 = autolathe
-accent-caveman-words-replace-275 = tool maker
+accent-caveman-words-275 = torno automático
+accent-caveman-words-replace-275 = fazedor de ferramenta
 
-accent-caveman-words-276 = protolathe
-accent-caveman-words-replace-276 = smart maker
+accent-caveman-words-276 = protogem
+accent-caveman-words-replace-276 = grrr blink
 
-accent-caveman-words-277 = lathe
-accent-caveman-words-replace-277 = maker
+accent-caveman-words-277 = vulp raposa
+accent-caveman-words-replace-277 = gente yip yip
 
-accent-caveman-words-278 = circuitboard
-accent-caveman-words-replace-278 = magic board
+accent-caveman-words-278 = vulp lobo
+accent-caveman-words-replace-278 = gente lobo
 
-accent-caveman-words-279 = board
-accent-caveman-words-replace-279 = plank
+accent-caveman-words-279 = felind
+accent-caveman-words-replace-279 = gente tigre
 
-accent-caveman-words-280 = machineframe
-accent-caveman-words-replace-280 = metal bones
+accent-caveman-words-280 = estrutura da máquina
+accent-caveman-words-replace-280 = ossos de metal
 
-accent-caveman-words-281 = wires
-accent-caveman-words-replace-281 = snake vines
+accent-caveman-words-281 = oni
+accent-caveman-words-replace-281 = gente chifre grande!
 
-accent-caveman-words-282 = vent
-accent-caveman-words-replace-282 = air hole
+accent-caveman-words-282 = silicon
+accent-caveman-words-replace-282 = gente de lata!
 
-accent-caveman-words-283 = vents
-accent-caveman-words-replace-283 = air holes
+accent-caveman-words-283 = elvos
+accent-caveman-words-replace-283 = gente orelha grande
 
-accent-caveman-words-284 = scrubber
-accent-caveman-words-replace-284 = bad air eater
+accent-caveman-words-284 = anoes
+accent-caveman-words-replace-284 = gente curta
 
-accent-caveman-words-285 = scrubbers
-accent-caveman-words-replace-285 = bad air eaters
+accent-caveman-words-285 = lizard
+accent-caveman-words-replace-285 = gente largato
 
-accent-caveman-words-286 = pipe
-accent-caveman-words-replace-286 = air tube
+accent-caveman-words-286 = pessoa mariposa
+accent-caveman-words-replace-286 = pessoa borboleta
 
-accent-caveman-words-287 = pipes
-accent-caveman-words-replace-287 = air tubes
+accent-caveman-words-287 = cabrinata
+accent-caveman-words-replace-287 = Grok-Chifre
 
-accent-caveman-words-288 = valve
-accent-caveman-words-replace-288 = air gate
+accent-caveman-words-288 = arachnid
+accent-caveman-words-replace-288 = Povo de muitas pernas que dá medo e faz teia
 
-accent-caveman-words-289 = pump
-accent-caveman-words-replace-289 = air pusher
+accent-caveman-words-289 = diona
+accent-caveman-words-replace-289 = arvore que anda
 
-accent-caveman-words-290 = fridge
-accent-caveman-words-replace-290 = cold box
+accent-caveman-words-290 = geladeira
+accent-caveman-words-replace-290 = caixa gelada
 
-accent-caveman-words-291 = heater
-accent-caveman-words-replace-291 = hot box
+accent-caveman-words-291 = aquecedor
+accent-caveman-words-replace-291 = caixa quente
 
 accent-caveman-words-292 = freezer
 accent-caveman-words-replace-292 = cold cave

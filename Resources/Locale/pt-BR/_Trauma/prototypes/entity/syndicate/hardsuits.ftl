@@ -1,12 +1,12 @@
 # Hardsuits
-ent-ClothingOuterHardsuitSyndie = blood-red hardsuit
-    .desc = A heavily armored hardsuit designed for live-action stuntwork and terrorism alike, and is typically seen as the hardsuit of a "faceless grunt". Property of Gorlex Entertainment.
+ent-ClothingOuterHardsuitSyndie = macacão vermelho-sangue
+    .desc = Um traje rígido fortemente blindado, projetado tanto para trabalhos de dublê em produções live-action quanto para cenários de terrorismo; é comumente visto como o traje típico de um "soldado sem rosto". Propriedade da Gorlex Entertainment.
 
-ent-ClothingOuterHardsuitSyndieMedic = blood-red medic hardsuit
-    .desc = A heavily armored and agile advanced hardsuit specifically so that the medic wearing it stands out among their fellow operatives as they heal their injuries. Property of Gorlex Entertainment.
+ent-ClothingOuterHardsuitSyndieMedic = macacão médico vermelho-sangue
+    .desc = Um traje avançado, altamente blindado e ágil, projetado especificamente para que o médico que o utiliza se destaque entre seus colegas de equipe enquanto trata os ferimentos deles. Propriedade da Gorlex Entertainment.
 
-ent-ClothingOuterHardsuitSyndieCommander = blood-red commander hardsuit
-    .desc = A luxury variant of the blood-red hardsuit, purposely-built for the commander of a syndicate operative squad to stand out and act like the villain that Gorlex wants them to be. Has slightly improved armor and greatly improved mobility.
+ent-ClothingOuterHardsuitSyndieCommander = Hardsuit de comandante vermelho-sangue
+    .desc = Uma variante de luxo da armadura rígida vermelho-sangue, projetada especificamente para o comandante de uma equipe operacional de um sindicato, permitindo que ele se destaque e aja como o vilão que Gorlex deseja que ele seja. Possui uma blindagem ligeiramente aprimorada e uma mobilidade significativamente superior.
 
 ent-ClothingOuterHardsuitSyndieElite = syndicate elite hardsuit
     .desc = An elite version of the blood-red hardsuit, with improved mobility, fireproofing and heat-resistant armor, for those operatives who want to stand tall for the camera. Property of Gorlex Entertainment.

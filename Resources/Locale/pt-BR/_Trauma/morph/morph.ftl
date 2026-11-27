@@ -1,4 +1,4 @@
-morph-role-greeting = You are an interdimensional being from the netherworld here for mating season to reproduce. Eat items and organics to gain biomass in order to reproduce.
+morph-role-greeting = Você é um ser interdimensional vindo do submundo, que chegou aqui durante a temporada de acasalamento para se reproduzir. Consuma objetos e matéria orgânica para acumular biomassa e, assim, poder se reproduzir.
 
 morph-no-biomass-target = You couldn't get any biomass
 

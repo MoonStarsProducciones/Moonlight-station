@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 accent-russian-words-1 = sim
-accent-russian-words-replace-1 = da
+accent-russian-words-replace-1 = Да
 
 accent-russian-words-2 = nao
 accent-russian-words-replace-2 = nyet

@@ -1,21 +1,21 @@
-knowledge-level-up-popup = You gained {$mastery} mastery in {$knowledge}!
-knowledge-unit-learned-popup = You have learned {$knowledge}!
-knowledge-unit-forgotten-popup = You have forgotten the secrets of {$knowledge}!
-knowledge-could-not-learn = This has no more secrets for you to find.
-knowledge-level-more = You learn more about {$knowledge}.
-knowledge-level-epiphany = You have reached a sudden epiphany regarding {$knowledge}!
+knowledge-level-up-popup = Você ganhou {$mastery} domínio em {$knowledge}!
+knowledge-unit-learned-popup = Você aprendeu {$knowledge}!
+knowledge-unit-forgotten-popup = Você se esqueceu dos segredos de {$knowledge}!
+knowledge-could-not-learn = Isso não tem mais segredos para você descobrir.
+knowledge-level-more = Você aprende mais sobre {$knowledge}.
+knowledge-level-epiphany = Você teve uma epifania repentina em relação a {$knowledge}!
 
 knowledge-info-description = {$mastery} | {$level}
 
-knowledge-language-speaks-understands = {$language} : Speaks and understands
-knowledge-language-speaks = {$language} : Speaks
-knowledge-language-understands = {$language} : Understands
+knowledge-language-speaks-understands = {$language} : Fala e entende
+knowledge-language-speaks = {$language} : Fala
+knowledge-language-understands = {$language} : Compreende
 
-knowledge-construction-name = Construction: {$group}
+knowledge-construction-name = Construção: {$group}
 
-language-curse-pain = You hear bad language!
+language-curse-pain = Você ouve palavrões!
 
-trauma-knowledge-title = Knowledge Tab
-trauma-character-title = Character Tab
+trauma-knowledge-title = Aba de Conhecimento
+trauma-character-title = Aba de Personagem
 
-knowledge-zenkai-boost = Your body is filled with a second wind as you finally understand something.
+knowledge-zenkai-boost = Seu corpo ganha um novo fôlego no momento em que você finalmente compreende algo.

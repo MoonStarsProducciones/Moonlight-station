@@ -1,1 +1,1 @@
-barbed-contact-damage = The barbed wires tear into your flesh!
+barbed-contact-damage = Os arames farpados rasgam a sua carne!

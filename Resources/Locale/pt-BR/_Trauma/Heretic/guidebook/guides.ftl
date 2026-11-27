@@ -1,10 +1,10 @@
-guide-entry-heretic-rituals = Rituals and Knowledge
-guide-entry-heretic-potions = Potions
+guide-entry-heretic-rituals = Rituais e Conhecimento
+guide-entry-heretic-potions = Poções
 
-guide-entry-heretic-ash = Ashen Path
-guide-entry-heretic-void = Path of Void
-guide-entry-heretic-flesh = Path of Flesh
-guide-entry-heretic-lock = Path of Lock
-guide-entry-heretic-rust = Rusted Path
-guide-entry-heretic-blade = Path of Blade
-guide-entry-heretic-cosmos = Path of Cosmos
+guide-entry-heretic-ash = Caminho das Cinzas
+guide-entry-heretic-void = Caminho do Vazio
+guide-entry-heretic-flesh = Caminho da Carne
+guide-entry-heretic-lock = Caminho da Fechadura
+guide-entry-heretic-rust = Caminho Enferrujado
+guide-entry-heretic-blade = Caminho da Lâmina
+guide-entry-heretic-cosmos = Caminho do Cosmos

@@ -1,9 +1,9 @@
-burned-name-text = burned {$name}
-burned-popup-text = {THE($name)} burnt to a crisp!
+burned-name-text = queimado(a) {$name}
+burned-popup-text = {THE($name)} Queimado até virar carvão!
 
-# Forging
+# Forjamento
 
 heated-name-text = {$name}
-ingot-heated-popup-text = {THE($name)} has been heated enough to forge.
+ingot-heated-popup-text = {THE($name)} foi aquecido o suficiente para ser forjado.
 
-ingot-cooled-popup-text = {THE($name)} has cooled too much to forge.
+ingot-cooled-popup-text = {THE($name)} esfriou demais para forjar.
