@@ -6,14 +6,14 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Pneumatic Valve
-  The pneumatic valve is a bidirectional valve controlled via a pressure input.
+  # Válvula pneumática
+  A válvula pneumática é uma válvula bidirecional controlada por meio de uma entrada de pressão.
   <Box>
     <GuideEntityEmbed Entity="PressureControlledValve"/>
   </Box>
 
-  The pneumatic valve has 3 connections: input, output, and control.
-  The "input" side will be the input/output connection with the highest pressure, and can switch sides, making the valve bidirectional.
+  A válvula pneumática possui 3 conexões: entrada, saída e controle.
+  O lado de "entrada" corresponderá à conexão (de entrada ou saída) que estiver sob maior pressão; esse lado pode alternar, tornando a válvula bidirecional.
 
   <Box>
     <GuideEntityEmbed Entity="GasPipeStraight" Caption="Input/Output"/>
@@ -35,7 +35,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 
   A pressão de controle da válvula é determinada por uma conexão de tubulação e, como tal, pode ser ajustada dinamicamente por um [textlink="pump" link="Pumps"] ou outra fonte de controle de pressão.
 
-  ## Differences to Pumps
+  ## Diferenças em relação a bombas (pumps)
 
   A válvula pneumática é diferente de uma [textlink="pump" link="Pumps"] que desloca gás por meio de trabalho.
   A válvula pneumática é um dispositivo passivo que movimenta gás com base na maior pressão do gás de entrada e, como tal, às vezes pode preencher volumes mais rapidamente do que uma válvula mecânica [textlink="pump" link="Pumps"] pode.

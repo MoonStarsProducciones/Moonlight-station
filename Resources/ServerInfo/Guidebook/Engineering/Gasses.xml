@@ -28,7 +28,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
   O oxigênio é um comburente, o que significa que ele sustenta a combustão.
   Isso o torna útil ao fundir gases em uma câmara de combustão, mas também perigoso quando misturado a gases inflamáveis.
 
-  ## nitrogênio
+  ## Nitrogênio
   <Box>
     <GuideEntityEmbed Entity="NitrogenCanister" Caption=""/>
     <GuideEntityEmbed Entity="NitrogenTank" Caption=""/>

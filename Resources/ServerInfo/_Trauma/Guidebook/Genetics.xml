@@ -1,9 +1,9 @@
 <Document>
-# Genetics
+# Genética
 
-Genetics on Trauma Station is based off of /tg/station with some slight differences in gameplay.
+A Genética na Trauma Station é baseada na /tg/station, com algumas pequenas diferenças na jogabilidade.
 
-All mutations from tg are implemented here!
+Todas as mutações da tg estão implementadas aqui!
 
 # Disks
 
@@ -11,58 +11,58 @@ All mutations from tg are implemented here!
   <GuideEntityEmbed Entity="GeneticsDisk"/>
 </Box>
 
-Rather than the genetics console having infinite storage, you have to store each mutation on a genetics disk. A hand labeler will save your life here.
+Em vez de o console de genética possuir armazenamento infinito, você precisa salvar cada mutação em um disco genético. Um rotulador manual será de grande ajuda aqui.
 
-Your locker will have a box of disks but you can print more in the sci techfab.
+Seu armário conterá uma caixa de discos, mas você pode imprimir mais no terminal de fabricação científica (*sci techfab*).
 
-# Sequencing
+# Sequenciamento
 
-To sequence a mutation, unlocking it and activating it in the subject, solve the gene puzzle so that every A is paired with a T, every C with a G.
+Para sequenciar uma mutação — desbloqueando-a e ativando-a no sujeito —, resolva o quebra-cabeça genético de modo que cada A seja pareado com um T, e cada C com um G.
 
-For single missing bases this is trivial, but with missing pairs you will need to do some thinking. Or just brute force it and torture your poor monkeys.
+Quando faltam apenas bases isoladas, o processo é simples; mas, se faltarem pares, será necessário pensar um pouco. Ou, se preferir, use a força bruta e torture seus pobres macacos.
 
-Any incorrect guess when sequencing will severely damage the subject's genome. Get some medicine from chem or more monkey cubes to prepare for this.
+Qualquer tentativa incorreta durante o sequenciamento causará danos graves ao genoma do sujeito. Esteja preparado: providencie medicamentos no setor de química ou obtenha mais cubos de macacos.
 
-# Solving missing base pairs
+# Solucionando pares de bases ausentes
 
 <Box>
   <GuideEntityEmbed Entity="HandheldGeneticsScanner"/>
 </Box>
 
-There is no joker button. Go outside of your lab and scan people, or Pun Pun, with your [bold]handheld genome scanner[/bold]. You can use logic to deduce what missing bases in your subjects are by finding multiple people with the same dormant mutation.
+Não existe um botão "coringa". Saia do seu laboratório e escaneie pessoas — ou o "Pun Pun" — usando seu [bold]scanner de genoma portátil[/bold]. Você pode usar a lógica para deduzir quais bases estão faltando nos seus espécimes, encontrando várias pessoas que possuam a mesma mutação latente.
 
-Every mutation in the game has a random number assigned each round, however they stay the same between different subjects with the same mutation.
+Cada mutação no jogo recebe um número aleatório a cada rodada; no entanto, esse número permanece o mesmo em diferentes indivíduos que apresentem a mesma mutação.
 
-For example, if you have a monkey in the lab with a genome with an unknown first pair, then scan someone with that mutation and a known first pair, you can use that pair to finish the sequence.
+Por exemplo: se você tem um macaco no laboratório cujo genoma apresenta um primeiro par desconhecido, e depois escaneia alguém que possua a mesma mutação, mas com o primeiro par já identificado, você pode usar esse par para completar a sequência.
 
-# Biomass
+# Biomassa
 
-Biomass is needed to print mutators, activators and cleansers. Source it from botany, loose corpses, etc. then put it in your console.
-Think carefully if you need to give every lowly assistant hulk, you won't have any biomass left to print anything else!
+A biomassa é necessária para fabricar mutadores, ativadores e agentes de limpeza (cleansers). Você pode obtê-la na botânica, a partir de cadáveres espalhados pelo ambiente, etc.; depois, basta inseri-la no seu console.
+Pense bem antes de transformar todo e qualquer assistente em um "Hulk" — você pode acabar sem biomassa suficiente para fabricar qualquer outra coisa!
 
-# Removing Mutations
+# Removendo Mutações
 
-To remove mutations instead of using mutadone, you print a cleanser from the storage tab using a disk with the mutation you want to remove. Inject it and the mutation is gone!
+Para remover mutações sem recorrer ao "mutadone", você pode fabricar um agente de limpeza (cleanser) — disponível na aba de armazenamento — utilizando um disco que contenha a mutação que deseja eliminar. Aplique-o por injeção e a mutação desaparecerá!
 
-# Scrambling DNA
+# Embaralhando o DNA (Scrambling DNA)
 
-If monkeys are in extra short supply and you are having bad luck, you can use the [bold]Scramble DNA[/bold] button to reroll any dormant mutations the subject has.
-It will receive a lot of damage though, so get some meds.
+Se os macacos estiverem em falta e você estiver com azar, pode usar o botão [bold]Scramble DNA[/bold] (Embaralhar DNA) para gerar novamente, de forma aleatória, as mutações latentes presentes no espécime.
+Tenha em mente que isso causará bastante dano ao indivíduo, então prepare alguns medicamentos.
 
-# Combining
+# Combinando Mutações
 
-Combining mutations is done with a "catalyst" mutation stored on the current disk, and any mutation the subject already has.
+A combinação de mutações é realizada utilizando uma mutação "catalisadora" (armazenada no disco atual) em conjunto com uma mutação que o espécime já possua.
 
-If you pick a correct combination the result is added, but it is not sequenced! You will need to combine it with many subjects for the complex mutations in order to get enough bases.
+Se você acertar a combinação, a nova mutação será adicionada, mas ela não virá sequenciada! Para mutações complexas, será necessário realizar o processo com vários espécimes diferentes até obter o número necessário de bases sequenciadas.
 
-# Research
+# Pesquisa
 
-One of the biggest differences from tg is that [bold]you actually contribute to research![/bold]. You get 8000 points for sequencing most mutations, with more complex ones having higher rewards.
+Uma das maiores diferenças em relação ao "tg" é que, aqui, [bold]você realmente contribui para a pesquisa![/bold]. Você recebe 8.000 pontos ao sequenciar a maioria das mutações, sendo que mutações mais complexas oferecem recompensas ainda maiores.
 
-# Unique Enzymes
+# Enzimas Únicas
 
-Disks can also store a person's [bold]unique enzymes[/bold] which can be used to copy their name, sex, fingerprints and eye/skin color to another subject.
+Os discos também podem armazenar as [bold]enzimas únicas[/bold] de uma pessoa, que podem ser usadas para copiar seu nome, sexo, impressões digitais e a cor dos olhos/pele para outro indivíduo.
 
-This won't copy their DNA or current hair styles. Get a pair of scissors and set up a barbershop!
+Isso não copia o DNA nem o estilo de cabelo atual da pessoa. Pegue uma tesoura e monte uma barbearia!
 
 </Document>
