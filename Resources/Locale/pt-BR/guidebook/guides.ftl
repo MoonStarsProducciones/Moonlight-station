@@ -150,3 +150,6 @@ guide-entry-xenoborgs = Xenoborgs
 
 guide-entry-writing = Writing
 guide-entry-glossary = Glossary
+
+# Moonlight - custom rules and guidebooks names
+guide-entry-SOPDiginarity = Politica Operacional Padrão dos Dignatários

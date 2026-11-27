@@ -147,6 +147,7 @@
   - RuleR3
   - RuleR4
   - RuleR5
+  - RuleR6
 
 - type: guideEntry
   id: RuleR1
@@ -182,6 +183,13 @@
   ruleEntry: true
   priority: 5
   text: "/ServerInfo/_Moonlight/Guidebook/ServerRules/Roleplay/RuleR5Character.xml"
+
+- type: guideEntry
+  id: RuleR6
+  name: guide-entry-rules-r6
+  ruleEntry: true
+  priority: 6
+  text: "/ServerInfo/_Moonlight/Guidebook/ServerRules/Roleplay/RuleR6Metashield.xml"
 
 ## Role-Specific Rules
 
@@ -240,3 +248,4 @@
   ruleEntry: true
   priority: 6
   text: "/ServerInfo/_Moonlight/Guidebook/ServerRules/Specific/RuleS6Antagonists.xml"
+
