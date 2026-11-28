@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
 using System.Linq;
+using Content.Server.Antag;
 using Content.Server.Chat.Managers;
 using Content.Server.RoundEnd;
 using Content.Server.StationEvents.Components;
@@ -142,7 +143,10 @@ public sealed partial class BloodCultRuleSystem : GameRuleSystem<BloodCultRuleCo
             return;
 
         rule.Comp.TargetSacrificed = true;
-        DirtyField(rule, rule.Comp, nameof(BloodCultRuleComponent.TargetSacrificed));
+        rule.Comp.OfferingTarget = null;
+        DirtyFields(rule.AsNullable(), null,
+            nameof(BloodCultRuleComponent.TargetSacrificed),
+            nameof(BloodCultRuleComponent.OfferingTarget));
         AnnounceToCult(rule, "Nar'Sie's target has been sacrificed! Summon her to your realm and elevate your cult to godhood!");
     }
 
@@ -161,7 +165,9 @@ public sealed partial class BloodCultRuleSystem : GameRuleSystem<BloodCultRuleCo
         rule.Comp.WinCondition = CultWinCondition.Win;
         _roundEnd.EndRound();
 
-        foreach (var ent in rule.Comp.Cultists)
+        var cultists = rule.Comp.Cultists;
+        rule.Comp.Cultists = new();
+        foreach (var ent in cultists)
         {
             if (Deleted(ent))
                 continue;
@@ -174,7 +180,7 @@ public sealed partial class BloodCultRuleSystem : GameRuleSystem<BloodCultRuleCo
         }
     }
 
-    [SubscribeLocalEvent]
+    [SubscribeLocalEvent(before: [typeof(AntagObjectivesSystem)])]
     private void OnAntagEntitySelected(Entity<BloodCultRuleComponent> rule, ref AfterAntagEntitySelectedEvent args)
     {
         var mob = args.EntityUid;
