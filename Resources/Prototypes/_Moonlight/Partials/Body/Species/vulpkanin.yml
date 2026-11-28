@@ -20,20 +20,18 @@
       sprite: _RMC14/Mobs/Vulpkanin/parts.rsi # Moonlight - Muda o sprite feio do vulp do Trauma
 
 - type: entity
-  parent: [ OrganVulpkanin, OrganVulpkaninVisual ]
   id: OrganVulpkaninExternal
   components:
   - type: Sprite
     sprite: _RMC14/Mobs/Vulpkanin/parts.rsi # Moonlight - Muda o sprite feio do vulp do Trauma
 
 - type: entity
-  parent: [ OrganBaseHeadSexed, OrganBaseHead, OrganVulpkaninExternal ] # Moonlight - Cabeça do sprite do rcm tem versão feminina e masculina
+  parent: !Clear [ OrganBaseHeadSexed, OrganBaseHead, OrganVulpkaninExternal ] # Moonlight - Cabeça do sprite do rcm tem versão feminina e masculina
   id: OrganVulpkaninHead
 
 - type: entity
-  parent: [ OrganVulpkaninVisual, OrganBaseEyes, OrganVulpkaninInternal ]
   id: OrganVulpkaninEyes
   components:
   - type: VisualOrgan
     data:
-      sprite: Mobs/Customization/eyes.rsi # Moonlight -
+      sprite: Mobs/Customization/eyes.rsi # Moonlight - usa os olhos normais de todas as reças
